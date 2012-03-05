@@ -1,0 +1,33 @@
+[core]
+	editor = emacs -nw -q
+[diff]
+	color = true
+[user]
+	name = JLarky
+	email = jlarky@gmail.com
+	signingkey = 1493E127
+
+[alias]
+	fast-fix = !"git diff && read -p \"ready to commit?\" i && git commit -a && git push"
+	ll = status
+	di = diff --no-prefix
+	dii = diff --no-prefix --ignore-all-space
+	dif = diff --stat
+	idd = log --pretty=format:\"%h %Cgreen%B\"
+	id = log -1 --pretty=format:\"%h %Cgreen%B\"
+	hist = log --pretty=format:\"%h %ad [%an] %s%d\" --graph --date=short --all
+	grepn = grep -n
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[giggle]
+	main-window-maximized = true
+	main-window-geometry = 700x550+572+404
+	show-graph = true
+	file-view-vpane-position = 526
+	main-window-view = FileView
+	history-view-vpane-position = 695
+[color]
+	ui = true
+[diff "word"]
+	textconv = strings
