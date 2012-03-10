@@ -1,0 +1,35 @@
+# enable color support of ls and also add handy aliases
+if [ -x /usr/bin/dircolors ]; then
+    eval "`dircolors -b`"
+    alias ls='ls --color=auto'
+    #alias dir='dir --color=auto'
+    #alias vdir='vdir --color=auto'
+
+    alias grep='grep --color=auto'
+    alias fgrep='fgrep --color=auto'
+    alias egrep='egrep --color=auto'
+fi
+
+# some more ls aliases
+alias ll='ls -l'
+alias la='ls -A'
+alias l='ls -CF'
+
+alias root='sudo -i'
+
+alias e='emacs -nw'
+alias se='sudo emacs -nw'
+alias er='LC_ALL=ru_RU.utf8 emacs -nw'
+alias ne='netbeans'
+alias es='sublime_text'
+alias atig='tig --all'
+alias mplayer='mplayer -subcp cp1251'
+
+export EDITOR="emacs -nw"
+
+alias copy='rsync -avz --progress -h'
+alias mplayerpulse='padsp mplayer -ao oss'
+
+alias gi='git'
+alias pwgen='pwgen 10'
+
