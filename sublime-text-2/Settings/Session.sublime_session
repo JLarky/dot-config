@@ -1,0 +1,3872 @@
+{
+	"folder_history":
+	[
+	],
+	"last_window_id": 25,
+	"settings":
+	{
+		"new_window_height": 0.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"Res",
+						"Respond"
+					],
+					[
+						"http",
+						"httpc"
+					],
+					[
+						"ex",
+						"expect"
+					],
+					[
+						"NO",
+						"NewOauthData"
+					],
+					[
+						"re",
+						"request"
+					],
+					[
+						"IW",
+						"IsOwnLimited"
+					],
+					[
+						"O",
+						"Overloaded"
+					],
+					[
+						"pr",
+						"private"
+					],
+					[
+						"D",
+						"Deadlined"
+					],
+					[
+						"S",
+						"SecBeforeReset"
+					],
+					[
+						"R",
+						"Req"
+					],
+					[
+						"RP",
+						"ReservedRPM"
+					],
+					[
+						"RR",
+						"ReservedRequests"
+					],
+					[
+						"RL",
+						"RemainingLimit"
+					],
+					[
+						"get",
+						"get_value"
+					],
+					[
+						"RT",
+						"ResetTime"
+					],
+					[
+						"ReL",
+						"remaining_limit"
+					],
+					[
+						"exp",
+						"expired"
+					],
+					[
+						"Stat",
+						"Status"
+					],
+					[
+						"st",
+						"store_info"
+					],
+					[
+						"ti",
+						"token_info"
+					],
+					[
+						"undef",
+						"undefined"
+					],
+					[
+						"kra",
+						"kraken_token_pool"
+					],
+					[
+						"TU",
+						"TokenUsage"
+					],
+					[
+						"ERR",
+						"ERROR"
+					],
+					[
+						"profile",
+						"profile_url"
+					],
+					[
+						"to",
+						"token"
+					],
+					[
+						"Sta",
+						"Status"
+					],
+					[
+						"Re",
+						"Reason"
+					],
+					[
+						"FACE",
+						"FACEBOOK_SELF_RATE_WATERLINE"
+					],
+					[
+						"FA",
+						"FACEBOOK_RATE_COUNT"
+					],
+					[
+						"usage",
+						"usage_sum"
+					],
+					[
+						"FU",
+						"FilteredUsage"
+					],
+					[
+						"N",
+						"Now"
+					],
+					[
+						"err",
+						"error"
+					],
+					[
+						"L",
+						"FRIENDS_LIMIT"
+					],
+					[
+						"OD",
+						"OauthData"
+					],
+					[
+						"Od",
+						"oauth_data"
+					],
+					[
+						"Rt",
+						"Result"
+					],
+					[
+						"are",
+						"add_request"
+					],
+					[
+						"get_",
+						"get_url"
+					],
+					[
+						"NS",
+						"NameStr"
+					],
+					[
+						"stat",
+						"State"
+					],
+					[
+						"Er",
+						"Error"
+					],
+					[
+						"nwst",
+						"new_state"
+					],
+					[
+						"erro",
+						"errors"
+					],
+					[
+						"o",
+						"kraken_oauth"
+					],
+					[
+						"State",
+						"State"
+					],
+					[
+						"is_",
+						"is_bad"
+					],
+					[
+						"Tok",
+						"Tokens"
+					],
+					[
+						"is",
+						"is_bad"
+					],
+					[
+						"pub",
+						"public"
+					],
+					[
+						"toke",
+						"token_usage"
+					],
+					[
+						"Toke",
+						"Token"
+					],
+					[
+						"To",
+						"Tokens"
+					],
+					[
+						"LU",
+						"LastUsed"
+					],
+					[
+						"tok",
+						"token_usage"
+					],
+					[
+						"times",
+						"time_sec"
+					],
+					[
+						"rec",
+						"request_count"
+					],
+					[
+						"tim",
+						"time_sec"
+					],
+					[
+						"prp",
+						"proplists"
+					],
+					[
+						"rq",
+						"Request"
+					],
+					[
+						"tab",
+						"table"
+					],
+					[
+						"_",
+						"_"
+					],
+					[
+						"H",
+						"Headers"
+					],
+					[
+						"He",
+						"_Headers"
+					],
+					[
+						"se",
+						"SnEvent"
+					],
+					[
+						"F",
+						"FirstIdList"
+					],
+					[
+						"u",
+						"unpach_profile"
+					],
+					[
+						"ID",
+						"IdList"
+					],
+					[
+						"URL",
+						"LOOKUP_BASE_URL"
+					],
+					[
+						"UR",
+						"Url"
+					],
+					[
+						"gt",
+						"get_friends"
+					],
+					[
+						"use",
+						"user_id"
+					],
+					[
+						"A",
+						"Acc"
+					],
+					[
+						"U",
+						"Url"
+					],
+					[
+						"or",
+						"orddict"
+					],
+					[
+						"oau",
+						"oauth_data"
+					],
+					[
+						"HE",
+						"_Headers"
+					],
+					[
+						"de",
+						"delta"
+					],
+					[
+						"G",
+						"GEM_HOME"
+					],
+					[
+						"Js",
+						"JSPostback"
+					],
+					[
+						"el_",
+						"el_inside_play"
+					],
+					[
+						"Word",
+						"FirstWord"
+					],
+					[
+						"Ba",
+						"BasePath"
+					],
+					[
+						"pa",
+						"PageModule"
+					],
+					[
+						"i1",
+						"i18n_route_handler"
+					],
+					[
+						"ga",
+						"game_type"
+					],
+					[
+						"game",
+						"game_type"
+					],
+					[
+						"q",
+						"q_game_type"
+					],
+					[
+						"Ga",
+						"GameType"
+					],
+					[
+						"q_",
+						"q_game_type"
+					],
+					[
+						"Defa",
+						"DefaultSettings"
+					],
+					[
+						"ini",
+						"initCustomFile"
+					],
+					[
+						"avata",
+						"avatar_update_box"
+					],
+					[
+						"ge",
+						"GenderOption"
+					],
+					[
+						"ema",
+						"NewEmail"
+					],
+					[
+						"proin",
+						"profile_info"
+					],
+					[
+						"Use",
+						"User2"
+					],
+					[
+						"Or",
+						"OrigUser"
+					],
+					[
+						"profile_",
+						"profile_cancel"
+					],
+					[
+						"ser",
+						"Services"
+					],
+					[
+						"ava",
+						"AvatarP"
+					],
+					[
+						"Col",
+						"ColL"
+					],
+					[
+						"Se",
+						"Section"
+					],
+					[
+						"isac",
+						"IsActive"
+					],
+					[
+						"C",
+						"Checkboxes"
+					],
+					[
+						"ba",
+						"background"
+					],
+					[
+						"sha",
+						"shadow"
+					],
+					[
+						"Sc",
+						"Scripts"
+					],
+					[
+						"ty",
+						"Type"
+					],
+					[
+						"scr",
+						"Scripts"
+					],
+					[
+						"New",
+						"NewScripts"
+					],
+					[
+						"we",
+						"webutils"
+					],
+					[
+						"scri",
+						"Scripts"
+					],
+					[
+						"ge_s",
+						"get_scripts"
+					],
+					[
+						"sps",
+						"Scripts"
+					],
+					[
+						"pro",
+						"proplists"
+					],
+					[
+						"sc",
+						"Scripts"
+					],
+					[
+						"cla",
+						"Class"
+					],
+					[
+						"cle",
+						"grid_clear"
+					],
+					[
+						"logipa",
+						"login_panel"
+					],
+					[
+						"templ",
+						"lightbox_panel_template"
+					],
+					[
+						"Act",
+						"Actions"
+					],
+					[
+						"Fb",
+						"FBId"
+					],
+					[
+						"invi",
+						"InviteTextBox"
+					],
+					[
+						"_se",
+						"_selects"
+					],
+					[
+						"web",
+						"webutils"
+					]
+				]
+			},
+			"build_system": "Packages/connect.sublime-build",
+			"command_palette":
+			{
+				"height": 392.0,
+				"selected_items":
+				[
+					[
+						"ct",
+						"Convert Case: Title Case"
+					],
+					[
+						"",
+						"Convert Case: Title Case"
+					]
+				],
+				"width": 392.0
+			},
+			"console":
+			{
+				"height": 129.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": true,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/media/data/jlarky/work/erlang-us/cx/erlang_contribs/meck/src/meck_mod.erl",
+				"/media/data/jlarky/work/erlang-us/cx/erlang_contribs/erlang-oauth/src/oauth.erl",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/src/kraken_core.erl",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/bin/run.sh",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/bin/app",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/Makefile",
+				"/media/data/jlarky/work/erlang-us/cx/erlang_contribs/meck/Makefile",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/include/twitter.hrl",
+				"/media/data/jlarky/work/erlang-us/cx/config/base",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/include/twitter.hrl.source",
+				"/x/w/e/c/cx/kraken/src/kraken_google_provider.erl",
+				"/media/data/jlarky/work/connect.me/task1/src/connect.erl",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/include/token_pool.hrl",
+				"/x/w/e/c/cx/kraken/src/kraken_token_pool.erl",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/log/twitter/22676414-LNu3aizaSDZgbocCr1wC4kkbLelzWCQ3uXgnKPqYp2/2012-02-01_20-00-06.578333.log",
+				"/etc/squid/squid.conf",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/src/kraken_facebook_provider.erl",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/src/kraken_twitter_provider.erl",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/src/kraken_sup.erl",
+				"/media/data/jlarky/work/erlang-us/cx/erlang_contribs/cxlib/src/cxlib_consumer.erl",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/log/google/ya29.AHES6ZReRXAdt-CA2Jdrf9gLuUv780VZr1qfva35C-5HbOQ/2012-01-30_15-14-25.671936.log",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/log/google/ya29.AHES6ZReRXAdt-CA2Jdrf9gLuUv780VZr1qfva35C-5HbOQ/2012-01-30_15-24-49.731447.log",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/log/twitter/22676414-LNu3aizaSDZgbocCr1wC4kkbLelzWCQ3uXgnKPqYp/2012-01-31_13-44-26.697451.log",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/log/twitter/22676414-LNu3aizaSDZgbocCr1wC4kkbLelzWCQ3uXgnKPqYp/2012-01-31_13-39-54.548281.log",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/log/facebook/AAAFCJNOxfhEBAJptZACFCwDxqOZA5SbDG4P1pZCDAE2S8grhHfojpyd3pR1ZBCDZAflkO9aGzWt6luZBQOnyZAVFPno0UJbwVBNVzVJZCcDNQgZDZD/2012-01-30_18-25-25.7102.log",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/log/facebook/AAAFCJNOxfhEBAJptZACFCwDxqOZA5SbDG4P1pZCDAE2S8grhHfojpyd3pR1ZBCDZAflkO9aGzWt6luZBQOnyZAVFPno0UJbwVBNVzVJZCcDNQgZDZD/2012-01-30_19-46-35.255188.log",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/log/facebook/AAAFCJNOxfhEBAJptZACFCwDxqOZA5SbDG4P1pZCDAE2S8grhHfojpyd3pR1ZBCDZAflkO9aGzWt6luZBQOnyZAVFPno0UJbwVBNVzVJZCcDNQgZDZD/2012-01-30_19-45-16.762060.log",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/log/facebook/AAAFCJNOxfhEBAJptZACFCwDxqOZA5SbDG4P1pZCDAE2S8grhHfojpyd3pR1ZBCDZAflkO9aGzWt6luZBQOnyZAVFPno0UJbwVBNVzVJZCcDNQgZDZD/2012-01-30_19-10-10.216323.log",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/log/facebook/AAAFCJNOxfhEBAJptZACFCwDxqOZA5SbDG4P1pZCDAE2S8grhHfojpyd3pR1ZBCDZAflkO9aGzWt6luZBQOnyZAVFPno0UJbwVBNVzVJZCcDNQgZDZD/2012-01-30_18-59-26.27647.log",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/log/facebook/AAAFCJNOxfhEBAJptZACFCwDxqOZA5SbDG4P1pZCDAE2S8grhHfojpyd3pR1ZBCDZAflkO9aGzWt6luZBQOnyZAVFPno0UJbwVBNVzVJZCcDNQgZDZD/2012-01-30_18-21-36.636294.log",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/include/facebook.hrl",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/log/google/ya29.AHES6ZReRXAdt-CA2Jdrf9gLuUv780VZr1qfva35C-5HbOQ/2012-01-30_15-12-45.315022.log",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/log/google/ya29.AHES6ZReRXAdt-CA2Jdrf9gLuUv780VZr1qfva35C-5HbOQ/2012-01-30_15-11-40.902752.log",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/log/google/ya29.AHES6ZReRXAdt-CA2Jdrf9gLuUv780VZr1qfva35C-5HbOQ/2012-01-30_15-09-42.430889.log",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/log/google/ya29.AHES6ZReRXAdt-CA2Jdrf9gLuUv780VZr1qfva35C-5HbOQ/2012-01-30_15-09-41.296378.log",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/log/google/ya29.AHES6ZReRXAdt-CA2Jdrf9gLuUv780VZr1qfva35C-5HbOQ/2012-01-30_15-06-41.400373.log",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/log/google/ya29.AHES6ZReRXAdt-CA2Jdrf9gLuUv780VZr1qfva35C-5HbOQ/2012-01-30_15-04-41.885256.log",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/log/google/ya29.AHES6ZReRXAdt-CA2Jdrf9gLuUv780VZr1qfva35C-5HbOQ/2012-01-30_15-04-41.477059.log",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/log/google/ya29.AHES6ZReRXAdt-CA2Jdrf9gLuUv780VZr1qfva35C-5HbOQ/2012-01-30_15-03-23.14065.log",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/log/google/ya29.AHES6ZReRXAdt-CA2Jdrf9gLuUv780VZr1qfva35C-5HbOQ/2012-01-30_14-44-38.147788.log",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/log/google/ya29.AHES6ZReRXAdt-CA2Jdrf9gLuUv780VZr1qfva35C-5HbOQ/2012-01-30_14-44-09.164316.log",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/log/google/ya29.AHES6ZReRXAdt-CA2Jdrf9gLuUv780VZr1qfva35C-5HbOQ/2012-01-30_14-42-10.95130.log",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/log/google/ya29.AHES6ZReRXAdt-CA2Jdrf9gLuUv780VZr1qfva35C-5HbOQ/2012-01-30_14-34-54.910633.log",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/log/google/ya29.AHES6ZQMSvEHk2bylaVHAd_KAsEw1y1ibIcqRuNc92-aEoc3BqXtHA/2012-01-30_14-06-10.127038.log",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/log/google/ya29.AHES6ZReRXAdt-CA2Jdrf9gLuUv780VZr1qfva35C-5HbOQ/2012-01-30_14-32-40.141192-raw.log",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/src/kraken_oauth.erl",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/log/google/ya29.AHES6ZQMSvEHk2bylaVHAd_KAsEw1y1ibIcqRuNc92-aEoc3BqXtHA/2012-01-30_13-57-28.658118.log",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/log/google/ya29.AHES6ZQMSvEHk2bylaVHAd_KAsEw1y1ibIcqRuNc92-aEoc3BqXtHA/2012-01-30_13-55-45.958252.log",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/log/google/ya29.AHES6ZQMSvEHk2bylaVHAd_KAsEw1y1ibIcqRuNc92-aEoc3BqXtHA/2012-01-30_13-43-06.940859.log",
+				"/home/jlarky/.bashrc",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/log/google/ya29.AHES6ZSgUWpKUzVKHzZF3HiGemFGymI7aH0wiSEqkAu6NXZoEpmMzQ/2012-01-28_00-25-01.824891-raw.log",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/include/google.hrl.source",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/include/google.hrl",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/.gitignore",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/src/kraken_google_provider.erl",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/include/facebook.hrl.source",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/log/facebook/AAAFCJNOxfhEBAJptZACFCwDxqOZA5SbDG4P1pZCDAE2S8grhHfojpyd3pR1ZBCDZAflkO9aGzWt6luZBQOnyZAVFPno0UJbwVBNVzVJZCcDNQgZDZD/2012-01-27_17-38-02.457052.log",
+				"/x/w/e/c/cx/kraken/src/kraken_oauth.erl",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/log/facebook/AAAFCJNOxfhEBAJptZACFCwDxqOZA5SbDG4P1pZCDAE2S8grhHfojpyd3pR1ZBCDZAflkO9aGzWt6luZBQOnyZAVFPno0UJbwVBNVzVJZCcDNQgZDZD/2012-01-27_16-06-56.292745.log",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/log/facebook/AAAFCJNOxfhEBAJptZACFCwDxqOZA5SbDG4P1pZCDAE2S8grhHfojpyd3pR1ZBCDZAflkO9aGzWt6luZBQOnyZAVFPno0UJbwVBNVzVJZCcDNQgZDZD/2012-01-27_14-04-24.621291.log",
+				"/tmp/untitled",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/log/facebook/AAAFCJNOxfhEBAJptZACFCwDxqOZA5SbDG4P1pZCDAE2S8grhHfojpyd3pR1ZBCDZAflkO9aGzWt6luZBQOnyZAVFPno0UJbwVBNVzVJZCcDNQgZDZD/2012-01-26_17-07-29.554273.log",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/log/facebook/AAAFCJNOxfhEBAJptZACFCwDxqOZA5SbDG4P1pZCDAE2S8grhHfojpyd3pR1ZBCDZAflkO9aGzWt6luZBQOnyZAVFPno0UJbwVBNVzVJZCcDNQgZDZD/2012-01-26_16-39-19.683646.log",
+				"/x/w/e/c/cx/kraken/log/README",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/log/facebook/AAAFCJNOxfhEBAJptZACFCwDxqOZA5SbDG4P1pZCDAE2S8grhHfojpyd3pR1ZBCDZAflkO9aGzWt6luZBQOnyZAVFPno0UJbwVBNVzVJZCcDNQgZDZD/2012-01-26_15-20-18.504984.log",
+				"/x/w/e/c/cx/kraken/src/kraken_facebook_provider.erl",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/log/twitter/22676414-LNu3aizaSDZgbocCr1wC4kkbLelzWCQ3uXgnKPqYp/2012-01-26_00-29-05.811541.log",
+				"/media/data/jlarky/work/erlang-us/cx/tests/cx.ruby.tests/Rakefile",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/src/kraken_publisher.erl",
+				"/media/data/jlarky/work/erlang-us/cx/erlang_contribs/cxlib/include/cx.hrl",
+				"/media/data/jlarky/work/erlang-us/cx/erlang_contribs/.make_all.sh",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/log/facebook/2012-01-26_14-14-52.803546-raw.log",
+				"/x/w/e/c/cx/kraken/src/kraken_twitter_provider.erl",
+				"/home/jlarky/timesheet/run.sh",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/log/twitter/22676414-LNu3aizaSDZgbocCr1wC4kkbLelzWCQ3uXgnKPqYp/2012-01-26_01-11-35.860234.log",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/log/twitter/22676414-LNu3aizaSDZgbocCr1wC4kkbLelzWCQ3uXgnKPqYp/2012-01-26_00-30-20.346813.log",
+				"/media/data/jlarky/work/ruby-connect.me/vendor/connectme/provider/lib/connectme/provider/twitter.rb",
+				"/media/data/jlarky/work/ruby-connect.me/vendor/connectme/provider/spec/lib/connectme/provider/twitter_spec.rb",
+				"/media/data/jlarky/work/erlang-us/cx/erlang_contribs/jiffy/src/jiffy.erl",
+				"/media/data/jlarky/work/erlang-us/cx/.gitignore",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/log/twitter/22676414-JBaugF5Z8maNFMZXQFC1wogu8rwzMzT3GYyJnOcE4/2012-01-25_12-20-02.645674.log",
+				"/media/data/jlarky/work/erlang-us/cx/scripts/rabbit_setup.sh",
+				"/media/data/jlarky/work/erlang-us/cx/medusa/src/amqp_api_opts.erl.source",
+				"/media/data/jlarky/work/erlang-us/cx/medusa/src/amqp_api_opts.erl",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/src/opts.erl.source",
+				"/media/data/jlarky/work/erlang-warsaw/kakaranet/kakaweb/lib/zealot/src/riak_db.erl",
+				"/home/jlarky/.erlang",
+				"/home/jlarky/bins/run_cx_pedal.sh",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/src/kraken.erl",
+				"/media/data/jlarky/work/erlang-us/cx/README",
+				"/home/jlarky/.config/sublime-text-2/Packages/connect.sublime-build",
+				"/home/jlarky/.config/sublime-text-2/Packages/Default/Base File.sublime-settings",
+				"/home/jlarky/.config/sublime-text-2/Packages/User/Base File.sublime-settings",
+				"/media/data/jlarky/work/erlang-us/cx.sublime-project",
+				"/home/jlarky/.config/sublime-text-2/Packages/User/Global.sublime-settings",
+				"/home/jlarky/.config/sublime-text-2/Packages/Default/Global.sublime-settings",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/src/kraken_dummy_provider.erl",
+				"/media/data/jlarky/work/erlang-warsaw/kakaranet/kakaweb/lib/zealot/src/zealot_db.erl",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/src/kraken_linkedin_provider.erl",
+				"/home/jlarky/bins/pedal.py",
+				"/home/jlarky/bins/cx_test_pedal",
+				"/home/jlarky/shielding-of-earth-dipole-filed/doc/report.muse",
+				"/media/data/jlarky/work/erlang-us/cx/tests/cx.ruby.tests/README",
+				"/media/data/jlarky/work/erlang-us/cx/tests/cx.ruby.tests/Gemfile",
+				"/media/data/jlarky/work/erlang-us/cx/tests/cx.ruby.tests/spec/config.rb.source",
+				"/media/data/jlarky/work/erlang-us/cx/tests/cx.ruby.tests/spec/config.rb",
+				"/media/data/jlarky/work/erlang-us/cx/tests/cx.ruby.tests/R",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/README",
+				"/x/w/e/c/cx/kraken/src/kraken_core.erl",
+				"/media/data/jlarky/work/erlang-us/cx/db/psql_setup.sh.source",
+				"/media/data/jlarky/work/erlang-us/cx/config/jlarky",
+				"/media/data/jlarky/work/erlang-us/cx/erlang_contribs/yaws/README",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/src/opts.erl",
+				"/home/jlarky/.rvm/bin/bundle",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/apply_config.sh",
+				"/media/data/jlarky/work/erlang-us/cx/apply_config.sh",
+				"/media/data/jlarky/work/erlang-warsaw/kakaranet/kakaweb/create_configure.sh",
+				"/media/data/jlarky/work/erlang-us/cx/db/apply_config.sh",
+				"/media/data/jlarky/work/erlang-us/cx/medusa/.gitignore",
+				"/media/data/jlarky/work/erlang-us/cx/medusa/Makefile",
+				"/media/data/jlarky/work/erlang-us/cx/db/psql_setup.sh",
+				"/media/data/jlarky/work/erlang-us/cx/psql_setup.sh",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/src/kraken.rel.src.source",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/src/kraken.rel.src",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/src/kraken.rel",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/src/source.kraken.rel",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/src/kraken.rel.source",
+				"/media/data/jlarky/work/erlang-us/cx/rabbit_setup.sh"
+			],
+			"find":
+			{
+				"height": 39.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"loop",
+					"loop,",
+					"{loop,",
+					"loop",
+					"{Status, Headers, Body}",
+					",",
+					"check_token",
+					"kraken_token_pool",
+					"	",
+					"'",
+					"Mark",
+					"->",
+					"lhttpc",
+					"get_url(\"",
+					"?PRO",
+					"fix",
+					"FIXME",
+					"find_fre",
+					"check_to",
+					"Access",
+					"IsLimited == true, ",
+					"find_public",
+					"is_limited",
+					"TWITTER_HIGH_PRIORITY_LIMIT",
+					"TWITTER_LOW_PRIORITY_LIMIT",
+					"is_allowed",
+					"RemainingLimit >=",
+					"-define(",
+					"=",
+					"_REQUESTS",
+					"check_token",
+					"get_ur",
+					"failed_request_timeout",
+					"public",
+					"get_url",
+					"check_token",
+					"token_invalid",
+					"        ",
+					"check_token",
+					";",
+					"->",
+					"find_public",
+					"own_token",
+					"high",
+					"SecBeforeReset",
+					"access",
+					"_",
+					"over",
+					"overloaded",
+					"RemainingLimit",
+					"token_in",
+					"    	",
+					"TokenInfo",
+					"TokenUsage",
+					"TokenBin",
+					"check_token",
+					"Access",
+					"public",
+					"private",
+					"check",
+					"time_sec",
+					"time_s",
+					"kraken_token_pool",
+					"Token",
+					"TokenBin",
+					"Token",
+					"TokenBin",
+					"list_to_binary",
+					"check",
+					"check_",
+					"token_",
+					"store",
+					"store_",
+					"Status",
+					"false",
+					"store_token_usage",
+					",",
+					"OriginalRespond",
+					"OriginalResponse",
+					"OriginalRespond",
+					"OriginalResponse",
+					"kraken_token_pool:",
+					"Url",
+					"store_token_usage",
+					"Warning",
+					"store_token",
+					"oken",
+					"store_token",
+					"#token_usage",
+					"token_usage",
+					"is_bad",
+					"token_usage",
+					" ::",
+					"token_usage",
+					"= 0 ",
+					", ",
+					"token",
+					"token_us",
+					"token_u",
+					"TWITT",
+					"    	",
+					"find_free_tokens",
+					"check_to",
+					"?",
+					"store",
+					"})",
+					":{",
+					"gen_server",
+					"TOKEN_SERVER",
+					"->",
+					"gen_server",
+					"gen_ser",
+					"kraken_token_usage",
+					"twitter",
+					"kraken_",
+					"gen_server",
+					"case gen_server",
+					"gen_server:call(?MODULE",
+					"gen_ser",
+					"kraken_linkedin_provider",
+					"check",
+					"perform_",
+					"outdraw",
+					"ack(",
+					"process_msgs",
+					"opaq",
+					"on_pr",
+					"num_messages"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"\\1,\\ \\2",
+					"\\\\1,\\ \\\\2",
+					"\\1,\\ \\2",
+					", ",
+					"\\\"",
+					"\"",
+					"\\\"",
+					"\\t",
+					"\"",
+					"\\\"",
+					"\\t",
+					"",
+					"#p{body",
+					"p",
+					"\\t",
+					"listitem",
+					"\\\"",
+					"/nitrogen/js/",
+					"/nitrogen/js",
+					"-",
+					"\\t"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 32.0
+			},
+			"input":
+			{
+				"height": 29.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 168.0
+			},
+			"replace":
+			{
+				"height": 62.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"",
+						"kraken/src/kraken_oauth.erl"
+					],
+					[
+						"meck",
+						"erlang_contribs/meck/src/meck.erl"
+					],
+					[
+						"tw",
+						"kraken/src/kraken_twitter_provider.erl"
+					],
+					[
+						"twsr",
+						"kraken/include/twitter.hrl.source"
+					],
+					[
+						"twhr",
+						"kraken/include/twitter.hrl"
+					],
+					[
+						"twithr",
+						"kraken/include/twitter.hrl"
+					],
+					[
+						"conbas",
+						"config/base"
+					],
+					[
+						"twithrls",
+						"kraken/include/twitter.hrl.source"
+					],
+					[
+						"twitthrl",
+						"kraken/include/twitter.hrl"
+					],
+					[
+						"kraco",
+						"kraken/src/kraken_core.erl"
+					],
+					[
+						"poolhrl",
+						"kraken/include/token_pool.hrl"
+					],
+					[
+						"topohr",
+						"kraken/include/token_pool.hrl"
+					],
+					[
+						"cxpe",
+						"/home/jlarky/bins/cx_test_pedal"
+					],
+					[
+						"krfa",
+						"kraken/src/kraken_facebook_provider.erl"
+					],
+					[
+						"fa",
+						"kraken/src/kraken_facebook_provider.erl"
+					],
+					[
+						"krtw",
+						"kraken/src/kraken_twitter_provider.erl"
+					],
+					[
+						"krs",
+						"kraken/src/kraken_sup.erl"
+					],
+					[
+						"kkco",
+						"kraken/src/kraken_core.erl"
+					],
+					[
+						"krasu",
+						"kraken/src/kraken_sup.erl"
+					],
+					[
+						"krac",
+						"kraken/src/kraken_core.erl"
+					],
+					[
+						"linked",
+						"kraken/src/kraken_linkedin_provider.erl"
+					],
+					[
+						"krali",
+						"kraken/src/kraken_linkedin_provider.erl"
+					],
+					[
+						"face",
+						"kraken/src/kraken_facebook_provider.erl"
+					],
+					[
+						"krc",
+						"kraken/src/kraken_core.erl"
+					],
+					[
+						"krao",
+						"kraken/src/kraken_oauth.erl"
+					],
+					[
+						"oau",
+						"erlang_contribs/erlang-oauth/src/oauth.erl"
+					],
+					[
+						"ko",
+						"kraken/src/kraken_oauth.erl"
+					],
+					[
+						"oa",
+						"erlang_contribs/erlang-oauth/src/oauth.erl"
+					],
+					[
+						"krfb",
+						"kraken/src/kraken_facebook_provider.erl"
+					],
+					[
+						"krsu",
+						"kraken/src/kraken_sup.erl"
+					],
+					[
+						"kracore",
+						"kraken/src/kraken_core.erl"
+					],
+					[
+						"fac",
+						"kraken/src/kraken_facebook_provider.erl"
+					],
+					[
+						"giti",
+						".gitignore"
+					],
+					[
+						"krakesup",
+						"kraken/src/kraken_sup.erl"
+					],
+					[
+						"twit",
+						"kraken/src/kraken_twitter_provider.erl"
+					],
+					[
+						"core",
+						"kraken/src/kraken_core.erl"
+					],
+					[
+						"krapu",
+						"kraken/src/kraken_publisher.erl"
+					],
+					[
+						"dummy",
+						"kraken/src/kraken_dummy_provider.erl"
+					],
+					[
+						"linke",
+						"kraken/src/kraken_linkedin_provider.erl"
+					],
+					[
+						"jiff",
+						"erlang_contribs/jiffy/src/jiffy.erl"
+					],
+					[
+						"cx",
+						"erlang_contribs/cxlib/include/cx.hrl"
+					],
+					[
+						"oauth",
+						"kraken/src/kraken_oauth.erl"
+					],
+					[
+						"oaut",
+						"kraken/src/kraken_oauth.erl"
+					],
+					[
+						"cx.",
+						"erlang_contribs/cxlib/include/cx.hrl"
+					],
+					[
+						"sou",
+						"db/psql_setup.sh.source"
+					],
+					[
+						"a",
+						"apply_config.sh"
+					],
+					[
+						"set",
+						"kakaserver/lib/kakaserv/include/setup.hrl"
+					],
+					[
+						"kakac",
+						"kakaserver/lib/kakaconfig/src/kakaconfig.erl"
+					],
+					[
+						"core_app",
+						"kakaserver/src/kaka_core_app.erl"
+					],
+					[
+						"kaka_co",
+						"kakaserver/ebin/kaka_core_app.beam"
+					],
+					[
+						"r",
+						"kakaserver/README"
+					],
+					[
+						"ge",
+						"kakaserver/generate_config.sh"
+					],
+					[
+						"web",
+						"src/webutils.erl"
+					],
+					[
+						"match",
+						"src/matchmaker.erl"
+					],
+					[
+						"zea",
+						"src/zealot_auth.erl"
+					],
+					[
+						"st",
+						"static/css/style_700.css"
+					],
+					[
+						"7",
+						"templates/700.html"
+					],
+					[
+						"bare",
+						"templates/bare.html"
+					],
+					[
+						"dumm",
+						"templates/dummy_kakaranet.html"
+					],
+					[
+						"cl",
+						"src/client.erl"
+					],
+					[
+						"pric",
+						"src/price_table.erl"
+					],
+					[
+						"view",
+						"src/view_table.erl"
+					],
+					[
+						"site",
+						"src/site_utils.erl"
+					],
+					[
+						"sty",
+						"static/css/styles.css"
+					],
+					[
+						"mat",
+						"src/matchmaker.erl"
+					],
+					[
+						"en.",
+						"static/css/en.css"
+					],
+					[
+						"das",
+						"src/dashboard.erl"
+					],
+					[
+						"add",
+						"static/css/add_styles.css"
+					],
+					[
+						"pro",
+						"src/profile.erl"
+					],
+					[
+						"ma",
+						"src/matchmaker.erl"
+					],
+					[
+						"co",
+						"src/contact.erl"
+					],
+					[
+						"add_",
+						"static/css/add_styles.css"
+					],
+					[
+						"c",
+						"src/contact.erl"
+					],
+					[
+						"elep",
+						"src/elements/html/element_p.erl"
+					],
+					[
+						"uri_",
+						"include/uri_translator.hrl"
+					],
+					[
+						"i1",
+						"src/handlers/route/i18n_route_handler.erl"
+					],
+					[
+						"we",
+						"src/webutils.erl"
+					],
+					[
+						"te",
+						"src/terms.erl"
+					],
+					[
+						"si",
+						"src/site_utils.erl"
+					],
+					[
+						"table_ma",
+						"src/table_manager.erl"
+					],
+					[
+						"vie",
+						"src/view_table.erl"
+					],
+					[
+						"jo",
+						"src/join_game.erl"
+					],
+					[
+						"create",
+						"src/create_game.erl"
+					],
+					[
+						"main",
+						"templates/tr/main.html"
+					],
+					[
+						"p",
+						"src/profile.erl"
+					],
+					[
+						"uri",
+						"src/uri_translator.erl"
+					],
+					[
+						"i18",
+						"src/handlers/route/i18n_route_handler.erl"
+					],
+					[
+						"web_",
+						"src/web_404.erl"
+					],
+					[
+						"wf_ha",
+						"src/lib/wf_handler.erl"
+					],
+					[
+						"nitroge",
+						"src/nitrogen.erl"
+					],
+					[
+						"route",
+						"src/handlers/route/i18n_route_handler.erl"
+					],
+					[
+						"rou",
+						"src/handlers/route/route_handler.erl"
+					],
+					[
+						"ind",
+						"src/index.erl"
+					],
+					[
+						"in",
+						"js/inputs.js"
+					],
+					[
+						"i8",
+						"src/handlers/route/i18n_route_handler.erl"
+					],
+					[
+						".hrl",
+						"src/elements/gettext.hrl"
+					],
+					[
+						"re",
+						"src/elements/element_register.erl"
+					],
+					[
+						"zeadb",
+						"src/zealot_db.erl"
+					],
+					[
+						"ur",
+						"src/uri_translator.erl"
+					],
+					[
+						"dy",
+						"src/handlers/route/dynamic_route_handler.erl"
+					],
+					[
+						"reg",
+						"src/elements/element_register.erl"
+					],
+					[
+						"log",
+						"src/login.erl"
+					],
+					[
+						"table_",
+						"src/table_manager.erl"
+					],
+					[
+						"tab",
+						"src/view_table.erl"
+					],
+					[
+						"lo",
+						"src/login.erl"
+					],
+					[
+						"wf.",
+						"src/wf.erl"
+					],
+					[
+						"cap",
+						"src/captcha.erl"
+					],
+					[
+						"acco",
+						"src/account.erl"
+					],
+					[
+						"inp",
+						"js/inputs.js"
+					],
+					[
+						"typefile",
+						"js/input-type-file.js"
+					],
+					[
+						"avat",
+						"src/avatar.erl"
+					],
+					[
+						"eletexbo",
+						"src/elements/forms/element_textbox.erl"
+					],
+					[
+						"element_upl",
+						"src/elements/forms/element_upload.erl"
+					],
+					[
+						"inpu",
+						"js/inputs.js"
+					],
+					[
+						"inpf",
+						"js/input-type-file.js"
+					],
+					[
+						"ba",
+						"templates/bare.html"
+					],
+					[
+						"elesect",
+						"src/elements/html5/element_section.erl"
+					],
+					[
+						"form",
+						"static/nitrogen/js/form.js"
+					],
+					[
+						"elelab",
+						"src/elements/forms/element_label.erl"
+					],
+					[
+						"inde",
+						"src/index.erl"
+					],
+					[
+						"eletab",
+						"src/elements/element_tabs.erl"
+					],
+					[
+						"inne",
+						"templates/inner_page4.html"
+					],
+					[
+						"gi",
+						"src/gifts.erl"
+					],
+					[
+						"mai",
+						"/media/data/jlarky/work/erlang-warsaw/kakaranet/kakaweb/site/templates/tr/main.html"
+					],
+					[
+						"inn",
+						"/media/data/jlarky/work/erlang-warsaw/kakaranet/kakaweb/site/templates/inner_page2.html"
+					],
+					[
+						"en.css",
+						"/media/data/jlarky/work/erlang-warsaw/kakaranet/kakaweb/site/static/css/styles.css"
+					],
+					[
+						"regi",
+						"/media/data/jlarky/work/erlang-warsaw/kakaranet/kakaweb/site/templates/register.html"
+					],
+					[
+						"fo",
+						"/media/data/jlarky/work/erlang-warsaw/kakaranet/kakaweb/site/static/nitrogen/js/form.js"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"selected_items":
+				[
+					[
+						"",
+						"/home/jlarky/.sublime/kakaweb.sublime-project"
+					]
+				],
+				"width": 380.0
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 222.0,
+			"status_bar_visible": true
+		},
+		"new_window_width": 0.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"V",
+						"VoucherPuid"
+					],
+					[
+						"badge",
+						"badge_groups"
+					],
+					[
+						"ba",
+						"badge_groups"
+					],
+					[
+						"Url",
+						"Urls"
+					],
+					[
+						"we",
+						"websites"
+					],
+					[
+						"en",
+						"encode"
+					],
+					[
+						"add_",
+						"add_user_profiles"
+					],
+					[
+						"Pro",
+						"Profile"
+					],
+					[
+						"Pr",
+						"Profile"
+					],
+					[
+						"add",
+						"add_profiles"
+					],
+					[
+						"for",
+						"force"
+					],
+					[
+						"fo",
+						"force"
+					],
+					[
+						"T",
+						"Tags"
+					],
+					[
+						"Ta",
+						"Tags"
+					],
+					[
+						"R",
+						"Rest"
+					],
+					[
+						"de",
+						"deep_get"
+					],
+					[
+						"fbo",
+						"facebook"
+					],
+					[
+						"sa",
+						"save_tag"
+					],
+					[
+						"wr",
+						"wrong_kind"
+					],
+					[
+						"F",
+						"Fields1"
+					],
+					[
+						"A",
+						"Available"
+					],
+					[
+						"K",
+						"Kinds"
+					],
+					[
+						"I",
+						"Interests"
+					],
+					[
+						"get_",
+						"get_value"
+					],
+					[
+						"S",
+						"Sorted"
+					],
+					[
+						"PC",
+						"PrioAcc"
+					],
+					[
+						"P",
+						"Phrase"
+					],
+					[
+						"W",
+						"Words"
+					],
+					[
+						"NB",
+						"NewBuffer"
+					],
+					[
+						"DS",
+						"Descs"
+					],
+					[
+						"URL",
+						"LISTS_URL"
+					],
+					[
+						"c",
+						"current"
+					],
+					[
+						"NS",
+						"NewState"
+					],
+					[
+						"new",
+						"new_state"
+					],
+					[
+						"cu",
+						"cursor"
+					],
+					[
+						"user",
+						"user_id"
+					],
+					[
+						"b",
+						"buffer"
+					],
+					[
+						"St",
+						"State"
+					],
+					[
+						"O",
+						"Out"
+					],
+					[
+						"Re",
+						"Result"
+					],
+					[
+						"C",
+						"Count"
+					],
+					[
+						"Wor",
+						"Word"
+					],
+					[
+						"E1",
+						"Elem1"
+					],
+					[
+						"lo",
+						"lower"
+					],
+					[
+						"Da",
+						"Data"
+					],
+					[
+						"get",
+						"get_value"
+					],
+					[
+						"D",
+						"Data"
+					],
+					[
+						"ha",
+						"handle_profiles_batch"
+					],
+					[
+						"us",
+						"utc_sec"
+					],
+					[
+						"ch",
+						"current_hour"
+					],
+					[
+						"To",
+						"Total"
+					],
+					[
+						"bas",
+						"bash_test"
+					],
+					[
+						"tokey",
+						"token_app_usage_key"
+					],
+					[
+						"Cla",
+						"Class"
+					],
+					[
+						"Tim",
+						"Time"
+					],
+					[
+						"Ti",
+						"Time"
+					],
+					[
+						"mod",
+						"module_to_provider"
+					],
+					[
+						"T2",
+						"Token2"
+					],
+					[
+						"od",
+						"OauthData"
+					],
+					[
+						"De",
+						"Deadline"
+					],
+					[
+						"deadlin",
+						"deadline"
+					],
+					[
+						"fa",
+						"false"
+					],
+					[
+						"ck",
+						"check_token"
+					],
+					[
+						"T1",
+						"Token1"
+					],
+					[
+						"chec",
+						"check_token"
+					],
+					[
+						"d",
+						"dummy"
+					],
+					[
+						"tr",
+						"true"
+					],
+					[
+						"ex",
+						"expired"
+					],
+					[
+						"sti",
+						"save_token_info"
+					],
+					[
+						"pu",
+						"put_object"
+					],
+					[
+						"undef",
+						"undefined"
+					],
+					[
+						"pr",
+						"provider"
+					],
+					[
+						"toi",
+						"get_token_info"
+					],
+					[
+						"Pra",
+						"Params"
+					],
+					[
+						"U",
+						"Usage"
+					],
+					[
+						"L",
+						"Last_used"
+					],
+					[
+						"ut",
+						"utc_sec"
+					],
+					[
+						"token_",
+						"token_info"
+					],
+					[
+						"IN",
+						"Insert"
+					],
+					[
+						"by",
+						"bytea"
+					],
+					[
+						"ke",
+						"get_by_key"
+					],
+					[
+						"http",
+						"http_get"
+					],
+					[
+						"sr",
+						"SEARCH_PRIVATE"
+					],
+					[
+						"reds",
+						"redis_returns"
+					],
+					[
+						"Cmds",
+						"Commands"
+					],
+					[
+						"redis_cmd",
+						"redis_cmd_failsafe"
+					],
+					[
+						"rec",
+						"redis_cmd"
+					],
+					[
+						"redis_rer",
+						"redis_return"
+					],
+					[
+						"err",
+						"error"
+					],
+					[
+						"Res",
+						"Results"
+					],
+					[
+						"rcs",
+						"redis_cmds"
+					],
+					[
+						"res",
+						"redis_returns"
+					],
+					[
+						"ret",
+						"redis_returns"
+					],
+					[
+						"rd",
+						"redis_cmd"
+					],
+					[
+						"red",
+						"redis_cmd"
+					],
+					[
+						"E",
+						"Elem"
+					],
+					[
+						"US",
+						"UString"
+					],
+					[
+						"ne",
+						"next_letter"
+					],
+					[
+						"B",
+						"Bin2"
+					],
+					[
+						"rc",
+						"redis_cmd"
+					],
+					[
+						"do",
+						"downcase"
+					],
+					[
+						"DB",
+						"DropBefore"
+					],
+					[
+						"so",
+						"some_ip"
+					],
+					[
+						"in",
+						"integer"
+					],
+					[
+						"th",
+						"token_healthy"
+					],
+					[
+						"RS",
+						"ReqState"
+					],
+					[
+						"krake",
+						"kraken"
+					],
+					[
+						"q",
+						"queue_after"
+					],
+					[
+						"Req",
+						"Request"
+					],
+					[
+						"deV",
+						"debugVal"
+					],
+					[
+						"ass",
+						"assert"
+					],
+					[
+						"co",
+						"content_type"
+					],
+					[
+						"M",
+						"MESSAGE_BASE"
+					],
+					[
+						"or",
+						"oauth_request"
+					],
+					[
+						"oa",
+						"oauth_request"
+					],
+					[
+						"kra",
+						"kraken_linkedin_provider"
+					],
+					[
+						"Cl",
+						"Class"
+					],
+					[
+						"Class",
+						"ClassUsage"
+					],
+					[
+						"AP",
+						"AppLimit"
+					],
+					[
+						"Time",
+						"Timestamp1"
+					],
+					[
+						"RL",
+						"RemainingLimit"
+					],
+					[
+						"link",
+						"linkedid"
+					],
+					[
+						"se",
+						"send_message"
+					],
+					[
+						"pro",
+						"provider"
+					],
+					[
+						"per",
+						"perform_read"
+					],
+					[
+						"Op",
+						"Opts"
+					],
+					[
+						"Sta",
+						"Start"
+					],
+					[
+						"req",
+						"req_state"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"contents": "https://www.googleapis.com/auth/plus.me\nhttps://www.googleapis.com/auth/plus.people.recommended\nhttps://www.googleapis.com/auth/userinfo.email\n\nhttps://www.facebook.com/dialog/permissions.request?app_id=221404817883872&display=page&next=https%3A%2F%2Fme.singly.com%2Fauth%2Ffacebook%2Fauth&response_type=code&perms=email%2Coffline_access%2Cread_stream%2Cuser_photos%2Cfriends_photos%2Cuser_photo_video_tags&fbconnect=1\n\nhttps://accounts.google.com/o/oauth2/auth?scope=https://www.google.com/m8/feeds/&response_type=code&access_type=offline&approval_prompt=force&client_id=930589277339.apps.googleusercontent.com&redirect_uri=https://me.singly.com/auth/gcontacts/auth\n\n[{<<\"id\">>,\n          {[{<<\"$t\">>,\n             <<\"http://www.google.com/m8/feeds/contacts/jlarky%40gmail.com/base/66820a258f19496c\">>}]}},\n         {<<\"updated\">>,{[{<<\"$t\">>,<<\"2011-07-14T08:06:14.600Z\">>}]}},\n         {<<\"category\">>,\n          [{[{<<\"scheme\">>,<<\"http://schemas.google.com/g/2005#kind\">>},\n             {<<\"term\">>,\n              <<\"http://schemas.google.com/contact/2008#contact\">>}]}]},\n         {<<\"title\">>,\n          {[{<<\"type\">>,<<\"text\">>},\n            {<<\"$t\">>,\n             <<208,144,208,187,208,181,208,186,209,129,208,176,208,189,208,\n               180,209,128,32,208,145,208,190,208,179,208,176,209,130,209,\n               139,209,128,209,145,208,178>>}]}},\n         {<<\"link\">>,\n          [{[{<<\"rel\">>,\n              <<\"http://schemas.google.com/contacts/2008/rel#edit-photo\">>},\n             {<<\"type\">>,<<\"image/*\">>},\n             {<<\"href\">>,\n              <<\"https://www.google.com/m8/feeds/photos/media/jlarky%40gmail.com/66820a258f19496c/1B2M2Y8AsgTpgAmY7PhCfg\">>}]},\n           {[{<<\"rel\">>,<<\"self\">>},\n             {<<\"type\">>,<<\"application/atom+xml\">>},\n             {<<\"href\">>,\n              <<\"https://www.google.com/m8/feeds/contacts/jlarky%40gmail.com/full/66820a258f19496c\">>}]},\n           {[{<<\"rel\">>,<<\"edit\">>},\n             {<<\"type\">>,<<\"application/atom+xml\">>},\n             {<<\"href\">>,\n              <<\"https://www.google.com/m8/feeds/contacts/jlarky%40gmail.com/full/66820a258f19496c/1310630774600001\">>}]}]},\n         {<<\"gd$email\">>,\n          [{[{<<\"rel\">>,<<\"http://schemas.google.com/g/2005#other\">>},\n             {<<\"address\">>,<<\"bogat.alexander@gmail.com\">>},\n             {<<\"primary\">>,<<\"true\">>}]}]}]",
+					"settings":
+					{
+						"buffer_size": 2349,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "ruby-connect.me/vendor/connectme/provider/lib/connectme/provider/extensions/has_provider_tags.rb",
+					"settings":
+					{
+						"buffer_size": 1602,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/x/w/e/c/cx/search/src/search_internal_api.erl",
+					"settings":
+					{
+						"buffer_size": 6196,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/x/w/e/c/cx/kraken/src/kraken_token_pool.erl",
+					"settings":
+					{
+						"buffer_size": 27076,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/x/w/e/c/cx/kraken/src/kraken_twitter_provider.erl",
+					"settings":
+					{
+						"buffer_size": 21241,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/x/w/e/c/cx/medusa/src/medusa_api.erl",
+					"settings":
+					{
+						"buffer_size": 36828,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/x/w/e/c/cx/medusa/src/medusa_autotags.erl",
+					"settings":
+					{
+						"buffer_size": 5777,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/jlarky/bins/cx_test_pedal",
+					"settings":
+					{
+						"buffer_size": 3653,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/x/w/e/c/cx/kraken/src/kraken_core.erl",
+					"settings":
+					{
+						"buffer_size": 7405,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/x/w/e/c/cx/kraken/src/kraken_dummy_provider.erl",
+					"settings":
+					{
+						"buffer_size": 3748,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/x/w/e/c/cx/scripts/sql/schemas.sql",
+					"settings":
+					{
+						"buffer_size": 2707,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/x/w/e/c/cx/medusa/src/medusa_keys.erl",
+					"settings":
+					{
+						"buffer_size": 4321,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/x/w/e/c/cx/medusa/src/medusa_internal_api.erl",
+					"settings":
+					{
+						"buffer_size": 12621,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/x/w/e/c/cx/kraken/include/twitter.hrl",
+					"settings":
+					{
+						"buffer_size": 344,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/x/w/e/c/cx/tests/cx.ruby.tests/spec/api_spec.rb",
+					"settings":
+					{
+						"buffer_size": 31396,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "ruby-connect.me/app/models/trust_level.rb",
+					"settings":
+					{
+						"buffer_size": 2927,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "ruby-connect.me/app/models/badge.rb",
+					"settings":
+					{
+						"buffer_size": 3534,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/x/w/e/c/cx/kraken/src/kraken_facebook_provider.erl",
+					"settings":
+					{
+						"buffer_size": 19079,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/x/w/e/c/cx/erlang_contribs/cxlib/include/cx.hrl",
+					"settings":
+					{
+						"buffer_size": 1773,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/x/w/e/c/cx/erlang_contribs/cxlib/src/pi.erl",
+					"settings":
+					{
+						"buffer_size": 2397,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/x/w/e/c/cx/erlang_contribs/cxlib/src/utl.erl",
+					"settings":
+					{
+						"buffer_size": 787,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/x/w/e/c/cx/kraken/src/kraken_linkedin_provider.erl",
+					"settings":
+					{
+						"buffer_size": 19429,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/x/w/e/c/cx/medusa/src/medusa_website.erl",
+					"settings":
+					{
+						"buffer_size": 565,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/x/w/e/c/cx/kraken/doc/facebook.txt",
+					"settings":
+					{
+						"buffer_size": 1481,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/x/w/e/c/cx/tests/kraken.tester/bash_test.sh",
+					"settings":
+					{
+						"buffer_size": 3862,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/x/w/e/c/cx/medusa/src/medusa_update.erl",
+					"settings":
+					{
+						"buffer_size": 5508,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/x/w/e/c/cx/medusa/src/medusa_badge.erl",
+					"settings":
+					{
+						"buffer_size": 1531,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "Packages/connect.sublime-build",
+			"command_palette":
+			{
+				"height": 95.0,
+				"selected_items":
+				[
+					[
+						"tc",
+						"Convert Case: Title Case"
+					],
+					[
+						"cu",
+						"Convert Case: Upper Case"
+					],
+					[
+						"ct",
+						"Convert Case: Title Case"
+					],
+					[
+						"",
+						"Convert Case: Title Case"
+					]
+				],
+				"width": 392.0
+			},
+			"console":
+			{
+				"height": 129.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": true,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/jlarky/chrome_clodo",
+				"/x/w/e/c/cx/medusa/src/medusa_badges.erl",
+				"/x/w/e/c/cx/medusa/src/medusa_card.erl",
+				"/media/data/jlarky/work/erlang-us/cx/medusa/src/medusa_api.erl",
+				"/x/w/e/c/cx/kraken/log/facebook/AAAFCJNOxfhEBAJptZACFCwDxqOZA5SbDG4P1pZCDAE2S8grhHfojpyd3pR1ZBCDZAflkO9aGzWt6luZBQOnyZAVFPno0UJbwVBNVzVJZCcDNQgZDZD/2012-02-29_19-27-34.571087.log",
+				"/home/jlarky/.ssh/known_hosts",
+				"/x/w/e/c/cx/kraken/log/facebook/AAAD0W7HcQ0IBAHpBbiMrl9MxlgLtPAdVZB5GE13ZBtffeotkA0cJfohYwweLHXN8073H9WdPQGAZCbnePXtc17S7Q7iGWLI17QZBwAy75wZDZD/2012-03-01_13-33-45.832145.log",
+				"/x/w/e/c/cx/kraken/log/facebook/AAAD0W7HcQ0IBAHpBbiMrl9MxlgLtPAdVZB5GE13ZBtffeotkA0cJfohYwweLHXN8073H9WdPQGAZCbnePXtc17S7Q7iGWLI17QZBwAy75wZDZD/2012-03-01_13-29-20.564640.log",
+				"/media/data/jlarky/work/erlang-us/cx/medusa/src/medusa_internal_api.erl",
+				"/x/w/e/c/cx/kraken/log/twitter/22676414-LNu3aizaSDZgbocCr1wC4kkbLelzWCQ3uXgnKPqYp/2012-02-29_15-26-38.438782.log",
+				"/x/w/e/c/cx/erlang_contribs/cxlib/src/ewgi_api.erl",
+				"/media/data/jlarky/work/erlang-us/ruby-connect.me/vendor/connectme/provider/lib/connectme/provider/linked_in/adapter.rb",
+				"/x/w/e/c/cx/kraken/log/facebook/AAAD0W7HcQ0IBAHpBbiMrl9MxlgLtPAdVZB5GE13ZBtffeotkA0cJfohYwweLHXN8073H9WdPQGAZCbnePXtc17S7Q7iGWLI17QZBwAy75wZDZD/2012-02-29_19-49-56.947850.log",
+				"/media/data/jlarky/work/erlang-us/cx/README",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/doc/facebook.txt",
+				"/media/data/jlarky/work/erlang-us/cx/tests/kraken.tester/bash_test.sh",
+				"/x/w/e/c/cx/kraken/log/facebook/AAAD0W7HcQ0IBAHpBbiMrl9MxlgLtPAdVZB5GE13ZBtffeotkA0cJfohYwweLHXN8073H9WdPQGAZCbnePXtc17S7Q7iGWLI17QZBwAy75wZDZD/2012-02-29_19-48-31.852841.log",
+				"/media/data/jlarky/work/erlang-us/cx/erlang_contribs/erlang-oauth/README.txt",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/README",
+				"/media/data/jlarky/work/erlang-us/cx/tests/cx.ruby.tests/README",
+				"/x/w/e/c/cx/tests/kraken.tester/bash_test.sh",
+				"/x/w/e/c/cx/kraken/README",
+				"/x/w/e/c/cx/kraken/log/facebook/AAAFCJNOxfhEBAJptZACFCwDxqOZA5SbDG4P1pZCDAE2S8grhHfojpyd3pR1ZBCDZAflkO9aGzWt6luZBQOnyZAVFPno0UJbwVBNVzVJZCcDNQgZDZD/2012-02-29_19-39-11.491962.log",
+				"/x/w/e/c/cx/kraken/include/facebook.hrl",
+				"/x/w/e/c/cx/kraken/src/medusa_update.erl",
+				"/x/w/e/c/cx/medusa/src/medusa_update.erl",
+				"/x/w/e/c/cx/kraken/priv/dummy/get_profile_100.txt",
+				"/media/data/jlarky/work/erlang-us/cx/erlang_contribs/.make_all.sh",
+				"/media/data/jlarky/work/erlang-us/cx/apply_config.sh",
+				"/media/data/jlarky/work/erlang-us/cx/update.sh",
+				"/x/w/e/c/cx/erlang_contribs/.make_all.sh",
+				"/media/data/jlarky/work/erlang-us/cx/config/applied_config",
+				"/tmp/t.E",
+				"/tmp/t.erl",
+				"/tmp/t.P",
+				"/tmp/t.S",
+				"/media/data/jlarky/work/erlang-us/ruby-connect.me/app/models/tag.rb",
+				"/x/w/e/c/cx/tests/cx.ruby.tests/spec/search_spec.rb",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/src/kraken_core.erl",
+				"/x/w/e/c/cx/kraken/src/kraken_sup.erl",
+				"/x/w/e/c/cx/medusa/src/medusa_internal_api.erl",
+				"/media/data/jlarky/work/erlang-us/ruby-connect.me/vendor/connectme/provider/lib/connectme/provider/facebook/import.rb",
+				"/media/data/jlarky/work/erlang-us/ruby-connect.me/vendor/connectme/provider/lib/connectme/provider/facebook/adapter.rb",
+				"/media/data/jlarky/work/erlang-us/ruby-connect.me/vendor/connectme/provider/lib/connectme/provider/twitter/adapter.rb",
+				"/media/data/jlarky/work/erlang-us/ruby-connect.me/vendor/connectme/provider/lib/connectme/provider/adapter.rb",
+				"/x/w/e/c/cx/erlang_contribs/cxlib/src/od.erl",
+				"/x/w/e/c/cx/kraken/src/kraken_facebook_provider.erl",
+				"/x/w/e/c/cx/tests/cx.ruby.tests/spec/api_spec.rb",
+				"/x/w/e/c/cx/tests/cx.ruby.tests/spec/helper.rb",
+				"/x/w/e/c/cx/kraken/src/kraken_linkedin_provider.erl",
+				"/x/w/e/c/cx/kraken/src/kraken_dummy_provider.erl",
+				"/x/w/e/c/cx/kraken/log/facebook/AAAFCJNOxfhEBAJptZACFCwDxqOZA5SbDG4P1pZCDAE2S8grhHfojpyd3pR1ZBCDZAflkO9aGzWt6luZBQOnyZAVFPno0UJbwVBNVzVJZCcDNQgZDZD/2012-02-28_18-30-33.175113.log",
+				"/x/w/e/c/cx/kraken/log/facebook/AAAFCJNOxfhEBAJptZACFCwDxqOZA5SbDG4P1pZCDAE2S8grhHfojpyd3pR1ZBCDZAflkO9aGzWt6luZBQOnyZAVFPno0UJbwVBNVzVJZCcDNQgZDZD/2012-02-28_17-43-05.439295.log",
+				"/media/data/jlarky/work/erlang-us/cx/tests/cx.ruby.tests/spec/sn_event_spec.rb",
+				"/x/w/e/c/cx/kraken/log/facebook/AAAFCJNOxfhEBAJptZACFCwDxqOZA5SbDG4P1pZCDAE2S8grhHfojpyd3pR1ZBCDZAflkO9aGzWt6luZBQOnyZAVFPno0UJbwVBNVzVJZCcDNQgZDZD/2012-02-28_18-08-50.312755.log",
+				"/x/w/e/c/cx/kraken/log/facebook/AAAFCJNOxfhEBAJptZACFCwDxqOZA5SbDG4P1pZCDAE2S8grhHfojpyd3pR1ZBCDZAflkO9aGzWt6luZBQOnyZAVFPno0UJbwVBNVzVJZCcDNQgZDZD/2012-02-28_18-04-23.299392.log",
+				"/x/w/e/c/cx/config/jlarky",
+				"/x/w/e/c/cx/kraken/log/linkedin/526796e9-40aa-4d69-b2f9-a10b300ee8e7/2012-02-28_00-35-12.880010.log",
+				"/x/w/e/c/cx/kraken/log/linkedin/526796e9-40aa-4d69-b2f9-a10b300ee8e7/2012-02-28_00-38-13.162122.log",
+				"/x/w/e/c/cx/kraken/log/linkedin/526796e9-40aa-4d69-b2f9-a10b300ee8e7/2012-02-28_00-44-30.134885.log",
+				"/x/w/e/c/cx/kraken/log/linkedin/526796e9-40aa-4d69-b2f9-a10b300ee8e7/2012-02-27_23-53-27.192652-raw.log",
+				"/x/w/e/c/cx/kraken/log/linkedin/526796e9-40aa-4d69-b2f9-a10b300ee8e7/2012-02-28_00-14-06.324977.log",
+				"/x/w/e/c/cx/kraken/src/kraken_oauth.erl",
+				"/x/w/e/c/cx/kraken/src/kraken_core.erl",
+				"/x/w/e/c/cx/kraken/log/linkedin/526796e9-40aa-4d69-b2f9-a10b300ee8e7/2012-02-28_00-11-29.280309.log",
+				"/x/w/e/c/cx/config/base",
+				"/home/jlarky/bins/cx_test_pedal",
+				"/x/w/e/c/cx/kraken/src/kraken_queue_manager.erl",
+				"/x/w/e/c/cx/kraken/include/token_pool.hrl",
+				"/x/w/e/c/cx/medusa/src/medusa_keys.erl",
+				"/x/w/e/c/cx/medusa/src/seed.erl",
+				"/media/data/jlarky/work/erlang-us/cx/erlang_contribs/cxlib/include/cx.hrl",
+				"/x/w/e/c/cx/kraken/src/medusa_autotags.erl",
+				"/media/data/jlarky/work/erlang-us/cx/erlang_contribs/cxlib/src/od.erl",
+				"/x/w/e/c/cx/kraken/src/od.erl",
+				"/x/w/e/c/cx/erlang_contribs/cxlib/include/cx.hrl",
+				"/x/w/e/c/cx/kraken/src/kraken_google_provider.erl",
+				"/x/w/e/c/cx/erlang_contribs/starling/src/ustring.erl",
+				"/x/w/e/c/cx/medusa/src/medusa_profile.erl",
+				"/x/w/e/c/cx/kraken/src/kraken_publisher.erl",
+				"/x/w/e/c/cx/scripts/sql/schemas.sql",
+				"/media/data/jlarky/work/erlang-us/ruby-connect.me/app/models/tags_in_network.rb",
+				"/media/data/jlarky/work/erlang-us/ruby-connect.me/app/models/related_tagging.rb",
+				"/media/data/jlarky/work/erlang-us/ruby-connect.me/vendor/connectme/provider/spec/lib/connectme/provider/facebook/adapter_spec.rb",
+				"/media/data/jlarky/work/erlang-us/ruby-connect.me/vendor/connectme/provider/spec/lib/connectme/provider/facebook/import_spec.rb",
+				"/media/data/jlarky/work/erlang-us/ruby-connect.me/vendor/connectme/provider/spec/lib/connectme/provider/facebook/service_spec.rb",
+				"/media/data/jlarky/work/erlang-us/ruby-connect.me/vendor/connectme/provider/spec/support/integration_helper.rb",
+				"/media/data/jlarky/work/erlang-us/ruby-connect.me/features/wizard/vouches.feature",
+				"/x/w/e/c/cx/kraken/doc/google.txt",
+				"/x/w/e/c/cx/search/bin/app",
+				"/media/data/jlarky/work/erlang-us/cx/medusa/src/ybed.erl",
+				"/media/data/jlarky/work/erlang-us/cx/medusa/src/opts.erl",
+				"/x/w/e/c/cx/kraken/include/queue_manager.hrl",
+				"/x/w/e/c/cx/erlang_contribs/connection_pool/src/connection_pool.erl",
+				"/x/w/e/c/cx/erlang_contribs/epgsql/src/pgsql_binary.erl",
+				"/x/w/e/c/cx/erlang_contribs/epgsql/src/pgsql_connection.erl",
+				"/x/w/e/c/cx/erlang_contribs/epgsql/src/pgsql.erl",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/src/kraken_queue_manager.erl",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/src/kraken_token_pool.erl",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/src/kraken_sup.erl",
+				"/home/jlarky/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+				"/home/jlarky/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+				"/x/w/e/c/cx/kraken/.eunit/kraken_facebook_provider.erl",
+				"/media/data/jlarky/work/erlang-us/cx/kraken/.gitignore",
+				"/media/data/jlarky/work/erlang-warsaw/kakaranet/kakaweb/site/include/setup.hrl.template",
+				"/media/data/jlarky/work/erlang-warsaw/kakaranet/kakaweb/create_configure.sh",
+				"/media/data/jlarky/work/erlang-warsaw/kakaranet/update.sh",
+				"/x/w/e/c/cx/scripts/psql_setup.sh",
+				"/x/w/e/c/cx/medusa/src/medusa_sup.erl",
+				"/x/w/e/c/cx/medusa/src/opts.erl",
+				"/x/w/e/c/cx/medusa/src/opts.erl.source",
+				"/x/w/e/c/cx/kraken/src/opts.erl.source",
+				"/x/w/e/c/cx/kraken/src/opts.erl",
+				"/x/w/e/c/cx/medusa/src/medusa_api.erl",
+				"/media/data/jlarky/work/erlang-us/cx/tests/cx.ruby.tests/spec/helper.rb",
+				"/x/w/e/c/cx/medusa/src/page_router.erl",
+				"/x/w/e/c/cx/chupacabra/src/chupacabra_api.erl",
+				"/x/w/e/c/cx/kraken/src/kraken_token_pool.erl",
+				"/x/w/e/c/cx/update.sh",
+				"/media/data/jlarky/work/erlang-us/cx/chupacabra/src/opts.erl.source",
+				"/media/data/jlarky/work/erlang-us/cx/chupacabra/bin/app",
+				"/media/data/jlarky/work/erlang-us/cx/search/bin/run.sh",
+				"/media/data/jlarky/work/erlang-us/cx/search/bin/app",
+				"/media/data/jlarky/work/erlang-us/cx/search/src/opts.erl",
+				"/media/data/jlarky/work/erlang-us/cx/erlang_contribs/cxlib/include/pi.hrl",
+				"/media/data/jlarky/work/erlang-us/cx/search/Makefile",
+				"/x/w/e/c/cx/erlang_contribs/cxlib/src/pi.erl",
+				"/x/w/e/c/cx/chupacabra/src/pi.erl"
+			],
+			"find":
+			{
+				"height": 39.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": true,
+				"find_history":
+				[
+					"update_badge",
+					"vouch_limit",
+					"S",
+					"s",
+					"S",
+					"vouches_limit",
+					"level:",
+					"permissions",
+					"Level",
+					"level",
+					"vouches_limit",
+					"VoucherPuid",
+					"get_trust_level",
+					"vouch_limit",
+					"Id",
+					"\"trust level\"",
+					"C0",
+					"equery",
+					"TrustLevel",
+					"medusa_badges",
+					"tag_names_to_ids",
+					"vouch",
+					"vauch",
+					"vouch",
+					"primar",
+					"puids",
+					"puid",
+					"badge_id",
+					"Url",
+					"UrlBinaryStr",
+					"url",
+					"website",
+					"update_ca",
+					"Websites",
+					"new",
+					"websites",
+					"url",
+					"to_json",
+					"    ?INFO(\"... ~p\\n\", [Profile]),\n",
+					"catch",
+					"friend",
+					"Location",
+					"location",
+					"deep_get",
+					"bert",
+					"profile_image_url",
+					"lastName",
+					"publicProfileUrl",
+					"profile_url",
+					"profile_uid",
+					"profile_url",
+					"id",
+					"dummy",
+					"info",
+					"try_add_profile",
+					"uid",
+					"(catch ",
+					"throw(ok)",
+					"thro",
+					"id",
+					"thr",
+					"bio",
+					"527834515",
+					"bio",
+					"handle_get_friends_batch",
+					"frien",
+					"bio",
+					"location",
+					"add_user_profiles",
+					"twitter",
+					"search_add_tags",
+					"twitter",
+					"?inf",
+					"Data",
+					"Profile",
+					"update_card",
+					"try_add_profile",
+					"new_user",
+					"v(",
+					"Provider",
+					"ProfileId",
+					"ProfileUrl",
+					"try_add_profile",
+					"new_user",
+					"new",
+					"?info",
+					"add_profiles",
+					"ProfilesData",
+					"get_pro",
+					"new",
+					"update_c",
+					"username",
+					"profile",
+					"try_add_profile",
+					"Provider",
+					"UserPuid",
+					"ProviderType",
+					"list_to_binary",
+					"followers_count",
+					"Data",
+					"Profiles",
+					"true",
+					"need",
+					"/",
+					"sf",
+					"1000000",
+					"i",
+					"\"names\" =>",
+					"upcase",
+					"X2",
+					"S0",
+					"upcase",
+					"add_names",
+					"zadd",
+					"upper",
+					"lower",
+					"conne",
+					"A",
+					"B",
+					"search_add_tag",
+					"get_sn_fetch_friends_instance",
+					"get_sn_extended_info_instance",
+					"get_friends",
+					"get_extended_info",
+					"get_friends",
+					"sn",
+					"get",
+					"event"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"\\1,\\ \\2",
+					"\\\\1,\\ \\\\2",
+					"\\1,\\ \\2",
+					", ",
+					"\\\"",
+					"\"",
+					"\\\"",
+					"\\t",
+					"\"",
+					"\\\"",
+					"\\t",
+					"",
+					"#p{body",
+					"p",
+					"\\t",
+					"listitem",
+					"\\\"",
+					"/nitrogen/js/",
+					"/nitrogen/js",
+					"-",
+					"\\t"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 26,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"settings":
+							{
+								"buffer_size": 2349,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										666,
+										666
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "ruby-connect.me/vendor/connectme/provider/lib/connectme/provider/extensions/has_provider_tags.rb",
+							"settings":
+							{
+								"buffer_size": 1602,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										572,
+										603
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Ruby/Ruby.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/x/w/e/c/cx/search/src/search_internal_api.erl",
+							"settings":
+							{
+								"buffer_size": 6196,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Erlang/Erlang.tmLanguage",
+									"tab_size": 4
+								},
+								"translation.x": 0.0,
+								"translation.y": 737.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/x/w/e/c/cx/kraken/src/kraken_token_pool.erl",
+							"settings":
+							{
+								"buffer_size": 27076,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"spell_check": false,
+									"syntax": "Packages/Erlang/Erlang.tmLanguage",
+									"tab_size": 4,
+									"word_wrap": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 9660.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "/x/w/e/c/cx/kraken/src/kraken_twitter_provider.erl",
+							"settings":
+							{
+								"buffer_size": 21241,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1018,
+										1018
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Erlang/Erlang.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 123.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 5,
+							"file": "/x/w/e/c/cx/medusa/src/medusa_api.erl",
+							"settings":
+							{
+								"buffer_size": 36828,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										17894,
+										17894
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Erlang/Erlang.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 9177.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 6,
+							"file": "/x/w/e/c/cx/medusa/src/medusa_autotags.erl",
+							"settings":
+							{
+								"buffer_size": 5777,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"spell_check": true,
+									"syntax": "Packages/Erlang/Erlang.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 7,
+							"file": "/home/jlarky/bins/cx_test_pedal",
+							"settings":
+							{
+								"buffer_size": 3653,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										749,
+										749
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 8,
+							"file": "/x/w/e/c/cx/kraken/src/kraken_core.erl",
+							"settings":
+							{
+								"buffer_size": 7405,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Erlang/Erlang.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 9,
+							"file": "/x/w/e/c/cx/kraken/src/kraken_dummy_provider.erl",
+							"settings":
+							{
+								"buffer_size": 3748,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1033,
+										1033
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Erlang/Erlang.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 200.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 10,
+							"file": "/x/w/e/c/cx/scripts/sql/schemas.sql",
+							"settings":
+							{
+								"buffer_size": 2707,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1436,
+										1436
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/SQL/SQL.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 660.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 11,
+							"file": "/x/w/e/c/cx/medusa/src/medusa_keys.erl",
+							"settings":
+							{
+								"buffer_size": 4321,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										2626,
+										2631
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Erlang/Erlang.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 1229.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 12,
+							"file": "/x/w/e/c/cx/medusa/src/medusa_internal_api.erl",
+							"settings":
+							{
+								"buffer_size": 12621,
+								"regions":
+								{
+									"bookmarks":
+									{
+										"flags": 144,
+										"icon": "bookmark",
+										"regions":
+										[
+											[
+												0,
+												0
+											]
+										],
+										"scope": "bookmarks"
+									}
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Erlang/Erlang.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 13,
+							"file": "/x/w/e/c/cx/kraken/include/twitter.hrl",
+							"settings":
+							{
+								"buffer_size": 344,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										341,
+										341
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Erlang/Erlang.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 14,
+							"file": "/x/w/e/c/cx/tests/cx.ruby.tests/spec/api_spec.rb",
+							"settings":
+							{
+								"buffer_size": 31396,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										2328,
+										2328
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Ruby/Ruby.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 1260.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 15,
+							"file": "ruby-connect.me/app/models/trust_level.rb",
+							"settings":
+							{
+								"buffer_size": 2927,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1932,
+										1913
+									],
+									[
+										2144,
+										2125
+									],
+									[
+										2468,
+										2448
+									],
+									[
+										2791,
+										2768
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Ruby/Ruby.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 1776.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 16,
+							"file": "ruby-connect.me/app/models/badge.rb",
+							"settings":
+							{
+								"buffer_size": 3534,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										808,
+										808
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Ruby/Ruby.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 820.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 17,
+							"file": "/x/w/e/c/cx/kraken/src/kraken_facebook_provider.erl",
+							"settings":
+							{
+								"buffer_size": 19079,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1531,
+										1531
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Erlang/Erlang.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 300.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 18,
+							"file": "/x/w/e/c/cx/erlang_contribs/cxlib/include/cx.hrl",
+							"settings":
+							{
+								"buffer_size": 1773,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1648,
+										1648
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Erlang/Erlang.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 689.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 19,
+							"file": "/x/w/e/c/cx/erlang_contribs/cxlib/src/pi.erl",
+							"settings":
+							{
+								"buffer_size": 2397,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Erlang/Erlang.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 20,
+							"file": "/x/w/e/c/cx/erlang_contribs/cxlib/src/utl.erl",
+							"settings":
+							{
+								"buffer_size": 787,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										622,
+										622
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Erlang/Erlang.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 21,
+							"file": "/x/w/e/c/cx/kraken/src/kraken_linkedin_provider.erl",
+							"settings":
+							{
+								"buffer_size": 19429,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										9616,
+										9616
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Erlang/Erlang.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 4084.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 22,
+							"file": "/x/w/e/c/cx/medusa/src/medusa_website.erl",
+							"settings":
+							{
+								"buffer_size": 565,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										565,
+										565
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Erlang/Erlang.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 23,
+							"file": "/x/w/e/c/cx/kraken/doc/facebook.txt",
+							"settings":
+							{
+								"buffer_size": 1481,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1092,
+										1092
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 24,
+							"file": "/x/w/e/c/cx/tests/kraken.tester/bash_test.sh",
+							"settings":
+							{
+								"buffer_size": 3862,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										546,
+										546
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 25,
+							"file": "/x/w/e/c/cx/medusa/src/medusa_update.erl",
+							"settings":
+							{
+								"buffer_size": 5508,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										601,
+										601
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Erlang/Erlang.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 26,
+							"file": "/x/w/e/c/cx/medusa/src/medusa_badge.erl",
+							"settings":
+							{
+								"buffer_size": 1531,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										20,
+										20
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Erlang/Erlang.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 32.0
+			},
+			"input":
+			{
+				"height": 29.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 209.0
+			},
+			"position": "0,1,0,0,0,0,0,0,0,1280,1024",
+			"replace":
+			{
+				"height": 62.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"mb",
+						"medusa/src/medusa_badge.erl"
+					],
+					[
+						"",
+						"/x/w/e/c/cx/medusa/src/medusa_badges.erl"
+					],
+					[
+						"utl",
+						"erlang_contribs/cxlib/src/utl.erl"
+					],
+					[
+						"ma",
+						"medusa/src/medusa_api.erl"
+					],
+					[
+						"mu",
+						"medusa/src/medusa_update.erl"
+					],
+					[
+						"sch",
+						"scripts/sql/schemas.sql"
+					],
+					[
+						"bt",
+						"tests/kraken.tester/bash_test.sh"
+					],
+					[
+						"facet",
+						"kraken/doc/facebook.txt"
+					],
+					[
+						"kf",
+						"kraken/src/kraken_facebook_provider.erl"
+					],
+					[
+						"mi",
+						"medusa/src/medusa_internal_api.erl"
+					],
+					[
+						"mew",
+						"medusa/src/medusa_website.erl"
+					],
+					[
+						"apis",
+						"tests/cx.ruby.tests/spec/api_spec.rb"
+					],
+					[
+						"mc",
+						"medusa/src/medusa_card.erl"
+					],
+					[
+						"kt",
+						"kraken/src/kraken_twitter_provider.erl"
+					],
+					[
+						"mia",
+						"medusa/src/medusa_internal_api.erl"
+					],
+					[
+						"cx",
+						"erlang_contribs/cxlib/include/cx.hrl"
+					],
+					[
+						"kl",
+						"kraken/src/kraken_linkedin_provider.erl"
+					],
+					[
+						"cx.",
+						"erlang_contribs/cxlib/include/cx.hrl"
+					],
+					[
+						"krafa",
+						"kraken/src/kraken_facebook_provider.erl"
+					],
+					[
+						"ap",
+						"tests/cx.ruby.tests/spec/api_spec.rb"
+					],
+					[
+						"med",
+						"medusa/src/medusa_api.erl"
+					],
+					[
+						"api",
+						"tests/cx.ruby.tests/spec/api_spec.rb"
+					],
+					[
+						"medusa_internal_api",
+						"medusa/src/medusa_internal_api.erl"
+					],
+					[
+						"twihr",
+						"kraken/include/twitter.hrl"
+					],
+					[
+						"medusa_keys",
+						"medusa/src/medusa_keys.erl"
+					],
+					[
+						"maal",
+						"erlang_contribs/.make_all.sh"
+					],
+					[
+						"meca",
+						"medusa/src/medusa_card.erl"
+					],
+					[
+						"kd",
+						"kraken/src/kraken_dummy_provider.erl"
+					],
+					[
+						"od",
+						"erlang_contribs/cxlib/src/od.erl"
+					],
+					[
+						"krac",
+						"kraken/src/kraken_core.erl"
+					],
+					[
+						"ssr",
+						"tests/cx.ruby.tests/spec/search_spec.rb"
+					],
+					[
+						"si",
+						"search/src/search_internal_api.erl"
+					],
+					[
+						"me",
+						"medusa/src/medusa_update.erl"
+					],
+					[
+						"kradu",
+						"kraken/src/kraken_dummy_provider.erl"
+					],
+					[
+						"krali",
+						"kraken/src/kraken_linkedin_provider.erl"
+					],
+					[
+						"cj",
+						"config/jlarky"
+					],
+					[
+						"cxp",
+						"/home/jlarky/bins/cx_test_pedal"
+					],
+					[
+						"kratw",
+						"kraken/src/kraken_twitter_provider.erl"
+					],
+					[
+						"sear",
+						"search/src/search_internal_api.erl"
+					],
+					[
+						"medup",
+						"medusa/src/medusa_update.erl"
+					],
+					[
+						"kroa",
+						"kraken/src/kraken_oauth.erl"
+					],
+					[
+						"kraco",
+						"kraken/src/kraken_core.erl"
+					],
+					[
+						"ko",
+						"kraken/src/kraken_oauth.erl"
+					],
+					[
+						"cb",
+						"config/base"
+					],
+					[
+						"meu",
+						"medusa/src/medusa_update.erl"
+					],
+					[
+						"bate",
+						"tests/kraken.tester/bash_test.sh"
+					],
+					[
+						"test",
+						"tests/kraken.tester/bash_test.sh"
+					],
+					[
+						"seed",
+						"medusa/src/seed.erl"
+					],
+					[
+						"medke",
+						"medusa/src/medusa_keys.erl"
+					],
+					[
+						"krao",
+						"kraken/src/kraken_oauth.erl"
+					],
+					[
+						"oder",
+						"kraken/src/od.erl"
+					],
+					[
+						"ode",
+						"kraken/src/od.erl"
+					],
+					[
+						"od.e",
+						"kraken/src/od.erl"
+					],
+					[
+						"testba",
+						"tests/kraken.tester/bash_test.sh"
+					],
+					[
+						"cxhr",
+						"erlang_contribs/cxlib/include/cx.hrl"
+					],
+					[
+						"krace",
+						"kraken/src/kraken_core.erl"
+					],
+					[
+						"ust",
+						"erlang_contribs/starling/src/ustring.erl"
+					],
+					[
+						"tp",
+						"kraken/src/kraken_token_pool.erl"
+					],
+					[
+						"bashte",
+						"tests/kraken.tester/bash_test.sh"
+					],
+					[
+						"top",
+						"kraken/include/token_pool.hrl"
+					],
+					[
+						"kqm",
+						"kraken/src/kraken_queue_manager.erl"
+					],
+					[
+						"qme",
+						"kraken/src/kraken_queue_manager.erl"
+					],
+					[
+						"quma",
+						"kraken/include/queue_manager.hrl"
+					],
+					[
+						"kfa",
+						"kraken/.eunit/kraken_facebook_provider.erl"
+					],
+					[
+						"klp",
+						"kraken/src/kraken_linkedin_provider.erl"
+					],
+					[
+						"kral",
+						"kraken/src/kraken_linkedin_provider.erl"
+					],
+					[
+						"twitt",
+						"kraken/src/kraken_twitter_provider.erl"
+					],
+					[
+						"krt",
+						"kraken/src/kraken_twitter_provider.erl"
+					],
+					[
+						"s",
+						"scripts/sql/schemas.sql"
+					],
+					[
+						"kras",
+						"kraken/src/kraken_sup.erl"
+					],
+					[
+						"conn",
+						"erlang_contribs/connection_pool/src/connection_pool.erl"
+					],
+					[
+						"psqbi",
+						"erlang_contribs/epgsql/src/pgsql_binary.erl"
+					],
+					[
+						"psqco",
+						"erlang_contribs/epgsql/src/pgsql_connection.erl"
+					],
+					[
+						"psqle",
+						"erlang_contribs/epgsql/src/pgsql.erl"
+					],
+					[
+						"mei",
+						"medusa/src/medusa_internal_api.erl"
+					],
+					[
+						"pi",
+						"erlang_contribs/cxlib/src/pi.erl"
+					],
+					[
+						"sea",
+						"search/src/search_internal_api.erl"
+					],
+					[
+						"upda",
+						"update.sh"
+					],
+					[
+						"lin",
+						"kraken/src/kraken_linkedin_provider.erl"
+					],
+					[
+						"searb",
+						"search/test/spec/basic.rb"
+					],
+					[
+						"redo_redis_proto",
+						"erlang_contribs/redo/src/redo_redis_proto.erl"
+					],
+					[
+						"redo",
+						"erlang_contribs/redo/src/redo.erl"
+					],
+					[
+						"cop",
+						"erlang_contribs/connection_pool/src/connection_pool.erl"
+					],
+					[
+						"cxpie",
+						"erlang_contribs/cxlib/src/pi.erl"
+					],
+					[
+						"cxpi",
+						"erlang_contribs/cxlib/include/pi.hrl"
+					],
+					[
+						"pi.e",
+						"chupacabra/src/pi.erl"
+					],
+					[
+						"krad",
+						"kraken/src/kraken_dummy_provider.erl"
+					],
+					[
+						"chu",
+						"chupacabra/src/chupacabra_api.erl"
+					],
+					[
+						"dumm",
+						"kraken/src/kraken_dummy_provider.erl"
+					],
+					[
+						"read",
+						"README"
+					],
+					[
+						"deve",
+						"doc/development.rdoc"
+					],
+					[
+						"searc",
+						"search/src/search_internal_api.erl"
+					],
+					[
+						"cxped",
+						"/home/jlarky/bins/cx_test_pedal"
+					],
+					[
+						"mea",
+						"medusa/src/medusa_api.erl"
+					],
+					[
+						"map",
+						"medusa/src/medusa_api.erl"
+					],
+					[
+						"pio",
+						"medusa/src/pi_out.erl"
+					],
+					[
+						"medu",
+						"medusa/src/medusa_api.erl"
+					],
+					[
+						"doc",
+						"doc/servers.rdoc"
+					],
+					[
+						"rdo",
+						"doc/servers.rdoc"
+					],
+					[
+						"rdoc",
+						"doc/development.rdoc"
+					],
+					[
+						"medo",
+						"medusa/src/medusa_out.erl"
+					],
+					[
+						"pgsql",
+						"erlang_contribs/epgsql/src/pgsql.erl"
+					],
+					[
+						"cxl",
+						"erlang_contribs/cxlib/src/cxlib.erl"
+					],
+					[
+						"cxli",
+						"erlang_contribs/cxlib/src/cxlib.erl"
+					],
+					[
+						"krat",
+						"kraken/src/kraken_twitter_provider.erl"
+					],
+					[
+						"cxlib",
+						"erlang_contribs/cxlib/src/cxlib.erl"
+					],
+					[
+						"searak",
+						"search/test/Rakefile"
+					],
+					[
+						"ustring",
+						"erlang_contribs/starling/src/ustring.erl"
+					],
+					[
+						"krasu",
+						"kraken/src/kraken_sup.erl"
+					],
+					[
+						"goog",
+						"kraken/include/google.hrl"
+					],
+					[
+						"gos",
+						"kraken/include/google.hrl.source"
+					],
+					[
+						"ba",
+						"tests/kraken.tester/bash_test.sh"
+					],
+					[
+						"goo",
+						"kraken/doc/google.txt"
+					],
+					[
+						"toke",
+						"kraken/include/token_pool.hrl"
+					],
+					[
+						"q",
+						"kraken/src/kraken_queue_manager.erl"
+					],
+					[
+						"krap",
+						"kraken/src/kraken_token_pool.erl"
+					],
+					[
+						"krago",
+						"kraken/src/kraken_google_provider.erl"
+					],
+					[
+						"krae",
+						"kraken/src/kraken.erl"
+					],
+					[
+						"face",
+						"kraken/include/facebook.hrl"
+					],
+					[
+						"oau",
+						"erlang_contribs/erlang-oauth/src/oauth.erl"
+					],
+					[
+						"kran.e",
+						"kraken/src/kraken.erl"
+					],
+					[
+						"tok",
+						"kraken/include/token_pool.hrl"
+					],
+					[
+						"kratop",
+						"kraken/src/kraken_token_pool.erl"
+					],
+					[
+						"kraa",
+						"kraken/src/kraken_oauth.erl"
+					],
+					[
+						"mak",
+						"kraken/Makefile"
+					],
+					[
+						"fa",
+						"kraken/src/kraken_facebook_provider.erl"
+					],
+					[
+						"oa",
+						"erlang_contribs/erlang-oauth/src/oauth.erl"
+					],
+					[
+						"cxpa",
+						"/home/jlarky/bins/cx_test_pedal"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"selected_items":
+				[
+					[
+						"",
+						"/home/jlarky/.sublime/kakaweb.sublime-project"
+					]
+				],
+				"width": 380.0
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 206.0,
+			"status_bar_visible": true,
+			"window_id": 21,
+			"workspace_name": "/media/data/jlarky/work/erlang-us/cx.sublime-project"
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+			"/media/data/jlarky/work/erlang-us/cx.sublime-project",
+			"/home/jlarky/omni/solar-extremes.sublime-project",
+			"/home/jlarky/.sublime/kakaweb.sublime-project",
+			"/home/jlarky/.sublime/kakaserver.sublime-project",
+			"/media/data/jlarky/scientific work/master_work/master_work.sublime-project"
+		]
+	}
+}
