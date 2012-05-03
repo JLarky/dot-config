@@ -1,0 +1,5 @@
+{
+	"cmd": ["coffee", "$file"],
+	"file_regex": "^(...*?):([0-9]*):?([0-9]*)",
+	"selector": "coffee.ruby"
+}

@@ -1,5 +1,5 @@
 {
-	"working_dir": "/x/w/e/c/cx/kraken",
+	"working_dir": "/x/w/e/c/cx/services/kraken",
 	"cmd": ["/home/jlarky/bins/connect_build", "$file_path"],
 	"file_regex":"^([^:]+):([0-9]*):?(.*):?(.*)"
 }
