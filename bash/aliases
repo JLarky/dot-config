@@ -33,3 +33,4 @@ alias mplayerpulse='padsp mplayer -ao oss'
 alias gi='git'
 alias pwgen='pwgen 10'
 
+alias ffrspec='rspec --fail-fast -f d'
