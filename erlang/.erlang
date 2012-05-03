@@ -1,6 +1,6 @@
 case erlang:system_info(otp_release) of
     "R14B04" ->
         code:load_abs("/home/jlarky/.erl/R14/user_default");
-    "R15B" ->
+    "R15B"++_ ->
         code:load_abs("/home/jlarky/.erl/user_default")
 end.
