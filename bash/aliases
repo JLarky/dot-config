@@ -23,6 +23,7 @@ alias er='LC_ALL=ru_RU.utf8 emacs -nw'
 alias ne='netbeans'
 alias es='sublime_text'
 alias atig='tig --all'
+alias got='tig --all --topo-order'
 alias mplayer='mplayer -subcp cp1251'
 
 export EDITOR="emacs -nw"
@@ -32,5 +33,7 @@ alias mplayerpulse='padsp mplayer -ao oss'
 
 alias gi='git'
 alias pwgen='pwgen 10'
+
+alias clive_mp4='clive -f fmt18_360p'
 
 alias ffrspec='rspec --fail-fast -f d'
