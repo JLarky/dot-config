@@ -2,6 +2,7 @@
 if [ -x /usr/bin/dircolors ]; then
     eval "`dircolors -b`"
     alias ls='ls --color=auto'
+    alias less='less -R'
     #alias dir='dir --color=auto'
     #alias vdir='vdir --color=auto'
 
@@ -23,6 +24,7 @@ alias er='LC_ALL=ru_RU.utf8 emacs -nw'
 alias ne='netbeans'
 alias es='sublime_text'
 alias atig='tig --all'
+alias jltig='tig --author=jlarky --date-order --all'
 alias got='tig --all --topo-order'
 alias mplayer='mplayer -subcp cp1251'
 
