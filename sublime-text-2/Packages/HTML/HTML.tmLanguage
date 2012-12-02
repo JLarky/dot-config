@@ -12,6 +12,7 @@
 		<string>inc</string>
 		<string>tmpl</string>
 		<string>tpl</string>
+		<string>et</string>
 		<string>ctp</string>
 	</array>
 	<key>firstLineMatch</key>
