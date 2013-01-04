@@ -3,6 +3,9 @@
 	"installed_packages":
 	[
 		"Package Control",
-		"SublimeLinter"
+		"SmartMarkdown",
+		"SublimeLinter",
+		"SublimeREPL",
+		"SublimErl"
 	]
 }

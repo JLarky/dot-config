@@ -1,0 +1,12 @@
+*.pyc
+*.cache
+Current-Project.disasm
+Current-Project.searches
+Current-Project.sublime-completions
+
+# OSX
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+*.swp
