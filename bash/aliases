@@ -30,7 +30,8 @@ alias mplayer='mplayer -subcp cp1251'
 
 export EDITOR="emacs -nw"
 
-alias copy='rsync -avz --progress -h'
+alias copy='rsync -avz --progress -h --append --partial'
+alias move='copy --remove-source-files'
 alias mplayerpulse='padsp mplayer -ao oss'
 
 alias gi='git'
