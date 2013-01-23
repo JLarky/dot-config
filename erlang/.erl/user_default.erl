@@ -5,6 +5,7 @@
 dbgadd/1, dbgadd/2, dbgdel/1, dbgdel/2, dbgoff/0, lm/0, mm/0]).
 
 -export([time/1, log/2]).
+-export([o/0]).
 
 -import(io, [format/1]).
 
@@ -24,6 +25,7 @@ help() ->
     format("nl() -- load all changed modules on all known nodes\n"),
     format("mm() -- list modified modules\n"),
     format("log(File, Data) -- appends data to logfile\n"),
+    format("o() -- starts Observer\n"),
     true.
 
 dbgtc(File) ->
@@ -136,3 +138,6 @@ time(F) when is_function(F) ->
 
 log(Filename, Data) ->
     file:write_file(Filename, io_lib:format("~99999999999p\n", [Data]), [append]).
+
+o() ->
+    observer:start().
