@@ -26,6 +26,7 @@ alias es='sublime_text'
 alias atig='tig --all'
 alias jltig='tig --author=jlarky --date-order --all'
 alias got='tig --all --topo-order'
+alias di='git diff --no-index' # http://stackoverflow.com/questions/5637311/how-to-use-git-diff-color-words-outside-a-git-repository
 alias mplayer='mplayer -subcp cp1251'
 
 export EDITOR="emacs -nw"
