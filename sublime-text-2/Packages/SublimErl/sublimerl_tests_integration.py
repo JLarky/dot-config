@@ -1,7 +1,7 @@
 # ==========================================================================================================
 # SublimErl - A Sublime Text 2 Plugin for Erlang Integrated Testing & Code Completion
 #
-# Copyright (C) 2012, Roberto Ostinelli <roberto@ostinelli.net>.
+# Copyright (C) 2013, Roberto Ostinelli <roberto@ostinelli.net>.
 # All rights reserved.
 #
 # BSD License
@@ -73,7 +73,7 @@ class SublimErlTestRunner(SublimErlProjectLoader):
 			self.window.run_command("show_panel", {"panel": "output.%s" % self.panel_name})
 
 	def log(self, text):
-		self.panel_buffer += text
+		self.panel_buffer += text.encode('utf-8')
 		sublime.set_timeout(self.update_panel, 0)
 
 	def log_error(self, error_text):
@@ -81,7 +81,7 @@ class SublimErlTestRunner(SublimErlProjectLoader):
 
 	def init_tests(self):
 		if SUBLIMERL.initialized == False:
-			self.log("SublimErl could not be initialized:\n%s\n" % SUBLIMERL.init_error)
+			self.log("SublimErl could not be initialized:\n\n%s\n" % '\n'.join(SUBLIMERL.init_errors))
 
 		# file saved?
 		if self.view.is_scratch():
@@ -224,12 +224,12 @@ class SublimErlEunitTestRunner(SublimErlTestRunner):
 	def get_test_function_name(self):
 		# get current line position
 		cursor_position = self.view.sel()[0].a
-
+		# get module content
 		region_full = sublime.Region(0, self.view.size())
-		content = SUBLIMERL.strip_comments(self.view.substr(region_full))
-
+		module = SUBLIMERL.strip_code_for_parsing(self.view.substr(region_full))
+		# parse regions
 		regex = re.compile(r"([a-z0-9][a-zA-Z0-9_]*_test(_)?\s*\(\s*\)\s*->[^.]*\.)", re.MULTILINE)
-		for m in regex.finditer(content):
+		for m in regex.finditer(module):
 			if m.start() <= cursor_position and cursor_position <= m.end():
 				function_content = m.groups()[0]
 				return function_content[:function_content.index('(')]
@@ -328,16 +328,15 @@ class SublimErlCtTestRunner(SublimErlTestRunner):
 		# get outputs
 		if re.search(r"DONE.", data):
 			# test passed
-			passed_count = re.search(r"(\d+) ok, 0 failed of \d+ test cases", data).group(1)
+			passed_count = re.search(r"(\d+) ok, 0 failed(?:, 1 skipped)? of \d+ test cases", data).group(1)
 			if int(passed_count) > 0:
 				self.log("=> %s TEST(S) PASSED.\n" % passed_count)
 			else:
 				self.log("=> NO TESTS TO RUN.\n")
 
 		elif re.search(r"ERROR: One or more tests failed", data):
-			failed_count = re.search(r"\d+ ok, (\d+) failed of \d+ test cases", data).group(1)
+			failed_count = re.search(r"\d+ ok, (\d+) failed(?:, 1 skipped)? of \d+ test cases", data).group(1)
 			self.log("\n=> %s TEST(S) FAILED.\n" % failed_count)
-			self.log("** Hint: hit Ctrl-Alt-F8 (by default) to show a browser with Common Tests' results. **\n")
 
 		else:
 			self.log("\n=> TEST(S) FAILED.\n")
@@ -356,7 +355,7 @@ class SublimErlTestRunners():
 		test_runner.start_test()
 
 	def ct_or_eunit_test(self, view, new=True):
-		if SUBLIMERL.get_erlang_module_name(view).find("_SUITE") != -1:
+		if SUBLIMERL.last_test_type == 'ct' or SUBLIMERL.get_erlang_module_name(view).find("_SUITE") != -1:
 			# ct
 			test_runner = SublimErlCtTestRunner(view)
 		else:

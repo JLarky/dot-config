@@ -1,0 +1,2494 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pa",
+				"payload"
+			],
+			[
+				"ex",
+				"exp	Export Directive"
+			],
+			[
+				"Res",
+				"Results"
+			],
+			[
+				"Re",
+				"Results"
+			],
+			[
+				"REs",
+				"Results"
+			],
+			[
+				"I",
+				"AdId"
+			],
+			[
+				"campa",
+				"campaign_id"
+			],
+			[
+				"mer",
+				"merge_tasks"
+			],
+			[
+				"err",
+				"error"
+			],
+			[
+				"tre",
+				"true"
+			],
+			[
+				"Err",
+				"Errors"
+			],
+			[
+				"f",
+				"format_error"
+			],
+			[
+				"in",
+				"include"
+			],
+			[
+				"Rep",
+				"Reply"
+			],
+			[
+				"Mes",
+				"Messages"
+			],
+			[
+				"timer",
+				"timers"
+			],
+			[
+				"Reply",
+				"ReplyTo"
+			],
+			[
+				"repl",
+				"reply_to"
+			],
+			[
+				"test",
+				"test4"
+			],
+			[
+				"call",
+				"callbacks"
+			],
+			[
+				"Repl",
+				"ReplyTo"
+			],
+			[
+				"REc",
+				"RecvCallback"
+			],
+			[
+				"TPF",
+				"TPF_Message"
+			],
+			[
+				"TPFM",
+				"TPF_Message_Spec"
+			],
+			[
+				"am",
+				"amqp_msg"
+			],
+			[
+				"Time",
+				"Timers"
+			],
+			[
+				"time",
+				"timers"
+			],
+			[
+				"sta",
+				"state"
+			],
+			[
+				"start",
+				"start_timer"
+			],
+			[
+				"REpl",
+				"ReplyVersion"
+			],
+			[
+				"maj",
+				"MajorVersion"
+			],
+			[
+				"MVE",
+				"MajorVersion"
+			],
+			[
+				"Pa",
+				"Payload"
+			],
+			[
+				"pro",
+				"Protocol"
+			],
+			[
+				"uu",
+				"UUID"
+			],
+			[
+				"nnvou",
+				"new_not_vouched"
+			],
+			[
+				"PL",
+				"PuidsL"
+			],
+			[
+				"Pui",
+				"Puids"
+			],
+			[
+				"IN",
+				"InternalEndpoint"
+			],
+			[
+				"not",
+				"notvouched"
+			],
+			[
+				"TC",
+				"TagCount"
+			],
+			[
+				"unde",
+				"undefined"
+			],
+			[
+				"E",
+				"Endpoint"
+			],
+			[
+				"ppu",
+				"profile_puid3"
+			],
+			[
+				"su",
+				"suggested"
+			],
+			[
+				"extac",
+				"extract_curated_tags_res"
+			],
+			[
+				"pui",
+				"puid"
+			],
+			[
+				"FCou",
+				"FriendsCount"
+			],
+			[
+				"job",
+				"job"
+			],
+			[
+				"prp",
+				"profile_puid1"
+			],
+			[
+				"con",
+				"connected_accounts"
+			],
+			[
+				"ba",
+				"badge_id"
+			],
+			[
+				"FCoun",
+				"FollowersCount"
+			],
+			[
+				"hoo",
+				"hoopsnake_smtp"
+			],
+			[
+				"proi",
+				"proid"
+			],
+			[
+				"wait",
+				"wait_for_job"
+			],
+			[
+				"pu",
+				"puid"
+			],
+			[
+				"cx",
+				"cxlib"
+			],
+			[
+				"use",
+				"user_puid1"
+			],
+			[
+				"jo",
+				"job"
+			],
+			[
+				"vouc",
+				"vouch"
+			],
+			[
+				"vouch",
+				"vouches"
+			],
+			[
+				"R",
+				"RenderImage"
+			],
+			[
+				"gsu",
+				"gsub"
+			],
+			[
+				"res",
+				"response"
+			],
+			[
+				"car",
+				"card"
+			],
+			[
+				"ca",
+				"card"
+			],
+			[
+				"sw",
+				"stroke_width"
+			],
+			[
+				"gs",
+				"gsub"
+			],
+			[
+				"ste",
+				"score_text"
+			],
+			[
+				"para",
+				"params"
+			],
+			[
+				"fa",
+				"fail_message"
+			],
+			[
+				"cid",
+				"comment_id"
+			],
+			[
+				"admi",
+				"admin"
+			],
+			[
+				"pp",
+				"p_puid"
+			],
+			[
+				"parm",
+				"parameter_puid"
+			],
+			[
+				"join",
+				"join_invided"
+			],
+			[
+				"memb",
+				"member"
+			],
+			[
+				"inv",
+				"invited_puid2"
+			],
+			[
+				"ad",
+				"admin_puid"
+			],
+			[
+				"comm",
+				"community"
+			],
+			[
+				"des",
+				"describe"
+			],
+			[
+				"an",
+				"anyone"
+			],
+			[
+				"ins",
+				"inspect"
+			],
+			[
+				"c1",
+				"comment1_puid"
+			],
+			[
+				"comme",
+				"comment"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"Pro",
+				"Provider"
+			],
+			[
+				"sub",
+				"sublist"
+			],
+			[
+				"Prf",
+				"Profiles"
+			],
+			[
+				"all",
+				"allow"
+			],
+			[
+				"meb",
+				"not_member"
+			],
+			[
+				"opt",
+				"open_community"
+			],
+			[
+				"set",
+				"set_auth_puid"
+			],
+			[
+				"ope",
+				"open"
+			],
+			[
+				"tes",
+				"test_function"
+			],
+			[
+				"getjo",
+				"get_job_id_and_make_sure_its_valid"
+			],
+			[
+				"Para",
+				"parameters"
+			],
+			[
+				"crea",
+				"create_community"
+			],
+			[
+				"user",
+				"Username"
+			],
+			[
+				"Head",
+				"header"
+			],
+			[
+				"head",
+				"header"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"TrustLeve",
+				"TrustLevelImage"
+			],
+			[
+				"di",
+				"dummy_id"
+			],
+			[
+				"du",
+				"dummy_id"
+			],
+			[
+				"tr",
+				"tr"
+			],
+			[
+				"trus",
+				"trust_level"
+			],
+			[
+				"inf",
+				"info_li"
+			],
+			[
+				"ava",
+				"avatar_img"
+			],
+			[
+				"com",
+				"complete"
+			],
+			[
+				"ST",
+				"Status"
+			],
+			[
+				"St",
+				"String"
+			],
+			[
+				"SCa",
+				"SourceCard"
+			],
+			[
+				"new",
+				"vouch_on_new_tag_email"
+			],
+			[
+				"op",
+				"opaque"
+			],
+			[
+				"Tag",
+				"TagName"
+			],
+			[
+				"rece",
+				"RecipientPuid"
+			],
+			[
+				"Atok",
+				"AuthenticationToken"
+			],
+			[
+				"Ta",
+				"Tag"
+			],
+			[
+				"W",
+				"WEEK_TO_SECONDS"
+			],
+			[
+				"DA",
+				"DAY_TO_SECONDS"
+			],
+			[
+				"Fn",
+				"FirstName"
+			],
+			[
+				"s",
+				"sha"
+			],
+			[
+				"sha",
+				"sha_hash"
+			],
+			[
+				"H",
+				"HTML"
+			],
+			[
+				"DEB",
+				"DEBUG_CALL"
+			],
+			[
+				"F",
+				"FromTs"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "\n\ntpf_server:start(<<\"sfd\">>).\n\neva_tpf:test3().\n\ngproc:where({n,l,{eva_account_tail,<<\"123\">>}})\n\n\n{ok, Receiver} = amqp_receiver:start(<<\"foobar\">>, <<>>, fun(Tag, Message) -> error_logger:error_msg(\">>~p\", [{Message}]) end).\n",
+			"settings":
+			{
+				"buffer_size": 228,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/x/w/e/t/adam/Makefile",
+			"settings":
+			{
+				"buffer_size": 322,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/x/w/e/t/adam/apps/adam/src/adam_app.erl",
+			"settings":
+			{
+				"buffer_size": 514,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/x/w/e/t/adam/apps/adam/src/adam_sup.erl",
+			"settings":
+			{
+				"buffer_size": 428,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/x/w/e/t/adam/apps/adam/src/adam_mysql_watcher.erl",
+			"settings":
+			{
+				"buffer_size": 2064,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/x/w/e/t/ads/node/administer.js",
+			"settings":
+			{
+				"buffer_size": 22728,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/x/w/e/t/adam/deps/erlang_helpers/src/env.erl",
+			"settings":
+			{
+				"buffer_size": 464,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/connect.sublime-build",
+	"command_palette":
+	{
+		"height": 112.0,
+		"selected_items":
+		[
+			[
+				"go",
+				"Set Syntax: Go"
+			],
+			[
+				"p",
+				"Package Control: Disable Package"
+			],
+			[
+				"repl",
+				"SublimeREPL: Erlang"
+			],
+			[
+				"ip",
+				"Package Control: Install Package"
+			],
+			[
+				"inpa",
+				"Package Control: Install Package"
+			],
+			[
+				"para",
+				"Package Control: Install Package"
+			],
+			[
+				"ma",
+				"Set Syntax: Markdown"
+			],
+			[
+				"m",
+				"Set Syntax: Markdown"
+			],
+			[
+				"mm",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"mark",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"ww",
+				"Word Wrap: Toggle"
+			],
+			[
+				"cloju",
+				"Set Syntax: Clojure"
+			],
+			[
+				"h",
+				"Set Syntax: HTML"
+			],
+			[
+				"ru",
+				"Set Syntax: Ruby"
+			],
+			[
+				"jso",
+				"Set Syntax: JSON"
+			],
+			[
+				"er",
+				"Set Syntax: Erlang"
+			],
+			[
+				"erl",
+				"Set Syntax: Erlang"
+			],
+			[
+				"hh",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"htmler",
+				"Set Syntax: HTML (Erlang)"
+			],
+			[
+				"erla",
+				"Set Syntax: Erlang"
+			],
+			[
+				"sort",
+				"Sort Lines"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"wor",
+				"Word Wrap: Toggle"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"lint",
+				"SublimeLinter: Extract Annotations"
+			],
+			[
+				"Package Control: Install Package",
+				"Package Control: Install Package"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"tc",
+				"Convert Case: Title Case"
+			],
+			[
+				"cu",
+				"Convert Case: Upper Case"
+			],
+			[
+				"ct",
+				"Convert Case: Title Case"
+			],
+			[
+				"",
+				"Convert Case: Title Case"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 311.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": true,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/x/w/e/t/adam/apps/adam/src/adam_mysql_watcher_sup.erl",
+		"/x/w/e/t/adam/config/stage",
+		"/x/w/e/t/adam/config/base",
+		"/x/w/e/t/adam/rel/files/sys-stage.config",
+		"/x/w/e/t/adam/rel/files/sys.config",
+		"/x/w/e/t/adam/rel/files/sys.config.source",
+		"/x/w/e/t/adam/rel/files/sys-dev.config",
+		"/home/jlarky/dot-config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/jlarky/dot-config/sublime-text-2/pjcts/thz",
+		"/x/w/e/t/erlang-vk-api/apps/eva/src/mysql/eva_mysql_watcher.erl",
+		"/x/w/e/t/adam/rel/files/vm.args.source",
+		"/x/w/e/t/erlang-vk-api/rel/files/sys.config",
+		"/x/w/e/t/adam/config/dev",
+		"/x/w/e/c/cx/services/kraken/Makefile",
+		"/x/w/e/c/cx/services/Makefile",
+		"/home/jlarky/bins/connect_build",
+		"/x/w/e/t/erlang-vk-api/apps/eva/src/handlers/v0_0/tpf_eva.erl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/priv/send.py",
+		"/x/w/e/t/adam/.gitignore",
+		"/x/w/e/t/adam/Makefile",
+		"/x/w/e/t/adam/apps/adam/src/adam_app.erl",
+		"/x/w/e/t/adam/README",
+		"/x/w/e/t/amqp-sender/src/amqp_sender_sup.erl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/src/handlers/v0_0/ads/vk_ads_update.erl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/src/token/eva_token_worker.erl",
+		"/x/w/e/t/ads/node/app/api/providers/vk/request.js",
+		"/x/w/e/t/ads/node/app/ads/ads.js",
+		"/x/w/e/t/ads/node/app/accounts/watches/factory.js",
+		"/x/w/e/t/erlang-vk-api/deps/tpf_server/src/tpf_server_handler_worker.erl",
+		"/x/w/e/t/tpf-server/src/tpf_server_handler_worker.erl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/src/handlers/v0_0/accounts/vk_ads_accounts_get.erl",
+		"/x/w/e/t/erlang-vk-api/rel/files/sys-stage.config",
+		"/x/w/e/t/erlang-vk-api/apps/eva/src/handlers/v1_1/statistics/statistics_demographics_get_v1_1.erl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/src/handlers/v0_0/statistics/vk_targeting_stats_get.erl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/src/handlers/v0_0/statistics/vk_statistics_demographics_get.erl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/priv/requests_example_data.py",
+		"/x/w/e/t/ads/node/administer.js",
+		"/x/w/e/t/chrome_proxy.sh",
+		"/x/w/e/t/erlang-vk-api/apps/eva/src/handlers/v1_1/additional/targeting_stats_get_v1_1.erl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/include/handlers/v1_1/additional/targeting_stats_get_v1_1.hrl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/src/handlers/v0_0/statistics/vk_statistics_budget_get.erl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/include/handlers/v1_1/statistics/statistics_demographics_get_v1_1.hrl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/src/handlers/v1_1/statistics/statistics_budget_get_v1_1.erl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/include/handlers/v1_1/statistics/statistics_budget_get_v1_1.hrl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/src/handlers/v0_0/statistics/vk_ads_statistics_get.erl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/src/handlers/v0_0/ads/vk_ads_ads_delete.erl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/src/handlers/v0_0/ads/vk_ads_get.erl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/src/handlers/v1_1/ads/ads_get_v1_1.erl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/include/handlers/v1_1/ads/ads_get_v1_1.hrl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/src/handlers/v1_1/ads/ads_update_v1_1.erl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/src/handlers/v0_0/campaigns/vk_campaigns_get.erl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/src/tpf/eva_tpf.erl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/include/handlers/v1_1/campaigns/campaigns_get_v1_1.hrl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/src/handlers/v1_1/campaigns/campaigns_get_v1_1.erl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/src/handlers/v0_0/ads/vk_ads_create.erl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/src/etc/method_helpers.erl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/include/handlers/v1_1/ads/ads_update_v1_1.hrl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/include/eva_queue.hrl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/src/handlers/v0_0/campaigns/vk_campaigns_delete.erl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/src/handlers/v0_0/campaigns/vk_campaigns_create.erl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/src/token/eva_token_w.erl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/src/pools/eva_vk_worker.erl",
+		"/x/w/e/t/erlang-vk-api/deps/jiffy_v/src/jiffy_v.erl",
+		"/x/w/e/t/erlang-vk-api/deps/tpf_server/rebar.config",
+		"/x/w/e/t/erlang-vk-api/deps/erlang_helpers/rebar.config",
+		"/x/w/e/t/tpf-client/rebar.config",
+		"/x/w/e/t/erlang-helpers/src/tpf_protocol.erl",
+		"/x/w/e/t/tpf-client/src/tpf_client.erl",
+		"/x/w/e/t/erlang-vk-api/deps/erlang_helpers/src/tpf_protocol.erl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/include/handlers/v1_1/ads/ads_create_v1_1.hrl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/src/handlers/v0_0/additional/vk_suggestions_get.erl",
+		"/home/jlarky/bins/is-landline-up.sh",
+		"/x/w/e/t/erlang-vk-api/apps/eva/src/handlers/v0_0/administration/vk_adm_office_users_add.erl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/src/handlers/v0_0/campaigns/vk_campaigns_update.erl",
+		"/x/w/e/t/erlang-vk-api/log/crash.log",
+		"/x/w/e/t/erlang-vk-api/apps/eva/src/handlers/v0_0/additional/vk_flood_stats_get.erl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/src/handlers/v0_0/additional/vk_rejection_reason_get.erl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/src/handlers/v0_0/additional/vk_upload_url_get.erl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/src/handlers/v0_0/places/vk_places_country_by_id_get.erl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/src/handlers/v0_0/places/vk_places_regions_get.erl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/src/handlers/v0_0/places/vk_places_by_id_get.erl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/src/handlers/v0_0/places/vk_places_street_by_id_get.erl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/src/handlers/v0_0/places/vk_places_countries_get.erl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/src/etc/eva_vk.erl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/src/eva_app.erl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/src/eva.erl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/src/handlers/v0_0/places/vk_places_cities_get.erl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/src/handlers/v0_0/places/vk_places_city_by_id_get.erl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/ebin/vk_places_city_by_id_get.beam",
+		"/x/w/e/t/erlang-vk-api/apps/eva/src/handlers/v0_0/clients/vk_ads_clients_create.erl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/src/handlers/v0_0/clients/vk_ads_clients_get.erl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/src/account/eva_account_head.erl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/src/handlers/v0_0/administration/vk_adm_office_users_remove.erl",
+		"/x/w/e/t/erlang-vk-api/tail.txt",
+		"/x/w/e/t/erlang-vk-api/apps/eva/src/handlers/v0_0/administration/vk_adm_office_users_get.erl",
+		"/x/w/e/t/erlang-vk-api/merge.sh",
+		"/x/w/e/t/erlang-vk-api/apps/eva/src/handlers/v1_1/ads/ads_create_v1_1.erl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/include/handlers/v1_1/administration/adm_office_users_add_v1_1.hrl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/src/handlers/v0_0/eva/vk_eva_link_add.erl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/src/handlers/v1_1/eva/eva_account_remove_v1_1.erl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/src/handlers/v0_0/groups/vk_groups_search.erl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/src/handlers/v0_0/groups/vk_groups_by_id_get.erl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/src/handlers/v0_0/groups/vk_groups_is_member_get.erl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/src/handlers/v0_0/groups/vk_groups_get.erl",
+		"/x/w/e/t/tpf-client/src/tpf_client_worker.erl",
+		"/x/w/e/t/erlang-vk-api/head.txt",
+		"/x/w/e/t/vk-ads/rebar.config",
+		"/x/w/e/t/tpf-server/src/tpf_server_listener_worker.erl",
+		"/x/w/e/t/tpf-server/src/tpf_server.erl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/src/account/eva_account.erl",
+		"/x/w/e/t/erlang-vk-api/apps/eva/priv/account-dump.sql",
+		"/x/w/e/t/erlang-vk-api/apps/eva/src/account/eva_account_tail.erl",
+		"/x/w/e/t/erlang-vk-api/erl_crash.dump",
+		"/home/jlarky/bins/connect_",
+		"/home/jlarky/.ssh/config",
+		"/x/w/e/t/tpf-server/src/tpf_server_sup.erl",
+		"/x/w/e/t/vk-ads/deps/tpf_server/src/tpf_server_handler_worker.erl",
+		"/x/w/e/t/vk-ads/apps/vk_ads/src/handlers/tpf_vk_ads_migrate.erl",
+		"/x/w/e/t/vk-ads/apps/vk_ads/src/handlers/tpf_vk_ads.erl",
+		"/x/w/e/t/vk-ads/apps/vk_ads/src/handlers/vk_ads_handler.erl",
+		"/home/jlarky/aga_erly/worktime.erl",
+		"/x/w/e/t/vk-trader/deps/tpf_client/src/tpf_client_worker.erl",
+		"/x/w/e/t/vk-trader/apps/vk_trader/src/amqp/vk_trader_amqp_worker.erl",
+		"/x/w/e/t/vk-trader/apps/vk_trader/src/amqp/vk_trader_amqp_reply_worker.erl",
+		"/x/w/e/t/vk-trader/apps/vk_trader/src/ad/vk_trader_ad_sync.erl",
+		"/x/w/e/t/vk-trader/apps/vk_trader/src/ad/vk_trader_ad.erl",
+		"/x/w/e/t/vk-trader/rel/files/sys-dev.config",
+		"/x/w/e/t/erlang-helpers/.gitignore"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/x/w/e/t",
+			"/x/w/e/c/cx/",
+			"/x/w/e/c/cx/services/spec",
+			"/x/w/e/c/cx/services",
+			"/x/w/e/c/cx/",
+			"/x/w/e/c/cx/services/spec",
+			"/x/w/e/c/cx/",
+			"/x/w/e/c/cx/services/spec",
+			"/x/w/e/c/cx/",
+			"/x/w/e/c/cx/services/spec",
+			"/x/w/e/c/cx/",
+			"/x/w/e/c/cx/services",
+			"services"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"info",
+			"debug",
+			"root",
+			"administer_dev",
+			"667",
+			"eva",
+			"DEFAULT_DATABASE",
+			":env(",
+			"env",
+			"env:env",
+			"eva",
+			"ctrl+s\"",
+			"ctrl+s",
+			"administer_dev",
+			"MYSQL_PASSWORD",
+			"ADAM_",
+			"ADAM_MYSQL_",
+			"5672",
+			"localhost",
+			"ESTATSD_INTERVAL",
+			"ADAM_ERLANG_NODE_NAME",
+			"ESTATSD_HOST",
+			"estatsd",
+			"confi",
+			"app",
+			"erlang-vk-api",
+			"VMARGS_PATH",
+			"vm.ar",
+			"erl",
+			"required",
+			"=======",
+			"INVALID_PROTOCOL",
+			"INVALID",
+			"9876",
+			"2Urobv6691lHL9LQ",
+			"_v1_1",
+			"FIELD_CRITERIA",
+			"vk_targeting_stats_get",
+			"IDS",
+			"?FIELD_",
+			"FIELD_TYPE",
+			"vk_statistics_demographics_get",
+			"IDS",
+			"FIELD_",
+			"_v1_1",
+			"targeting_stats_get_v1_1",
+			"INCLUDE_DELETED",
+			"?FIELD_",
+			"FIELD_ACCOUNT_ID",
+			"_v1_1",
+			"validate",
+			"_v1_1",
+			"campaigns_get_v1_1",
+			"13",
+			"d657b7c545f6ca76a9f082d5bfe853e1281ea1c3609ecce256588f769d2d6398850b13021fcf8b38221b4",
+			"ads_update",
+			"payload_size",
+			"validate, [?FIELD_DATA",
+			"?FIELD_DATA",
+			"FIELD_ACCOUNT_ID",
+			"vk_ads_update",
+			"ads_update_v1_1",
+			"ads_update",
+			"update",
+			"d[method]",
+			"payload",
+			"parse_response",
+			"validate",
+			"when",
+			"list",
+			"revers",
+			"map",
+			".copy",
+			"data",
+			"create",
+			"Results",
+			"TaskResultList",
+			"Result",
+			"Results",
+			"TaskResultList",
+			"Results",
+			"Task",
+			"Tasks",
+			"OriginalTasks",
+			"size",
+			"Data",
+			"Key",
+			"FIELD_ACCOUNT_ID",
+			"FIELD_DATA",
+			"?FIELD_DATA,",
+			"?FIELD_DATA",
+			"INFO",
+			"TYPE",
+			"ads_create_v1_1",
+			"vk_ads_create",
+			"_v1_1",
+			"campaigns_get_v1_1",
+			"INCLUDE_DELETED",
+			"?FIELD_",
+			"FIELD_",
+			"campaigns_get_v1_1",
+			"campaigns_get",
+			"campaign_id",
+			"campaigns_delete",
+			"campaigns_get",
+			"ids",
+			"8238744",
+			"]}\n",
+			"8238744",
+			"ids",
+			"campaigns_delete",
+			"suggestions_get",
+			"campaigns_delete",
+			"emysql",
+			"merge_tagsks_by",
+			"tagsks",
+			"_v1_1",
+			"flood_stats_get",
+			"suggestions_get",
+			"FIELD_CITIES",
+			"FIELD_COUNTRY",
+			"FIELD_Q",
+			"FIELD_SECTION",
+			"vk_groups_get",
+			"vk_suggestions_get",
+			"rejection_reason_get",
+			" '",
+			"flood_stats_get"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"merge_tasks_by",
+			"<<\"gid\">>",
+			"    ",
+			"<% html:trim",
+			"eef804689cb95e63dee8884c65a45d25",
+			"c39b33165b04646fd53c45fc8b920e32",
+			"0fe14af57d2b3372920c95b28418c0b5",
+			"c9c07f469c82d7aa92b4ecd476c89e01",
+			"            log_to_file(Url, Opts, OAuthData, {body, Body}, OriginalResponse),\n",
+			"        false ->\n            do_nothing;\n        true ->\n            NewData = case Data of\n                {body, Body} ->\n                    catch jiffy:decode(iolist_to_binary(Body));\n                _ ->\n                    Data\n            end,\n            log_to_file2(Url, Opts, OauthData, NewData, OriginalResponse)\n",
+			"module = ?MODULE",
+			"kraken:utc_sec() + ",
+			"fb97cedadf7f2f2ae66194d496830d1a",
+			"AAACNVL9lIPMBABJmbpLpIqV4VE8ayZAQeG1TNBhpDijzKUda1Sd8d8Hx5if9aY3xnIGeeOOIWHFaiPQaYZCdm3N99KpwUamFBHZB1lZAzwZDZD",
+			"77bde07bb9d093d83d75b8c24b8b8da8",
+			"c00f3762390bb9c14e760f1aa0f59099",
+			"8078e31bc2a791f07495f6601a4a8441",
+			"kraken:utc_sec()",
+			"token_was_reset",
+			"<<\"proid\">>",
+			"jobs",
+			"wait_for_jobs(@jobs)",
+			"user_recommended_by_in_res",
+			"user_recommends_res(",
+			"user_recommended_by_res",
+			"user_extended_network_recommends_tags_res",
+			"user_network_recommends_tags_res",
+			"user_network_res",
+			"user_recommends_tags_res",
+			"user_extended_network_tags_res",
+			"user_network_tags_res",
+			"user_tags_res",
+			"user_recommended_by_user_in_res",
+			"xit \"",
+			"\\1,\\ \\2",
+			"\\\\1,\\ \\\\2",
+			"\\1,\\ \\2",
+			", ",
+			"\\\"",
+			"\"",
+			"\\\"",
+			"\\t",
+			"\"",
+			"\\\"",
+			"\\t",
+			"",
+			"#p{body",
+			"p",
+			"\\t",
+			"listitem",
+			"\\\"",
+			"/nitrogen/js/",
+			"/nitrogen/js",
+			"-",
+			"\\t"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"settings":
+					{
+						"buffer_size": 228,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								99,
+								99
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/x/w/e/t/adam/Makefile",
+					"settings":
+					{
+						"buffer_size": 322,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								320,
+								320
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Makefile/Makefile.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/x/w/e/t/adam/apps/adam/src/adam_app.erl",
+					"settings":
+					{
+						"buffer_size": 514,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								496,
+								496
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Erlang/Erlang.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/x/w/e/t/adam/apps/adam/src/adam_sup.erl",
+					"settings":
+					{
+						"buffer_size": 428,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								70,
+								70
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Erlang/Erlang.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/x/w/e/t/adam/apps/adam/src/adam_mysql_watcher.erl",
+					"settings":
+					{
+						"buffer_size": 2064,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2043,
+								2043
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Erlang/Erlang.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 420.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/x/w/e/t/ads/node/administer.js",
+					"settings":
+					{
+						"buffer_size": 22728,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								22413,
+								22413
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 14843.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/x/w/e/t/adam/deps/erlang_helpers/src/env.erl",
+					"settings":
+					{
+						"buffer_size": 464,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Erlang/Erlang.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 294.0
+	},
+	"output.sublimerl_autocompiler":
+	{
+		"height": 130.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 130.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"adam/apps/adam/src/adam_mysql_watcher.erl"
+			],
+			[
+				"env",
+				"adam/deps/erlang_helpers/src/env.erl"
+			],
+			[
+				"admini",
+				"ads/node/administer.js"
+			],
+			[
+				"syscon",
+				"adam/rel/files/sys.config"
+			],
+			[
+				"adamapp",
+				"adam/apps/adam/src/adam_app.erl"
+			],
+			[
+				"src/amqp_sender_sup.erl",
+				"amqp-sender/src/amqp_sender_sup.erl"
+			],
+			[
+				"ads_update",
+				"erlang-vk-api/apps/eva/src/handlers/v0_0/ads/vk_ads_update.erl"
+			],
+			[
+				"etw",
+				"erlang-vk-api/apps/eva/src/token/eva_token_worker.erl"
+			],
+			[
+				"vkreq",
+				"ads/node/app/api/providers/vk/request.js"
+			],
+			[
+				"adsjs",
+				"ads/node/app/ads/ads.js"
+			],
+			[
+				"facto",
+				"ads/node/app/accounts/watches/factory.js"
+			],
+			[
+				"a",
+				"ads/node/administer.js"
+			],
+			[
+				"tpshawo",
+				"tpf-server/src/tpf_server_handler_worker.erl"
+			],
+			[
+				"tpf_eva",
+				"erlang-vk-api/apps/eva/src/handlers/v0_0/tpf_eva.erl"
+			],
+			[
+				"accouget",
+				"erlang-vk-api/apps/eva/src/handlers/v0_0/accounts/vk_ads_accounts_get.erl"
+			],
+			[
+				"stage",
+				"erlang-vk-api/rel/files/sys-stage.config"
+			],
+			[
+				"demogra",
+				"erlang-vk-api/apps/eva/src/handlers/v1_1/statistics/statistics_demographics_get_v1_1.erl"
+			],
+			[
+				"targeting_stats_get_v1_1",
+				"erlang-vk-api/apps/eva/src/handlers/v1_1/additional/targeting_stats_get_v1_1.erl"
+			],
+			[
+				"statistics_demographics_get_v1_1",
+				"erlang-vk-api/apps/eva/src/handlers/v1_1/statistics/statistics_demographics_get_v1_1.erl"
+			],
+			[
+				"statistics_budget_get_v1_1",
+				"erlang-vk-api/apps/eva/src/handlers/v1_1/statistics/statistics_budget_get_v1_1.erl"
+			],
+			[
+				"ads_get_v1_1",
+				"erlang-vk-api/apps/eva/src/handlers/v1_1/ads/ads_get_v1_1.erl"
+			],
+			[
+				"vk_campaigns_get",
+				"erlang-vk-api/apps/eva/src/handlers/v0_0/campaigns/vk_campaigns_get.erl"
+			],
+			[
+				"campaigns_get_v1_1",
+				"erlang-vk-api/apps/eva/include/handlers/v1_1/campaigns/campaigns_get_v1_1.hrl"
+			],
+			[
+				"apps/eva/src/handlers/v1_1/campaigns/campaigns_get_v1_1.erl",
+				"erlang-vk-api/apps/eva/src/handlers/v1_1/campaigns/campaigns_get_v1_1.erl"
+			],
+			[
+				"method_helpers",
+				"erlang-vk-api/apps/eva/src/etc/method_helpers.erl"
+			],
+			[
+				"adupda",
+				"erlang-vk-api/apps/eva/src/handlers/v1_1/ads/ads_update_v1_1.erl"
+			],
+			[
+				"tpfpro",
+				"erlang-helpers/src/tpf_protocol.erl"
+			],
+			[
+				"tpfcl",
+				"tpf-client/src/tpf_client.erl"
+			],
+			[
+				"jiffy_v",
+				"erlang-vk-api/deps/jiffy_v/src/jiffy_v.erl"
+			],
+			[
+				"ads_create_v1_1",
+				"erlang-vk-api/apps/eva/src/handlers/v1_1/ads/ads_create_v1_1.erl"
+			],
+			[
+				"camgethrl",
+				"erlang-vk-api/apps/eva/include/handlers/v1_1/campaigns/campaigns_get_v1_1.hrl"
+			],
+			[
+				"campaigns_delete",
+				"erlang-vk-api/apps/eva/src/handlers/v0_0/campaigns/vk_campaigns_delete.erl"
+			],
+			[
+				"mysqwa",
+				"erlang-vk-api/apps/eva/src/mysql/eva_mysql_watcher.erl"
+			],
+			[
+				"helper",
+				"erlang-vk-api/apps/eva/src/etc/method_helpers.erl"
+			],
+			[
+				"vk_suggestions_get",
+				"erlang-vk-api/apps/eva/src/handlers/v0_0/additional/vk_suggestions_get.erl"
+			],
+			[
+				"vk_flood_stats_get",
+				"erlang-vk-api/apps/eva/src/handlers/v0_0/additional/vk_flood_stats_get.erl"
+			],
+			[
+				"vk_rejection_reason_get",
+				"erlang-vk-api/apps/eva/src/handlers/v0_0/additional/vk_rejection_reason_get.erl"
+			],
+			[
+				"vk_upload_url_get",
+				"erlang-vk-api/apps/eva/src/handlers/v0_0/additional/vk_upload_url_get.erl"
+			],
+			[
+				"vk_places_country_by_id_get",
+				"erlang-vk-api/apps/eva/src/handlers/v0_0/places/vk_places_country_by_id_get.erl"
+			],
+			[
+				"vk_places_regions_get",
+				"erlang-vk-api/apps/eva/src/handlers/v0_0/places/vk_places_regions_get.erl"
+			],
+			[
+				"vk_places_by_id_get",
+				"erlang-vk-api/apps/eva/src/handlers/v0_0/places/vk_places_by_id_get.erl"
+			],
+			[
+				"vk_places_street_by_id_get",
+				"erlang-vk-api/apps/eva/src/handlers/v0_0/places/vk_places_street_by_id_get.erl"
+			],
+			[
+				"evavk",
+				"erlang-vk-api/apps/eva/src/etc/eva_vk.erl"
+			],
+			[
+				"evaapp",
+				"erlang-vk-api/apps/eva/src/eva_app.erl"
+			],
+			[
+				"evaerl",
+				"erlang-vk-api/apps/eva/src/eva.erl"
+			],
+			[
+				"vk_places_countries_get",
+				"erlang-vk-api/apps/eva/src/handlers/v0_0/places/vk_places_countries_get.erl"
+			],
+			[
+				"vk_places_cities_get",
+				"erlang-vk-api/apps/eva/src/handlers/v0_0/places/vk_places_cities_get.erl"
+			],
+			[
+				"vk_places_city_by_id_get",
+				"erlang-vk-api/apps/eva/src/handlers/v0_0/places/vk_places_city_by_id_get.erl"
+			],
+			[
+				"vk_campaigns_update",
+				"erlang-vk-api/apps/eva/src/handlers/v0_0/campaigns/vk_campaigns_update.erl"
+			],
+			[
+				"vk_campaigns_create",
+				"erlang-vk-api/apps/eva/src/handlers/v0_0/campaigns/vk_campaigns_create.erl"
+			],
+			[
+				"clients_get",
+				"erlang-vk-api/apps/eva/src/handlers/v0_0/clients/vk_ads_clients_get.erl"
+			],
+			[
+				"clients_create",
+				"erlang-vk-api/apps/eva/src/handlers/v0_0/clients/vk_ads_clients_create.erl"
+			],
+			[
+				"eva_account_head.erl",
+				"erlang-vk-api/apps/eva/src/account/eva_account_head.erl"
+			],
+			[
+				"vk_campaigns_delete",
+				"erlang-vk-api/apps/eva/src/handlers/v0_0/campaigns/vk_campaigns_delete.erl"
+			],
+			[
+				"vk_adm_office_users_remove",
+				"erlang-vk-api/apps/eva/src/handlers/v0_0/administration/vk_adm_office_users_remove.erl"
+			],
+			[
+				"vk_adm_office_users_get",
+				"erlang-vk-api/apps/eva/src/handlers/v0_0/administration/vk_adm_office_users_get.erl"
+			],
+			[
+				"apps/eva/src/token/eva_token_w.erl",
+				"erlang-vk-api/apps/eva/src/token/eva_token_w.erl"
+			],
+			[
+				"apps/eva/src/handlers/v1_1/ads/ads_create_v1_1.erl",
+				"erlang-vk-api/apps/eva/src/handlers/v1_1/ads/ads_create_v1_1.erl"
+			],
+			[
+				"office_users_add",
+				"erlang-vk-api/apps/eva/include/handlers/v1_1/administration/adm_office_users_add_v1_1.hrl"
+			],
+			[
+				"vk_adm_office_users_add",
+				"erlang-vk-api/apps/eva/src/handlers/v0_0/administration/vk_adm_office_users_add.erl"
+			],
+			[
+				"eva_account_remove",
+				"erlang-vk-api/apps/eva/src/handlers/v1_1/eva/eva_account_remove_v1_1.erl"
+			],
+			[
+				"vk_eva_link_add",
+				"erlang-vk-api/apps/eva/src/handlers/v0_0/eva/vk_eva_link_add.erl"
+			],
+			[
+				"vk_groups_search",
+				"erlang-vk-api/apps/eva/src/handlers/v0_0/groups/vk_groups_search.erl"
+			],
+			[
+				"vk_groups_by_id_get",
+				"erlang-vk-api/apps/eva/src/handlers/v0_0/groups/vk_groups_by_id_get.erl"
+			],
+			[
+				"tpfeva",
+				"erlang-vk-api/apps/eva/src/handlers/v0_0/tpf_eva.erl"
+			],
+			[
+				"vk_groups_is_member_get",
+				"erlang-vk-api/apps/eva/src/handlers/v0_0/groups/vk_groups_is_member_get.erl"
+			],
+			[
+				"apps/eva/src/handlers/v0_0/groups/vk_groups_is_member_get.erl",
+				"erlang-vk-api/apps/eva/src/handlers/v0_0/groups/vk_groups_is_member_get.erl"
+			],
+			[
+				"groget",
+				"erlang-vk-api/apps/eva/src/handlers/v0_0/groups/vk_groups_get.erl"
+			],
+			[
+				"exampl",
+				"erlang-vk-api/apps/eva/priv/requests_example_data.py"
+			],
+			[
+				"tpfclie",
+				"tpf-client/src/tpf_client_worker.erl"
+			],
+			[
+				"tpf_server_listener_worker",
+				"tpf-server/src/tpf_server_listener_worker.erl"
+			],
+			[
+				"tfsever",
+				"tpf-server/src/tpf_server_handler_worker.erl"
+			],
+			[
+				"rebar",
+				"vk-ads/rebar.config"
+			],
+			[
+				"tpfservr",
+				"tpf-server/src/tpf_server.erl"
+			],
+			[
+				"server",
+				"tpf-server/src/tpf_server_handler_worker.erl"
+			],
+			[
+				"tpvk",
+				"vk-ads/apps/vk_ads/src/handlers/tpf_vk_ads.erl"
+			],
+			[
+				"avdsha",
+				"vk-ads/apps/vk_ads/src/handlers/vk_ads_handler.erl"
+			],
+			[
+				"vk_trader_ad_sync",
+				"vk-trader/apps/vk_trader/src/ad/vk_trader_ad_sync.erl"
+			],
+			[
+				"vkhrl",
+				"vk-trader/apps/vk_trader/include/vk_trader.hrl"
+			],
+			[
+				"tpf_server_handler_worker",
+				"tpf-server/src/tpf_server_handler_worker.erl"
+			],
+			[
+				"tpcl",
+				"tpf-client/src/tpf_client.erl"
+			],
+			[
+				"vk_trader_ad",
+				"vk-trader/apps/vk_trader/src/ad/vk_trader_ad.erl"
+			],
+			[
+				"vk_ads_amqp.er",
+				"vk-ads/apps/vk_ads/src/amqp/vk_ads_amqp.erl"
+			],
+			[
+				"vk_ads_amqp_reply_worker",
+				"vk-ads/apps/vk_ads/src/amqp/vk_ads_amqp_reply_worker.erl"
+			],
+			[
+				"tpf_client",
+				"tpf-client/src/tpf_client.erl"
+			],
+			[
+				"vk_trader_amqp_reply_worker",
+				"vk-trader/apps/vk_trader/src/amqp/vk_trader_amqp_reply_worker.erl"
+			],
+			[
+				"opt",
+				"apps/tpf_client/src/opts.erl"
+			],
+			[
+				"amre",
+				"deps/amqp_receiver/src/amqp_receiver_worker.erl"
+			],
+			[
+				"amqp_sender",
+				"deps/amqp_sender/src/amqp_sender.erl"
+			],
+			[
+				"tpf_client_worker",
+				"apps/tpf_client/src/tpf_client_worker.erl"
+			],
+			[
+				"tpf_client_sup",
+				"apps/tpf_client/src/tpf_client_sup.erl"
+			],
+			[
+				"tpf_clienta",
+				"apps/tpf_client/src/tpf_client_app.erl"
+			],
+			[
+				"rewo",
+				"deps/amqp_receiver/src/amqp_receiver_worker.erl"
+			],
+			[
+				"rece",
+				"deps/amqp_receiver/src/amqp_receiver_worker.erl"
+			],
+			[
+				"amqp_receiver_amqp",
+				"deps/amqp_receiver/src/amqp_receiver_amqp.erl"
+			],
+			[
+				"amqp_connection",
+				"deps/amqp_client/src/amqp_connection.erl"
+			],
+			[
+				"amrev",
+				"deps/amqp_receiver/src/amqp_receiver_worker.erl"
+			],
+			[
+				"amqp_sender_amqp",
+				"deps/amqp_sender/src/amqp_sender_amqp.erl"
+			],
+			[
+				"amqp_sender_worker",
+				"deps/amqp_sender/src/amqp_sender_worker.erl"
+			],
+			[
+				"amse",
+				"deps/amqp_sender/src/amqp_sender.erl"
+			],
+			[
+				"asend",
+				"deps/amqp_sender/src/amqp_sender.erl"
+			],
+			[
+				"asw",
+				"deps/amqp_sender/src/amqp_sender_worker.erl"
+			],
+			[
+				"ampwre",
+				"deps/amqp_receiver/src/amqp_receiver_worker.erl"
+			],
+			[
+				"amqp_receiver_worker",
+				"deps/amqp_receiver/src/amqp_receiver_worker.erl"
+			],
+			[
+				"ampre",
+				"deps/amqp_receiver/src/amqp_receiver.erl"
+			],
+			[
+				"asa",
+				"deps/amqp_sender/src/amqp_sender_app.erl"
+			],
+			[
+				"asen",
+				"deps/amqp_sender/src/amqp_sender.erl"
+			],
+			[
+				"ender",
+				"deps/amqp_sender/src/amqp_sender.erl"
+			],
+			[
+				"cxlib_publisher",
+				"services/erlang_contribs/cxlib/src/cxlib_publisher.erl"
+			],
+			[
+				"cxlib_consumer",
+				"services/erlang_contribs/cxlib/src/cxlib_consumer.erl"
+			],
+			[
+				"mpra",
+				"services/medusa/src/medusa_public_read_api.erl"
+			],
+			[
+				"hoopsnake.er",
+				"services/hoopsnake/src/hoopsnake.erl"
+			],
+			[
+				"html",
+				"services/hoopsnake/et/html.et"
+			],
+			[
+				"mostac",
+				"services/hoopsnake/et/most_active_in_network_html.et"
+			],
+			[
+				"hoo",
+				"services/hoopsnake/src/hoopsnake.erl"
+			],
+			[
+				"mostact",
+				"services/hoopsnake/et/most_active_in_network_html.et"
+			],
+			[
+				"new_members_in_network_text",
+				"services/hoopsnake/et/new_members_in_network_text.et"
+			],
+			[
+				"pla",
+				"services/hoopsnake/et/plaintext.et"
+			],
+			[
+				"new_members_in_network_html",
+				"services/hoopsnake/et/new_members_in_network_html.et"
+			],
+			[
+				"plain",
+				"services/hoopsnake/et/plaintext.et"
+			],
+			[
+				"network_need_vouches",
+				"services/hoopsnake/et/network_need_vouches_html.et"
+			],
+			[
+				"hoop",
+				"services/hoopsnake/src/hoopsnake.erl"
+			],
+			[
+				"new",
+				"services/hoopsnake/et/new_members_in_network_html.et"
+			],
+			[
+				"cx.",
+				"services/erlang_contribs/cxlib/include/cx.hrl"
+			],
+			[
+				"newmem",
+				"services/hoopsnake/et/new_members_in_network_html.et"
+			],
+			[
+				"network_need_vouches_html",
+				"services/hoopsnake/et/network_need_vouches_html.et"
+			],
+			[
+				"hco",
+				"services/hoopsnake/src/hoopsnake_constants.erl"
+			],
+			[
+				"vouch",
+				"services/hoopsnake/et/vouches_received_html.et"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/x/w/e/c/cx.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 267.0,
+	"status_bar_visible": true
+}

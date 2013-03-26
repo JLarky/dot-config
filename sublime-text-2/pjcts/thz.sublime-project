@@ -1,0 +1,13 @@
+{
+    "translate_tabs_to_spaces": true, // Set to true to insert spaces when tab is pressed
+    "folders":
+    [
+        {
+            "path": "/x/w/e/t"
+            "folder_exclude_patterns":
+            [
+                ".eunit", "cover", "kraken/cache"
+            ]
+        }
+    ]
+}

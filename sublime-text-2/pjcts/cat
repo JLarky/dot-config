@@ -1,0 +1,14 @@
+{
+	"folders":
+	[
+		{
+			"folder_exclude_patterns":
+			[
+				".eunit",
+				"cover"
+			],
+			"path": "/x/w/e/l/src"
+		}
+	],
+	"translate_tabs_to_spaces": true
+}

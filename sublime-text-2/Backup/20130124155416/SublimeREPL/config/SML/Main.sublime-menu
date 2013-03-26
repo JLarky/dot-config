@@ -1,0 +1,30 @@
+[
+     {
+        "id": "tools",
+        "children":
+        [{
+            "caption": "SublimeREPL",
+            "mnemonic": "r",
+            "id": "SublimeREPL",
+            "children":
+            [
+                {"command": "repl_open",
+                 "caption": "SML",
+                 "id": "repl_sml",
+                 "mnemonic": "r",
+                 "args": {
+                    "type": "subprocess",
+                    "external_id": "sml",
+                    "encoding": "utf8",
+                    "cmd": {"windows": ["sml"],
+                            "linux": ["sml"],
+                            "osx": ["/usr/local/smlnj-110.75/bin/sml"]},
+                    "soft_quit": "\nexit\n",
+                    "cwd": "$file_path",
+                    "syntax": "Packages/SML-Language-Definition/SML.tmLanguage"
+                    }
+                }
+            ]
+        }]
+    }
+]

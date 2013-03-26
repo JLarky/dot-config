@@ -1,7 +1,7 @@
 # ==========================================================================================================
 # SublimErl - A Sublime Text 2 Plugin for Erlang Integrated Testing & Code Completion
 #
-# Copyright (C) 2012, Roberto Ostinelli <roberto@ostinelli.net>.
+# Copyright (C) 2013, Roberto Ostinelli <roberto@ostinelli.net>.
 # All rights reserved.
 #
 # BSD License
@@ -58,8 +58,8 @@ class SublimErlLibParser():
 				rel_dirs.append(root)
 			# loop filenames ending in .erl
 			for filename in fnmatch.filter(filenames, r"*.erl"):
-				if 'src' in root.split('/'):
-					# source file in a src directory
+				if '.eunit' not in root.split('/'):
+					# exclude eunit files
 					filepath = os.path.join(root, filename)
 					# check if in release directory
 					if not (True in [filepath.find(rel_dir) != -1 for rel_dir in rel_dirs]):
@@ -283,7 +283,7 @@ class SublimErlLibParser():
 		current_params = []
 		lineno = 0
 		# get params
-		regex = re.compile(r"%s\((.*)\)\s*->" % fun[0], re.MULTILINE)
+		regex = re.compile(r"%s\((.*)\)\s*->" % re.escape(fun[0]), re.MULTILINE)
 		for m in regex.finditer(module):
 			params = m.groups()[0]
 			# strip out the eventual condition part ('when')

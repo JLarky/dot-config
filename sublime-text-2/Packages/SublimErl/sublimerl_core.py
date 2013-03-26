@@ -1,7 +1,7 @@
 # ==========================================================================================================
 # SublimErl - A Sublime Text 2 Plugin for Erlang Integrated Testing & Code Completion
 #
-# Copyright (C) 2012, Roberto Ostinelli <roberto@ostinelli.net>.
+# Copyright (C) 2013, Roberto Ostinelli <roberto@ostinelli.net>.
 # All rights reserved.
 #
 # BSD License
@@ -27,7 +27,7 @@
 # ==========================================================================================================
 
 # globals
-SUBLIMERL_VERSION = '0.5'
+SUBLIMERL_VERSION = '0.5.1'
 
 # imports
 import sublime, sublime_plugin
@@ -39,7 +39,7 @@ class SublimErlGlobal():
 	def __init__(self):
 		# default
 		self.initialized = False
-		self.init_error = None
+		self.init_errors = []
 
 		self.plugin_path = None
 		self.completions_path = None
@@ -110,7 +110,7 @@ class SublimErlGlobal():
 	def set_paths(self):
 
 		def log(message):
-			self.init_error = message
+			self.init_errors.append(message)
 			print "SublimErl Init Error: %s" % message
 
 		def test_path(path):
@@ -146,9 +146,25 @@ class SublimErlGlobal():
 
 		return True
 
+	def strip_code_for_parsing(self, code):
+		code = self.strip_comments(code)
+		code = self.strip_quoted_content(code)
+		return self.strip_record_with_dots(code)
+
 	def strip_comments(self, code):
 		# strip comments but keep the same character count
 		return re.sub(re.compile(r"%(.*)\n"), lambda m: (len(m.group(0)) - 1) * ' ' + '\n', code)
+
+	def strip_quoted_content(self, code):
+		# strip quoted content
+		regex = re.compile(r"(\"([^\"]*)\")", re.MULTILINE + re.DOTALL)
+		for m in regex.finditer(code):
+			code = code[:m.start()] + (len(m.groups()[0]) * ' ') + code[m.end():]
+		return code
+
+	def strip_record_with_dots(self, code):
+		# strip records with dot notation
+		return re.sub(re.compile(r"(\.[a-z]+)"), lambda m: len(m.group(0)) * ' ', code)
 
 	def get_erlang_module_name(self, view):
 		# find module declaration and get module name
@@ -224,8 +240,8 @@ class SublimErlProjectLoader():
 		self.test_root = os.path.abspath(file_test_root)
 
 	def find_project_roots(self, current_dir, project_root_candidate=None, file_test_root_candidate=None):
-		# if rebar.config or a src directory exists, save as potential candidate
-		if os.path.exists(os.path.join(current_dir, 'rebar.config')) or os.path.exists(os.path.join(current_dir, 'src')):
+		# if rebar.config or an ebin directory exists, save as potential candidate
+		if os.path.exists(os.path.join(current_dir, 'rebar.config')) or os.path.exists(os.path.join(current_dir, 'ebin')):
 			# set project root candidate
 			project_root_candidate = current_dir
 			# set test root candidate if none set yet
@@ -305,7 +321,14 @@ class SublimErlProjectLoader():
 class SublimErlTextCommand(sublime_plugin.TextCommand):
 	def run(self, edit):
 		# run only if context matches
-		if self._context_match(): return self.run_command(edit)
+		if self._context_match():
+			# check
+			if SUBLIMERL.initialized == False:
+				# self.log("SublimErl could not be initialized:\n\n%s\n" % '\n'.join(SUBLIMERL.init_errors))
+				print "SublimErl could not be initialized:\n\n%s\n" % '\n'.join(SUBLIMERL.init_errors)
+				return
+			else:
+				return self.run_command(edit)
 
 	def _context_match(self):
 		# context matches if lang is source.erlang and if platform is not windows

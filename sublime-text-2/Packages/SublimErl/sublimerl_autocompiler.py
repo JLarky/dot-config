@@ -1,7 +1,7 @@
 # ==========================================================================================================
 # SublimErl - A Sublime Text 2 Plugin for Erlang Integrated Testing & Code Completion
 #
-# Copyright (C) 2012, Roberto Ostinelli <roberto@ostinelli.net>.
+# Copyright (C) 2013, Roberto Ostinelli <roberto@ostinelli.net>.
 # All rights reserved.
 #
 # BSD License
@@ -62,7 +62,7 @@ class SublimErlAutocompiler(SublimErlProjectLoader):
 		self.window.run_command("hide_panel")
 
 	def log(self, text):
-		self.panel_buffer += text
+		self.panel_buffer += text.encode('utf-8')
 		sublime.set_timeout(self.update_panel, 0)
 
 	def compile(self):
@@ -77,6 +77,8 @@ class SublimErlAutocompilerListener(sublime_plugin.EventListener):
 
 	# CALLBACK ON VIEW SAVE
 	def on_post_save(self, view):
+		# check init successful
+		if SUBLIMERL.initialized == False: return
 		# ensure context matches
 		caret = view.sel()[0].a
 		if not ('source.erlang' in view.scope_name(caret) and sublime.platform() != 'windows'): return
