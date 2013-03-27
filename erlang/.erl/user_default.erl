@@ -5,7 +5,7 @@
 dbgadd/1, dbgadd/2, dbgdel/1, dbgdel/2, dbgoff/0, lm/0, mm/0]).
 
 -export([time/1, log/2]).
--export([o/0]).
+-export([o/0, top/0]).
 
 -import(io, [format/1]).
 
@@ -26,6 +26,7 @@ help() ->
     format("mm() -- list modified modules\n"),
     format("log(File, Data) -- appends data to logfile\n"),
     format("o() -- starts Observer\n"),
+    format("top() -- starts etop. You have to stop it be etop:stop()\n"),
     true.
 
 dbgtc(File) ->
@@ -141,3 +142,6 @@ log(Filename, Data) ->
 
 o() ->
     observer:start().
+
+top() ->
+    spawn_link(etop, start, [[{output, text}]]).
