@@ -5,7 +5,7 @@
 dbgadd/1, dbgadd/2, dbgdel/1, dbgdel/2, dbgoff/0, lm/0, mm/0]).
 
 -export([time/1, log/2]).
--export([o/0, top/0]).
+-export([o/0, top/0, stuck_top/0]).
 
 -import(io, [format/1]).
 
@@ -27,6 +27,7 @@ help() ->
     format("log(File, Data) -- appends data to logfile\n"),
     format("o() -- starts Observer\n"),
     format("top() -- starts etop. You have to stop it be etop:stop()\n"),
+    format("stuck_top() -- search for stuck proccesses (leadng to memory leak)\n"),
     true.
 
 dbgtc(File) ->
@@ -145,3 +146,21 @@ o() ->
 
 top() ->
     spawn_link(etop, start, [[{output, text}]]).
+
+stuck_top() ->
+    lists:sort(fun
+        ({_, X}, {_, Y}) -> X > Y
+    end, lists:foldl(fun({_, F}, Acc) ->
+        pl_set(F, Acc, pl_get(F, Acc, 0)+1)
+    end, [], [erlang:process_info(X, current_function) || X<-erlang:processes()])).
+
+pl_get(Key, Proplist, Default) ->
+    case lists:keyfind(Key, 1, Proplist) of
+        {Key, Value} ->
+            Value;
+        false ->
+            Default
+    end.
+
+pl_set(Key, Proplist, Value) ->
+    lists:keystore(Key, 1, Proplist, {Key, Value}).
