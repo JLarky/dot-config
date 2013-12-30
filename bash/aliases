@@ -38,6 +38,6 @@ alias mplayerpulse='padsp mplayer -ao oss'
 alias gi='git'
 alias pwgen='pwgen 10'
 
-alias clive_mp4='clive -f fmt18_360p'
+alias clive_mp4='cclive -s fmt18_360p'
 
 alias ffrspec='rspec --fail-fast -f d'
