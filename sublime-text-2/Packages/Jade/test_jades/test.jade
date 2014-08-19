@@ -1,4 +1,4 @@
-!!! 5
+doctype html
 - var em_sometext = "<em>some text</em>"
 -var var2 = 'no spaces after -'
 _test  =  [{abc: "lalal"}]
@@ -7,7 +7,7 @@ name = function() {}
 html
   head
     script#idscript.script(type="text/javascript",   qwerqwer)(test="123", lol=(1+
-      1),  other)
+      1),  other).
       var la = lala;
   
       function script(arg1, arg2) {
@@ -22,7 +22,7 @@ html
 
       var obj = {abc: 123};
 
-    style(type="text/css")
+    style(type="text/css").
       .test-cls {
         float: left;
         color: #000;
@@ -45,11 +45,16 @@ html
       mixin lala((123+{asdf:(1+1)}), "mixin long call")strong after long mixin use
 
     .test + mixin use
-      +lala(123, "mixin + call 1")strong after + mixin use
+      +lala(123, "mixin + call 1")
 
-    .test2+lala(456, "mixin + call 2")
+    mixin another()
+      - console.log(attributes)
+      input&attributes({cde: 3434})(ccc=343)&attributes(attributes).cls&attributes([1,2,'no'])
 
-    .98349 class name only numbers
+    .test mixin attributes new syntax
+      +another(abc=123, bcd='lol')
+
+    .98349 class name omly numbers
     ._[invalid character in class name should result in it and text following be considered text
 
     //  some html comment
@@ -69,11 +74,8 @@ html
       em this is inside 'em' tag <br/>
 
       [this is rendered as standalone text
-      .=this too
       ##this too
-      .#this too
       "this too"
-      #{this too
 
     div(style="background-color: #eef") some examples of dot text blocks bellow:
 
@@ -89,19 +91,6 @@ html
 
       div.class.another: p.red(style="").asdfsd(lol=123)#ohno.
         another case of text block with interpolated text: #{10*100}
-
-      .odd(weird="yes", style="color: red;")p.
-        oddly this should be a text block
-        despite the unexpected html ouput
-        and won't be red, since it is not considered
-        inside .odd
-
-      ul
-        li()li()li()li.
-          this will be a text block
-          inside the last of 4 list items.
-          because of the lack of spaces, they will be
-          considered separated.
 
       div: [this will be text
         p.
@@ -139,11 +128,21 @@ html
         |   <p>this is embedded html in pipe text with a interpolated value: #{'te'+'st'+2}</p>
         | </div>
 
-    p: em(sdf-+a\||./asd=123,   type="te\x98t\u8876",lol,
-      lol
-      lol, abc = _test, fdg=console.log(123, (1 + (1 + 2)), undefined || true && "sdf#{1+1}asdf")
+    p: em(sdf-+a\||.asd=123,   type="te\x98t\u8876",lol,
+      lol2
+      lol3, abc = _test, fdg=console.log(123, (1 + (1 + 2)), undefined || true && "sdf#{1+1}asdf")
       asdf, bcd=[123, [_test, {asdf: console.log(123)}]], afd={a: 1+1, 'b': {c: (null)}}
       style="background-color: #ccc;") this is a tag with all sorts of crazy properties properly highlighted
+
+    p(qwer,|asdf, zxcv, poiu)= console + NaN
+
+    p: em(sdf-+a\||.asd=123 + undefined | 64   type="te\x98t\u8876" lol
+      lol2
+      lol3 abc = _test fuuuuu fdg=console.log(123, (1 + (1 + 2)), undefined || true && "sdf#{1+1}asdf")
+      asdf bcd=[123, [_test, {asdf: console.log(123)}]] faaaaaa afd={a: 1+1, 'b': {c: (null)}} lol4=sdf+sdf lastattr
+      style="background-color: #ccc;") new attributes without commas
+
+    p(qwer |asdf zxcv lol=123 * 0 || Math + "sdf") attributes no commas
 
     p(aprop).lol.lil#theid(style="background-color: black; color: white;").lul(anotherprop='TEST')
       | tag with any combination/order of id/classes/attributes
@@ -209,10 +208,6 @@ html
       #test(abc="lala", lele=9, lili=em_sometext) the variable used as property value
       .class interpolated escaped and unescaped variable: #{em_sometext + "&"} and !{em_sometext}} \#{this will show}
 
-    .class.
-      line-break on interpolation won't work #{ 1 + (
-      1 - 1) }
-
     p some text  // not some comment
 
     a(href="lala", something=em_sometext,) some link
@@ -230,7 +225,7 @@ html
   
       and here to test skipping a line with less spaces than the indent level
 
-    div.class.another#someid: a(href=em_sometext, test="la\"sdafla", style="display: block; width: 100px; height: 10px"): p.red(style="")some lalalalal
+    div.class.another#someid: a(href=em_sometext, test="la\"sdafla", style="display: block; width: 100px; height: 10px"): p.red(style="") some lalalalal
 
     p
       multi.line tag with pipe lines,

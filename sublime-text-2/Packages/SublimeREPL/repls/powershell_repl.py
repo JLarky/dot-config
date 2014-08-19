@@ -2,18 +2,9 @@
 # Copyright (c) 2011, Wojciech Bederski (wuub.net)
 # All rights reserved.
 # See LICENSE.txt for details.
-
-import subprocess
 import os
 import re
-import repl
-import signal
-import killableprocess
-from sublime import load_settings
-from autocomplete_server import AutocompleteServer
-
-from subprocess_repl import Unsupported, win_find_executable
-import subprocess_repl
+from . import subprocess_repl
 
 # PowerShell in interactive mode shows no prompt, so we must hold it by hand.
 # Every command prepended with other command, which will output only one character ('.')
@@ -24,20 +15,19 @@ import subprocess_repl
 
 class PowershellRepl(subprocess_repl.SubprocessRepl):
     TYPE = "powershell"
-    PREPENDER = "."
+    PREPENDER = b"."
 
-    def __init__(self, encoding = None, external_id=None, cmd_postfix="\n", suppress_echo=False, cmd=None,
-                 env=None, cwd=None, extend_env=None, soft_quit="", autocomplete_server=False):
+    def __init__(self, encoding, **kwds):
         if not encoding:
             # Detect encoding
             chcp = os.popen('chcp')
-            chcp_encoding = re.match(r'[^\d]+(\d+)$', chcp.read())
+            chcp_encoding = re.match(r'[^\d]+(\d+)', chcp.read())
             if not chcp_encoding:
                 raise LookupError("Can't detect encoding from chcp")
             encoding = "cp" + chcp_encoding.groups()[0]
             print(encoding)
 
-        super(PowershellRepl, self).__init__(encoding, external_id, cmd_postfix, suppress_echo, cmd, env, cwd, extend_env, soft_quit, autocomplete_server)
+        super(PowershellRepl, self).__init__(encoding, **kwds)
 
         # Using this to detect whether PowerShell returns some output or it needs more input
         # PowerShell in interactive mode doesn't show prompt, so we must hold it by hand
@@ -50,7 +40,8 @@ class PowershellRepl(subprocess_repl.SubprocessRepl):
     def read_bytes(self):
         # this is windows specific problem, that you cannot tell if there
         # are more bytes ready, so we read only 1 at a times
-        result = self.popen.stdout.read(1)
+
+        result = super(PowershellRepl, self).read_bytes()
 
         # Consumes output (it must be equal to PREPENDER)
         if result and not self.got_output:
@@ -76,8 +67,8 @@ class PowershellRepl(subprocess_repl.SubprocessRepl):
 
     def prompt(self):
         """ Sends command to get prompt """
-        self.do_write('Write-Host ("PS " + (gl).Path + "> ") -NoNewline\n')
+        self.do_write(b'Write-Host ("PS " + (gl).Path + "> ") -NoNewline\n')
 
     def prepend(self):
         """ Command to prepend every output with special mark to detect multiline mode """
-        self.do_write('Write-Host "' + PowershellRepl.PREPENDER + '" -NoNewLine; ')
+        self.do_write(b'Write-Host "' + PowershellRepl.PREPENDER + b'" -NoNewLine; ')

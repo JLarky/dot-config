@@ -34,7 +34,12 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"SublimErl"
+		"SublimeREPL",
+		"SmartMarkdown",
+		"SublimErl",
+		"gitst2",
+		"SublimeGit",
+		"SublimeLinter"
 	],
 	"ignored_words":
 	[

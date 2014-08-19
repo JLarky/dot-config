@@ -2,7 +2,8 @@
 	"folders":
 	[
 		{
-			"path": "/mnt/thz/git"
+			"path": "/mnt/thz/git",
+            "folder_exclude_patterns": [".eunit"]
 		}
 	]
 }

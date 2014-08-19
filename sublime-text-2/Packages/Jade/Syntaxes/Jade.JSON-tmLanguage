@@ -28,7 +28,7 @@
       ]
     },
     {
-      "begin": "^(\\s*)(script)(?=[.#(\\s])",
+      "begin": "^(\\s*)(script)(?=[.#(\\s])((?![^\\n]*type=)|(?=[^\\n]*text/javascript))",
       "beginCaptures": { "2": { "name": "entity.name.tag.script.jade" } },
       "end": "^(?!(\\1\\s)|\\s*$)",
       "name": "source.script.jade",
@@ -114,7 +114,7 @@
       ]
     },
     {
-      "begin": "^(\\s*):(coffeescript)(?=\\(|$)",
+      "begin": "^(\\s*):(coffee(script)?)(?=\\(|$)",
       "beginCaptures": { "2": { "name": "constant.language.name.coffeescript.filter.jade" } },
       "end": "^(?!(\\1\\s)|\\s*$)",
       "name": "source.coffeescript.filter.jade",
@@ -156,7 +156,7 @@
       "begin": "^(\\s*)(?=[\\w.#].*?\\.$)(?=(?:(?:(?:(?:(?:#[\\w-]+)|(?:\\.[\\w-]+))|(?:(?:[#!]\\{[^}]*\\})|(?:\\w(?:(?:[\\w:-]+[\\w-])|(?:[\\w-]*)))))(?:(?:#[\\w-]+)|(?:\\.[\\w-]+)|(?:\\((?:[^()\\'\\\"]*(?:(?:\\'(?:[^\\']|(?:(?<!\\\\)\\\\\\'))*\\')|(?:\\\"(?:[^\\\"]|(?:(?<!\\\\)\\\\\\\"))*\\\")))*[^()]*\\))*)*)(?:(?:(?::\\s+)|(?<=\\)))(?:(?:(?:(?:#[\\w-]+)|(?:\\.[\\w-]+))|(?:(?:[#!]\\{[^}]*\\})|(?:\\w(?:(?:[\\w:-]+[\\w-])|(?:[\\w-]*)))))(?:(?:#[\\w-]+)|(?:\\.[\\w-]+)|(?:\\((?:[^()\\'\\\"]*(?:(?:\\'(?:[^\\']|(?:(?<!\\\\)\\\\\\'))*\\')|(?:\\\"(?:[^\\\"]|(?:(?<!\\\\)\\\\\\\"))*\\\")))*[^()]*\\))*)*))*)\\.$)(?:(?:(#[\\w-]+)|(\\.[\\w-]+))|((?:[#!]\\{[^}]*\\})|(?:\\w(?:(?:[\\w:-]+[\\w-])|(?:[\\w-]*)))))",
       "beginCaptures": {
         "2": { "name": "constant.id.tag.jade" },
-        "3": { "name": "string.name.classes.tag.jade" },
+        "3": { "name": "constant.language.js" },
         "4": { "name": "entity.name.tag.jade" }
       },
       "end": "^(?!(\\1\\s)|\\s*$)",
@@ -173,7 +173,8 @@
           "patterns": [
             { "include": "#embedded_html" },
             { "include": "#html_entity" },
-            { "include": "#interpolated_value" }
+            { "include": "#interpolated_value" },
+            { "include": "#interpolated_error" }
           ]
         }
       ]
@@ -197,7 +198,8 @@
           "patterns": [
             { "include": "#embedded_html" },
             { "include": "#html_entity" },
-            { "include": "#interpolated_value" }
+            { "include": "#interpolated_value" },
+            { "include": "#interpolated_error" }
           ]
         },
         { "include": "#printed_expression" },
@@ -209,7 +211,8 @@
           "patterns": [
             { "include": "#embedded_html" },
             { "include": "#html_entity" },
-            { "include": "#interpolated_value" }
+            { "include": "#interpolated_value" },
+            { "include": "#interpolated_error" }
           ]
         },
         { "include": "#complete_tag" }
@@ -279,7 +282,12 @@
           "begin": "",
           "end": "$",
           "name": "args.mixin.jade",
-          "patterns": [{ "include": "source.js" }]
+          "patterns": [
+            { "include": "#tag_attribute_value_paren" },
+            { "include": "#tag_attribute_value_brackets" },
+            { "include": "#tag_attribute_value_braces" },
+            { "include": "source.js" }
+          ]
         }
       ]
     },
@@ -354,6 +362,7 @@
         { "include": "#tag_id" },
         { "include": "#tag_classes" },
         { "include": "#tag_attributes" },
+        { "include": "#tag_mixin_attributes" },
         {
           "match": "((\\.)\\s+$)|((:)\\s*$)",
           "captures": {
@@ -390,7 +399,7 @@
     },
     "tag_classes": {
       "match": "\\.[\\w-]+",
-      "name": "string.name.classes.tag.jade"
+      "name": "constant.language.js"
     },
     "tag_attributes": {
       "begin": "(\\()",
@@ -399,17 +408,17 @@
       "name": "attibutes.tag.jade",
       "patterns": [
         {
-          "match": "([^\\s(),=]+)\\s*((?=\\))|,|$)",
+          "match": "([^\\s(),=/]+)\\s*((?=\\))|,|\\s+|$)(?!=)",
           "captures": { "1": { "name": "entity.other.attribute-name.tag.jade" } },
           "name": "attribues.tag.jade"
         },
         {
-          "begin": "([^\\s(),=]*[^\\s(),=!])\\s*(!?\\=)",
+          "begin": "([^\\s(),=/]*[^\\s(),=!/])\\s*(!?\\=)",
           "beginCaptures": {
             "1": { "name": "entity.other.attribute-name.tag.jade" },
             "2": { "name": "punctuation.separator.key-value.jade" }
           },
-          "end": "((?=\\))|,|$)",
+          "end": "(,|$|(?=\\)|((?<![+/*|&=:^~!?<>%-])\\s+[^+/*|&=:^~!?<>%-])))",
           "name": "attributes.tag.jade",
           "patterns": [
             { "include": "#tag_attribute_value_paren" },
@@ -419,6 +428,19 @@
             { "include": "source.js" }
           ]
         }
+      ]
+    },
+    "tag_mixin_attributes": {
+      "begin": "(&attributes\\()",
+      "captures": { "1": { "name": "entity.name.function.jade" } },
+      "end": "(\\))",
+      "name": "attibutes.tag.jade",
+      "patterns": [
+        {
+          "match": "attributes(?=\\))",
+          "name": "storage.type.keyword.jade"
+        },
+        { "include": "source.js" }
       ]
     },
     "tag_attribute_value_paren": {
@@ -464,7 +486,8 @@
       "patterns": [
         { "include": "#embedded_html" },
         { "include": "#html_entity" },
-        { "include": "#interpolated_value" }
+        { "include": "#interpolated_value" },
+        { "include": "#interpolated_error" }
       ]
     },
     "html_entity": {
@@ -491,6 +514,10 @@
         { "include": "source.js" }
       ]
     },
+    "interpolated_error": {
+      "match": "(?<!\\\\)[#!]\\{(?=[^}]*$)",
+      "name": "invalid.illegal.tag.jade"
+    },
     "printed_expression": {
       "begin": "(!?\\=)\\s*",
       "captures": { "1": { "name": "constant" } },
@@ -506,7 +533,8 @@
           "match": "\\\\((x[0-9a-fA-F]{2})|(u[0-9]{4})|.)",
           "name": "constant.character.quoted.jade"
         },
-        { "include": "#interpolated_value" }
+        { "include": "#interpolated_value" },
+        { "include": "#interpolated_error" }
       ]
     },
     "embedded_html": {
@@ -515,7 +543,8 @@
       "name": "html",
       "patterns": [
         { "include": "text.html.basic" },
-        { "include": "#interpolated_value" }
+        { "include": "#interpolated_value" },
+        { "include": "#interpolated_error" }
       ]
     }
   },

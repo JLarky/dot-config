@@ -36,6 +36,13 @@
 			{ "key": "auto_complete_visible", "operator": "equal", "operand": false }
 		]
 	},
+	{ "keys": ["enter"], "command": "repl_enter", "args": {},
+	"context":
+		[
+			{ "key": "setting.repl", "operator": "equal", "operand": true },
+			{ "key": "setting.auto_complete_commit_on_tab", "operand": true }
+		]
+	},
 	{ "keys": ["escape"], "command": "repl_escape", "args": {},
 	"context":
 		[
@@ -47,6 +54,7 @@
 	"context":
 		[
 			{ "key": "setting.repl", "operator": "equal", "operand": true },
+			{ "key": "setting.repl_sublime2", "operator": "equal", "operand": true },
 			{ "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true }
 		]
 	},
@@ -54,6 +62,7 @@
 	"context":
 		[
 			{ "key": "setting.repl", "operator": "equal", "operand": true },
+			{ "key": "setting.repl_sublime2", "operator": "equal", "operand": true },
 			{ "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true }
 		]
 	},

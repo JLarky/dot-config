@@ -1,3 +1,7 @@
 *~
 *.pyc
 sublime-text-2/Settings/*.sublime_session
+sublime-text-2/Settings/License.sublime_license
+sublime-text-2/Packages/User/Package Control.last-run
+*.sublime-package
+sublime-text-2/pjcts/*.sublime-workspace

@@ -1,5 +1,5 @@
 [core]
-	editor = emacs -nw -q
+	editor = vi
 [diff]
 	color = true
 [user]
@@ -31,3 +31,5 @@
 	ui = true
 [diff "word"]
 	textconv = strings
+[push]
+	default = simple
