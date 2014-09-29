@@ -7,7 +7,7 @@
   // Locale date
   { "keys": ["ctrl+f5", "ctrl+d"],
     "command": "insert_date",
-    "args": {"format": "\n## %x\n"} },
+    "args": {"format": "%x"} },
 
   // iso date (YYYY-MM-DD)
   { "keys": ["ctrl+shift+f5", "ctrl+shift+d"],
@@ -52,6 +52,5 @@
 
 // Show the panel with pre-defined options from settings
   { "keys": ["f5"],
-    "command": "insert_date",
-    "args": {"format": "\n%H:%M\n"} }
+    "command": "insert_date_panel" }
 ]
