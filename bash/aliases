@@ -18,8 +18,8 @@ alias l='ls -CF'
 
 alias root='sudo -i'
 
-alias e='emacs -nw'
-alias se='sudo emacs -nw'
+alias e='vi -nw'
+alias se='sudo vi'
 alias er='LC_ALL=ru_RU.utf8 emacs -nw'
 alias ne='netbeans'
 alias es='sublime_text'
