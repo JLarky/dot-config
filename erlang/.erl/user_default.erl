@@ -2,7 +2,7 @@
 -author('serge  hq.idt.net').
 
 -export([help/0,dbgtc/1, dbgon/1, dbgon/2,
-dbgadd/1, dbgadd/2, dbgdel/1, dbgdel/2, dbgoff/0, lm/0, mm/0]).
+dbgadd/1, dbgadd/2, dbgdel/1, dbgdel/2, dbgoff/0, nl/0, lm/0, mm/0, ping/1]).
 
 -export([time/1, log/2]).
 -export([o/0, top/0, stuck_top/0]).
@@ -81,6 +81,11 @@ dbgdel(Module, Fun) ->
 dbgoff() ->
     dbg:stop().
 
+ping(Nodes) ->
+    [net_adm:ping(list_to_atom(Node)) || Node <- Nodes].
+
+nl() ->
+    rpc:multicall(user_default, lm, [], 1000).
 
 lm() ->
     [c:l(M) || M <- mm()].
