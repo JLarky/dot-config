@@ -11,7 +11,7 @@ echo $IDLE
 
 if [[ "$IDLE" -gt 300 ]]
 then
-    hash kdialog 2>/dev/null && kdialog --title syslog --passivepopup "foo" 2
+    hash kdialog 2>/dev/null && kdialog --title "No screenshots" --passivepopup "Computer is idle" 1
     hash osascript 2>/dev/null && osascript -e 'display notification "computer is idle" with title "No Screenshots"'
     exit 0
 fi
