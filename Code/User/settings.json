@@ -1,0 +1,51 @@
+{
+    // "TypeScriptImporter.showNamespaceOnImports": false,
+    "editor.parameterHints": false,
+    "typescript.autoImportSuggestions.enabled": true,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": true
+    },
+    "editor.smoothScrolling": true,
+    "editor.wordWrap": "on",
+    "window.zoomLevel": 0,
+    "editor.mouseWheelScrollSensitivity": 0.8,
+    // "editor.renderLineHighlight": "line",
+    "workbench.colorCustomizations": {
+        // "editorCursor.foreground": "#b6a0ff",
+        "editorBracketMatch.background": "#802200",
+        "editorBracketMatch.border": "#ffffff00",
+        "editor.lineHighlightBackground": "#cccccc11",
+        "statusBar.debuggingBackground": "#4a4e8660"
+    },
+    "workbench.colorTheme": "One Monokai Darker",
+    // "vim.disableAnnoyingNeovimMessage": true,
+    // "vim.otherModesKeyBindingsNonRecursive": [
+    //     {
+    //         "before": ["Z", "Q"],
+    //         "after": [],
+    //         "commands": [
+    //             {
+    //                 "command": "workbench.action.closeActiveEditor",
+    //                 "args": []
+    //             }
+    //         ]
+    //     },
+    //     {
+    //         "before": ["Z", "Z"],
+    //         "after": [],
+    //         "commands": [
+    //             {
+    //                 "command": "workbench.action.files.save",
+    //                 "args": []
+    //             }
+    //         ]
+    //     }
+    // ],
+    // "vim.useSystemClipboard": true,
+    // "vim.useCtrlKeys": false,
+    "files.insertFinalNewline": true,
+    "[typescript]": {},
+    "[elixir]": {}
+}
