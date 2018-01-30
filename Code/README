@@ -3,3 +3,4 @@ Linux $HOME/.config/Code/User/settings.json
 
 
 ln -s ~/dot-config/Code/User ~/.config/Code
+ln -s ~/dot-config/Code/User ~/Library/Application\ Support/Code/User
