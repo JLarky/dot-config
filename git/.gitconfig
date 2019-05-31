@@ -19,7 +19,7 @@
 	grepn = grep -n
 	rc = rebase --continue
 	MR = "!f() { \
-	  git log --reverse --merges --pretty=format:%b HEAD ${1-^HEAD~30} | sed 's/See merge request .*\\!/ \\!/g' | awk NF | awk '{printf (NR%2==0) ? $0 "\"\\n\"" : "\"* \"" $0 }' | less -FX; \
+	  git log --reverse --merges --pretty=format:%b HEAD ${1-^HEAD~30} | sed 's/See merge request .*\\!/ \\!/g' | grep -v Closes | awk NF | awk '{printf (NR%2==0) ? $0 "\"\\n\"" : "\"* \"" $0 }' | less -FX; \
 	}; f"
 
 [branch "master"]
