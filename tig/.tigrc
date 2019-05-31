@@ -1,4 +1,8 @@
 bind generic F !git fetch --all --prune
-bind generic P !git push
+bind generic P !echo %(branch)
+bind generic P !git push --set-upstream origin %(branch)
 bind generic A !git commit --amend
+bind generic x !git commit --fixup=%(commit)
 bind generic R !git rebase origin/master -i --autosquash
+bind refs R !git rebase %(commit) -i --autosquash
+bind generic E !code -g %(file):%(lineno)
