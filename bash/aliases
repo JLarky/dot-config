@@ -41,3 +41,9 @@ alias pwgen='pwgen 10'
 alias clive_mp4='cclive -s fmt18_360p'
 
 alias ffrspec='rspec --fail-fast -f d'
+
+#alias grpe="grep '$@'"
+
+function grpe () {
+  grep "$*"
+}
