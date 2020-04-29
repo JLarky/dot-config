@@ -1,5 +1,10 @@
 [core]
 	editor = vi
+	#pager = delta --dark
+
+[interactive]
+	diffFilter = delta --color-only
+
 [diff]
 	color = true
 [user]
@@ -10,9 +15,10 @@
 [alias]
 	fast-fix = !"git diff && read -p \"ready to commit?\" i && git commit -a && git push"
 	ll = status
-	di = diff --no-prefix
+	dif = diff --no-prefix
+	di = "!GIT_PAGER='delta --dark --theme=\"Monokai Extended\"' git diff"
 	dii = diff --no-prefix --ignore-all-space
-	dif = diff --stat
+	dis = diff --stat
 	idd = log --pretty=format:\"%h %Cgreen%B\"
 	id = log -1 --pretty=format:\"%h %Cgreen%B\"
 	hist = log --pretty=format:\"%h %ad [%an] %s%d\" --graph --date=short --all
