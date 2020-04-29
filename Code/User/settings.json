@@ -9,7 +9,7 @@
     "strings": true
   },
   "editor.smoothScrolling": true,
-  "window.zoomLevel": 0,
+  "window.zoomLevel": 1,
   "editor.mouseWheelScrollSensitivity": 0.8,
   // "editor.renderLineHighlight": "line",
   "workbench.colorCustomizations": {
@@ -49,7 +49,9 @@
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[elixir]": {},
+  "[elixir]": {
+    "editor.defaultFormatter": "JakeBecker.elixir-ls"
+  },
   "amVim.bindCtrlCommands": false,
   "window.titleBarStyle": "custom",
   "breadcrumbs.enabled": true,
@@ -57,12 +59,38 @@
   "[shellscript]": {
     "editor.defaultFormatter": "shakram02.bash-beautify"
   },
-  "editor.formatOnSave": true,
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "git.autofetch": true
+  "git.autofetch": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.rendererType": "experimentalWebgl",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.semanticHighlighting.enabled": true,
+  "cSpell.userWords": [
+    "Paseto",
+    "Yaroslav",
+    "paseto",
+    "pulumi",
+    "refetch",
+    "unfetch"
+  ]
 }
