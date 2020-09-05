@@ -9,7 +9,7 @@
     "strings": true
   },
   "editor.smoothScrolling": true,
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 0,
   "editor.mouseWheelScrollSensitivity": 0.8,
   // "editor.renderLineHighlight": "line",
   "workbench.colorCustomizations": {
@@ -65,7 +65,6 @@
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "git.autofetch": true,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -76,10 +75,12 @@
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "files.exclude": {
+    ".pnp.js": true,
+    ".yarn/**": true,
     "**/.classpath": true,
+    "**/.factorypath": true,
     "**/.project": true,
-    "**/.settings": true,
-    "**/.factorypath": true
+    "**/.settings": true
   },
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -88,9 +89,21 @@
   "cSpell.userWords": [
     "Paseto",
     "Yaroslav",
+    "immer",
+    "journaling",
     "paseto",
     "pulumi",
     "refetch",
-    "unfetch"
-  ]
+    "semibold",
+    "subpage",
+    "unfetch",
+    "use",
+    "use immer",
+    "uuidv"
+  ],
+  "emmet.showExpandedAbbreviation": "never",
+  "editor.gotoLocation.multipleDefinitions": "gotoAndPeek",
+  "editor.gotoLocation.multipleTypeDefinitions": "gotoAndPeek",
+  "workbench.editor.revealIfOpen": true,
+  "files.hotExit": "onExitAndWindowClose"
 }
