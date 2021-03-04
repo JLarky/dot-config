@@ -26,6 +26,7 @@
 	id = log -1 --pretty=format:\"%h %Cgreen%B\"
 	hist = log --pretty=format:\"%h %ad [%an] %s%d\" --graph --date=short --all
 	grepn = grep -n
+	ri = !"git show-branch main && git rebase origin/main -i --autosquash || git rebase origin/master -i --autosquash"
 	rc = rebase --continue
 	MR = "!f() { \
 	  git log --reverse --merges --pretty=format:%b HEAD ${1-^HEAD~30} | sed 's/See merge request .*\\!/ \\!/g' | grep -v Closes | awk NF | awk '{printf (NR%2==0) ? $0 "\"\\n\"" : "\"* \"" $0 }' | less -FX; \

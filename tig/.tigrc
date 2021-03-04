@@ -3,7 +3,8 @@ bind generic . !git checkout %(branch)
 bind generic P !git push --set-upstream origin %(branch)
 bind generic A !git commit --amend
 bind generic x !git commit --fixup=%(commit)
-bind generic R !git rebase origin/master -i --autosquash
+bind generic R !git rebase origin/main -i --autosquash
+bind generic R !git ri
 bind generic I !git rebase %(commit) -i --autosquash
 bind main T !tig %(commit)
 bind status T !tig %(file)
