@@ -47,3 +47,7 @@ alias ffrspec='rspec --fail-fast -f d'
 function grpe () {
   grep "$*"
 }
+
+alias mux='nice -n 9 tmux'
+alias unmux='tmux kill-server'
+
