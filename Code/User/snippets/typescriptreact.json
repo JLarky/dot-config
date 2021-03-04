@@ -1,0 +1,17 @@
+{
+  "Console Log": {
+    "prefix": "cl",
+    "body": ["console.log(${TM_SELECTED_TEXT:$1})"],
+    "description": "Log output to console"
+  },
+  "useState snippet": {
+    "prefix": ["rus", "constReactUseState"],
+    "body": "const [${1}, set${1/(^[a-zA-Z])(.*)/${1:/upcase}${2}/}] = React.useState(${2:default${1/(^[a-zA-Z])(.*)/${1:/upcase}${2}/}});",
+    "description": "use state but it camel cases"
+  },
+  "mount useEffects": {
+    "prefix": ["mountUseEffects"],
+    "body": "React.useEffect(() => { console.log('mount'); return () => console.log('unmount'); }, []);",
+    "description": "adds mount and unmount messages"
+  }
+}

@@ -9,7 +9,6 @@
     "strings": true
   },
   "editor.smoothScrolling": true,
-  "window.zoomLevel": 0,
   "editor.mouseWheelScrollSensitivity": 0.8,
   // "editor.renderLineHighlight": "line",
   "workbench.colorCustomizations": {
@@ -105,5 +104,22 @@
   "editor.gotoLocation.multipleDefinitions": "gotoAndPeek",
   "editor.gotoLocation.multipleTypeDefinitions": "gotoAndPeek",
   "workbench.editor.revealIfOpen": true,
-  "files.hotExit": "onExitAndWindowClose"
+  "files.hotExit": "onExitAndWindowClose",
+  "vim.useSystemClipboard": false,
+  "vim.useCtrlKeys": true,
+  "vim.startInInsertMode": false,
+  "vim.handleKeys": {
+    "<C-PgUp>": false,
+    "<C-v>": false,
+    "<C-x>": false,
+    "<C-c>": false,
+    "<C-d>": false
+  },
+  "editor.formatOnSave": true,
+  "workbench.sideBar.location": "right",
+  "editor.minimap.enabled": false,
+  "explorer.openEditors.visible": 0,
+  "grammarly.domain": "technical",
+  "grammarly.hideUnavailablePremiumAlerts": true,
+  "elixirLS.fetchDeps": false
 }
