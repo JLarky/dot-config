@@ -1,0 +1,47 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  // https://gist.github.com/whazzmaster/b9071c2706cc588293a73ec3b6613d20
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "fb: mix test",
+      "type": "shell",
+      "command": "nix-shell --run \"cd server && MIX_ENV=test mix do ecto.create --quiet, ecto.migrate && mix test\""
+    },
+    {
+      "label": "fb: mix test a file",
+      "command": "nix-shell --run \"cd server && MIX_ENV=test mix do ecto.create --quiet, ecto.migrate && mix test ../${relativeFile}\"",
+      "group": "test",
+      "type": "shell",
+      "problemMatcher": [
+        "$mixCompileError",
+        "$mixCompileWarning",
+        "$mixTestFailure"
+      ],
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+      }
+    },
+    {
+      "label": "fb: mix test watch a file",
+      "command": "nix-shell --run \"cd server && MIX_ENV=test mix do ecto.create --quiet, ecto.migrate && mix test.watch ../${relativeFile}\"",
+      "group": "test",
+      "type": "shell",
+      "problemMatcher": [
+        "$mixCompileError",
+        "$mixCompileWarning",
+        "$mixTestFailure"
+      ],
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+      }
+    }
+  ]
+}

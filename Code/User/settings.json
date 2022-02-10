@@ -3,12 +3,21 @@
   "shellformat.path": "/opt/shfmt_v2.5.1_linux_amd64",
   "editor.parameterHints": false,
   "typescript.autoImportSuggestions.enabled": true,
-  "editor.quickSuggestions": {
-    "other": true,
-    "comments": false,
-    "strings": true
-  },
   "editor.smoothScrolling": true,
+
+  // https://newbedev.com/prevent-autocomplete-in-visual-studio-code
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.acceptSuggestionOnEnter": "smart",
+  "editor.parameterHints.enabled": false,
+  "editor.quickSuggestions": false,
+  "editor.quickSuggestionsDelay": 10,
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.wordBasedSuggestions": false,
+  // for copilot
+  "editor.inlineSuggest.enabled": true,
+  // end
+
   "editor.mouseWheelScrollSensitivity": 0.8,
   // "editor.renderLineHighlight": "line",
   "workbench.colorCustomizations": {
@@ -86,16 +95,22 @@
   },
   "editor.semanticHighlighting.enabled": true,
   "cSpell.userWords": [
+    "Dropzone",
     "Paseto",
     "Yaroslav",
+    "fogbender",
     "immer",
+    "jotai",
     "journaling",
+    "microbundle",
+    "openid",
     "paseto",
     "pulumi",
     "refetch",
     "semibold",
     "subpage",
     "unfetch",
+    "unmount",
     "use",
     "use immer",
     "uuidv"
@@ -121,5 +136,15 @@
   "explorer.openEditors.visible": 0,
   "grammarly.domain": "technical",
   "grammarly.hideUnavailablePremiumAlerts": true,
-  "elixirLS.fetchDeps": false
+  "elixirLS.fetchDeps": false,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "plaintext": true,
+    "markdown": true
+  },
+  "editor.accessibilitySupport": "off",
+  "editor.autoClosingBrackets": "never",
+  "editor.autoClosingQuotes": "never",
+  "window.zoomLevel": 1
 }
