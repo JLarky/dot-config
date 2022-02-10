@@ -1,5 +1,5 @@
 [core]
-	editor = vi
+	editor = /usr/bin/vim
 	#pager = delta --dark
 
 [pager]
@@ -28,6 +28,7 @@
 	grepn = grep -n
 	ri = !"git show-branch main && git rebase origin/main -i --autosquash || git rebase origin/master -i --autosquash"
 	rc = rebase --continue
+	cm = commit -m
 	MR = "!f() { \
 	  git log --reverse --merges --pretty=format:%b HEAD ${1-^HEAD~30} | sed 's/See merge request .*\\!/ \\!/g' | grep -v Closes | awk NF | awk '{printf (NR%2==0) ? $0 "\"\\n\"" : "\"* \"" $0 }' | less -FX; \
 	}; f"
@@ -53,3 +54,5 @@
 	default = simple
 [pull]
 	rebase = true
+[init]
+	defaultBranch = main
