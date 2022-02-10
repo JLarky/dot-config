@@ -1,4 +1,0 @@
-{
-	// trigger autocomplete
-	"auto_complete_triggers": [ {"selector": "source.erlang", "characters": ":"} ]
-}

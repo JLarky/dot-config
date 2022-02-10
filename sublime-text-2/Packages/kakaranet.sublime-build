@@ -1,5 +1,0 @@
-{
-    "working_dir": "/media/data/jlarky/work/erlang-warsaw/kakaranet",
-    "cmd": ["/home/jlarky/bins/kakaranet_build", "$file_path"],
-    "file_regex":"^([^:]+):([0-9]*):?(.*):?(.*)"
-}
