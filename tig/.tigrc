@@ -1,5 +1,6 @@
 bind generic F !git fetch --all --prune
 bind generic . !git switch -m %(branch)
+bind generic . !git TigSwitch %(branch)
 bind generic P !git push --set-upstream origin %(branch)
 bind generic A !git commit --amend
 bind generic x !git commit --fixup=%(commit)

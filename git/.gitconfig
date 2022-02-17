@@ -26,6 +26,13 @@
 	id = log -1 --pretty=format:\"%h %Cgreen%B\"
 	hist = log --pretty=format:\"%h %ad [%an] %s%d\" --graph --date=short --all
 	grepn = grep -n
+	TigSwitch = "!f() { \
+	  if [ \"$1\" = \"HEAD\" ]; then \
+		git show-branch main && git switch -m main || git switch -m master; \
+	  else \
+	    git switch -m $1; \
+	  fi; \
+	}; f"
 	ri = !"git show-branch main && git rebase origin/main -i --autosquash || git rebase origin/master -i --autosquash"
 	rc = rebase --continue
 	cm = commit -m
