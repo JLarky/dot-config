@@ -1,12 +1,13 @@
 bind generic F !git fetch --all --prune
 bind generic . !git switch -m %(branch)
 bind generic . !git TigSwitch %(branch)
+bind generic M !git TigSwitch HEAD
 bind generic P !git push --set-upstream origin %(branch)
 bind generic A !git commit --amend
 bind generic x !git commit --fixup=%(commit)
 bind generic R !git rebase origin/main -i --autosquash
 bind generic R !git ri
-bind generic I !git rebase %(commit) -i --autosquash
+bind generic I !git rebase %(commit) -i --autosquash --autostash
 bind main T !tig %(commit)
 bind status T !tig %(file)
 bind stage T !tig --all %(file)

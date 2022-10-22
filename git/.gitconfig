@@ -1,3 +1,7 @@
+[diff "hex"]
+    textconv = hexdump -v -C
+    binary = true
+
 [core]
 	editor = /usr/bin/vim
 	#pager = delta --dark
@@ -33,7 +37,7 @@
 	    git switch -m $1; \
 	  fi; \
 	}; f"
-	ri = !"git show-branch main && git rebase origin/main -i --autosquash || git rebase origin/master -i --autosquash"
+	ri = !"git show-branch origin/main && git rebase origin/main -i --autosquash --autostash || git rebase origin/master -i --autosquash --autostash"
 	rc = rebase --continue
 	cm = commit -m
 	MR = "!f() { \
@@ -58,7 +62,7 @@
 [diff "word"]
 	textconv = strings
 [push]
-	default = simple
+	default = current
 [pull]
 	rebase = true
 [init]
