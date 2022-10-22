@@ -19,6 +19,7 @@ alias l='ls -CF'
 alias root='sudo -i'
 
 alias e='vi -nw'
+alias e='nvim'
 alias se='sudo vi'
 alias er='LC_ALL=ru_RU.utf8 emacs -nw'
 alias ne='netbeans'
@@ -29,7 +30,7 @@ alias got='tig --all --topo-order'
 alias di='git diff --no-index' # http://stackoverflow.com/questions/5637311/how-to-use-git-diff-color-words-outside-a-git-repository
 alias mplayer='mplayer -subcp cp1251'
 
-export EDITOR="vi"
+export EDITOR="nvim"
 
 alias copy='rsync -avz --progress -h --append --partial'
 alias move='copy --remove-source-files'
@@ -50,4 +51,3 @@ function grpe () {
 
 alias mux='nice -n 9 tmux'
 alias unmux='tmux kill-server'
-

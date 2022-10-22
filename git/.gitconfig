@@ -3,7 +3,7 @@
     binary = true
 
 [core]
-	editor = /usr/bin/vim
+	editor = /opt/homebrew/bin/nvim
 	#pager = delta --dark
 
 [pager]
