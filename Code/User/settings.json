@@ -1,7 +1,7 @@
 {
   // "TypeScriptImporter.showNamespaceOnImports": false,
   "shellformat.path": "/opt/shfmt_v2.5.1_linux_amd64",
-  "editor.parameterHints": false,
+  // "editor.parameterHints": false,
   "typescript.autoImportSuggestions.enabled": true,
   "editor.smoothScrolling": true,
 
@@ -9,7 +9,11 @@
   "editor.acceptSuggestionOnCommitCharacter": false,
   "editor.acceptSuggestionOnEnter": "smart",
   "editor.parameterHints.enabled": false,
-  "editor.quickSuggestions": false,
+  "editor.quickSuggestions": {
+    "comments": "off",
+    "strings": "off",
+    "other": "off"
+  },
   "editor.quickSuggestionsDelay": 10,
   "editor.suggest.snippetsPreventQuickSuggestions": false,
   "editor.suggestOnTriggerCharacters": false,
@@ -27,7 +31,6 @@
     "editor.lineHighlightBackground": "#cccccc11",
     "statusBar.debuggingBackground": "#4a4e8660"
   },
-  "workbench.colorTheme": "One Monokai Darker",
   // "vim.disableAnnoyingNeovimMessage": true,
   // "vim.otherModesKeyBindingsNonRecursive": [
   //     {
@@ -61,6 +64,7 @@
     "editor.defaultFormatter": "JakeBecker.elixir-ls"
   },
   "amVim.bindCtrlCommands": false,
+  "amVim.useSystemClipboard": true,
   "window.titleBarStyle": "custom",
   "breadcrumbs.enabled": true,
   "editor.wordWrap": "on",
@@ -96,15 +100,15 @@
   "editor.semanticHighlighting.enabled": true,
   "cSpell.userWords": [
     "Dropzone",
-    "Paseto",
-    "Yaroslav",
     "fogbender",
+    "helpdesk",
     "immer",
     "jotai",
     "journaling",
     "microbundle",
     "openid",
     "paseto",
+    "Paseto",
     "pulumi",
     "refetch",
     "semibold",
@@ -113,7 +117,8 @@
     "unmount",
     "use",
     "use immer",
-    "uuidv"
+    "uuidv",
+    "Yaroslav"
   ],
   "emmet.showExpandedAbbreviation": "never",
   "editor.gotoLocation.multipleDefinitions": "gotoAndPeek",
@@ -146,5 +151,37 @@
   "editor.accessibilitySupport": "off",
   "editor.autoClosingBrackets": "never",
   "editor.autoClosingQuotes": "never",
-  "window.zoomLevel": 1
+  "warmUp.changeCount": "15",
+  "warmUp.switchProgrammingLanguage": "typescript",
+  "warmUp.changeTypingMode": "words (fixed amount)",
+  "git.autofetch": true,
+  "git.mergeEditor": true,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorTheme": "One Monokai Darker",
+  "files.associations": {
+    "*.astro": "astro"
+  },
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  },
+  "editor.stickyScroll.enabled": true,
+  "terminal.integrated.fontSize": 10,
+  "editor.fontSize": 14,
+  // https://github.com/microsoft/vscode-eslint/issues/1199
+  "eslint.rules.customizations2": [
+    { "rule": "no-*", "override": "info" }, // override all no-* rules to info
+    { "rule": "!no-*", "override": "warn" }, // override all other (not no-*) rules to warn
+    { "rule": "*console*", "reset": "original" }, // reset all *console* rules to the original config
+    { "rule": "*syntax*", "reset": "lower" }, // reset all *syntax* rules to one lower than the original config
+    { "rule": "*prettier*", "override": "info" }
+  ],
+  // https://github.com/microsoft/vscode-eslint/pull/1164
+  "eslint.rules.customizations": [
+    {
+      "rule": "*",
+      "severity": "downgrade"
+    }
+  ]
 }
