@@ -1,0 +1,1 @@
+{ "dependencies": { "@types/random-words": "^1.1.2", "bun-types": "^0.2.2", "random-words": "^1.2.0" } }

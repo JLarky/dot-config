@@ -51,3 +51,4 @@ function grpe () {
 
 alias mux='nice -n 9 tmux'
 alias unmux='tmux kill-server'
+alias tmp='cd $(~/dot-config/bins/tmp/tmp.ts)'
