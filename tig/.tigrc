@@ -8,6 +8,7 @@ bind generic x !git commit --fixup=%(commit)
 bind generic R !git rebase origin/main -i --autosquash
 bind generic R !git ri
 bind generic I !git rebase %(commit) -i --autosquash --autostash
+bind generic T !tig %(file)
 bind main T !tig %(commit)
 bind status T !tig %(file)
 bind stage T !tig --all %(file)
