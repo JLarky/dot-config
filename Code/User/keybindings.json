@@ -1,5 +1,15 @@
 [
   {
+    "key": "shift+z shift+z",
+    "command": "workbench.action.files.save",
+    "when": "editorTextFocus && amVim.mode == 'NORMAL'"
+  },
+  {
+    "key": "shift+z shift+q",
+    "command": "workbench.action.closeActiveEditor",
+    "when": "editorTextFocus && amVim.mode == 'NORMAL'"
+  },
+  {
     "key": "ctrl+pagedown",
     "command": "-scrollLineDown",
     "when": "textInputFocus"

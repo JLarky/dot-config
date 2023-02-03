@@ -64,7 +64,6 @@
     "editor.defaultFormatter": "JakeBecker.elixir-ls"
   },
   "amVim.bindCtrlCommands": false,
-  "amVim.useSystemClipboard": true,
   "window.titleBarStyle": "custom",
   "breadcrumbs.enabled": true,
   "editor.wordWrap": "on",
