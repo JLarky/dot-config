@@ -98,6 +98,8 @@
   },
   "editor.semanticHighlighting.enabled": true,
   "cSpell.userWords": [
+    "Astro",
+    "astrojs",
     "Dropzone",
     "fogbender",
     "helpdesk",
@@ -182,5 +184,49 @@
       "rule": "*",
       "severity": "downgrade"
     }
-  ]
+  ],
+  "totalTypeScript.hideAllTips": false,
+  "totalTypeScript.hideBasicTips": false,
+  "totalTypeScript.hiddenTips": [
+    "typing-function-parameters",
+    "ts-object-type",
+    "union-type",
+    "undefined-keyword",
+    "basic-types",
+    "array-type",
+    "passing-generics-to-types",
+    "literal-type",
+    "pick-utility-type",
+    "generic-slots-in-functions",
+    "optional-object-property",
+    "as-assertion",
+    "variable-type-annotation",
+    "typeof",
+    "type-alias-declaration",
+    "record-utility-type",
+    "partial-utility-type",
+    "keyof",
+    "interface-declaration",
+    "interface-with-generics",
+    "type-alias-with-generics",
+    "as-const",
+    "as-const-on-object",
+    "null-keyword",
+    "function-return-type",
+    "in-operator-narrowing",
+    "returntype-utility-type",
+    "conditional-type",
+    "infer",
+    "never-keyword",
+    "type-predicate",
+    "non-null-expression",
+    "any-type",
+    "tuple-type"
+  ],
+  "editor.linkedEditing": true,
+  "window.zoomLevel": 1,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": []
+  },
+  "editor.inlineSuggest.showToolbar": "always"
 }
