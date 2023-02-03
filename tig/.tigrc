@@ -14,3 +14,4 @@ bind status T !tig %(file)
 bind stage T !tig --all %(file)
 bind refs R !git rebase %(commit) -i --autosquash
 bind generic E !code -g %(file):%(lineno)
+# bind status C !git commit --no-verify
