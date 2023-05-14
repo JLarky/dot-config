@@ -22,9 +22,26 @@
   "editor.inlineSuggest.enabled": true,
   // end
 
+  "editor.language.colorizedBracketPairs": [
+    ["[", "]"],
+    ["(", ")"],
+    ["{", "}"],
+    ["<", "</"],
+    ["<", "/>"]
+  ],
+
   "editor.mouseWheelScrollSensitivity": 0.8,
   // "editor.renderLineHighlight": "line",
+
   "workbench.colorCustomizations": {
+    "editorBracketHighlight.foreground1": "#5caeef",
+    "editorBracketHighlight.foreground2": "#dfb976",
+    "editorBracketHighlight.foreground3": "#c172d9",
+    "editorBracketHighlight.foreground4": "#4fb1bc",
+    "editorBracketHighlight.foreground5": "#97c26c",
+    "editorBracketHighlight.foreground6": "#abb2c0",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#db6165",
+
     // "editorCursor.foreground": "#b6a0ff",
     "editorBracketMatch.background": "#802200",
     "editorBracketMatch.border": "#ffffff00",
@@ -119,6 +136,7 @@
     "use",
     "use immer",
     "uuidv",
+    "VDOM",
     "Yaroslav"
   ],
   "emmet.showExpandedAbbreviation": "never",
@@ -221,12 +239,36 @@
     "type-predicate",
     "non-null-expression",
     "any-type",
-    "tuple-type"
+    "tuple-type",
+    "nonnullable-utility-type",
+    "type-alias-with-multiple-generics",
+    "exclude-utility-type",
+    "extract-utility-type",
+    "omit-utility-type",
+    "parameters-utility-type",
+    "mapped-type",
+    "awaited-utility-type"
   ],
   "editor.linkedEditing": true,
-  "window.zoomLevel": 1,
   "editor.tokenColorCustomizations": {
-    "textMateRules": []
+    "textMateRules": [
+      {
+        "scope": "keyword.other.dotenv",
+        "settings": {
+          "foreground": "#FF000000"
+        }
+      }
+    ]
   },
-  "editor.inlineSuggest.showToolbar": "always"
+  "workbench.startupEditor": "none",
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "editor.unicodeHighlight.allowedLocales": {
+    "ru": true
+  },
+  "editor.guides.bracketPairs": true,
+  "svelte.enable-ts-plugin": true,
+  "terminal.integrated.env.osx": {},
+  "window.zoomLevel": 1
 }
