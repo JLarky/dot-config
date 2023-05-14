@@ -4,8 +4,14 @@
 // @match       https://chat.openai.com/*
 // @grant       none
 // @version     0.0.0
+// @downloadURL https://github.com/JLarky/dot-config/raw/master/user-scripts/gpt.user.js
+// @updateURL   https://github.com/JLarky/dot-config/raw/master/user-scripts/gpt.user.js
 // @author      @jlarky
 // ==/UserScript==
+
+/**
+ * https://twitter.com/ParasocialFix/status/1657783455885975553
+ */
 
 const timeMs = 1000;
 
@@ -14,7 +20,6 @@ function handleMutation(mutations) {
     for (let mutation of mutations) {
       for (let elem of mutation.addedNodes) {
         if ("querySelector" in elem) {
-          console.log(elem);
           const main = elem.querySelectorAll("[data-projection-id] a");
           if (main.length > 0) {
             main.forEach((e) => {
