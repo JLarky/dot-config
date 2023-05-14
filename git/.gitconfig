@@ -4,6 +4,7 @@
 
 [core]
 	editor = /opt/homebrew/bin/nvim
+	pager = less -x2
 	#pager = delta --dark
 
 [pager]
