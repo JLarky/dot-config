@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name        don't leak gpt by jlarky
 // @namespace   Violentmonkey Scripts
-// @match       https://chat.openai.com/*
+// @match       https://chatgpt.com/*
 // @grant       none
-// @version     0.0.0
+// @version     0.0.1
 // @downloadURL https://github.com/JLarky/dot-config/raw/master/user-scripts/gpt.user.js
 // @updateURL   https://github.com/JLarky/dot-config/raw/master/user-scripts/gpt.user.js
 // @author      @jlarky
@@ -20,10 +20,11 @@ function handleMutation(mutations) {
     for (let mutation of mutations) {
       for (let elem of mutation.addedNodes) {
         if ("querySelector" in elem) {
-          const main = elem.querySelectorAll("[data-projection-id] a");
-          if (main.length > 0) {
+          const main = elem.matches(`a[data-discover="true"]`) ? [elem] : elem.querySelectorAll(`a[data-discover="true"]`);
+          if ((main.length > 0)) {
+            console.log(main);
             main.forEach((e) => {
-              const text = e.querySelector(".text-ellipsis") || e;
+              const text = e.querySelector(".truncate") || e;
               // I think it only happens once, but just in case:
               if (e.dataset.jlarky === "true") return;
               e.dataset.jlarky = "true";
