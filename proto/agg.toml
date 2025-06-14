@@ -1,0 +1,11 @@
+name = "agg"
+type = "cli"
+
+[platform.macos]
+download-file = "agg-aarch64-apple-darwin"
+
+[install]
+download-url = "https://github.com/asciinema/agg/releases/download/v{version}/{download_file}"
+
+[resolve]
+git-url = "https://github.com/asciinema/agg"
