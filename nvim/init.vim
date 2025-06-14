@@ -1,7 +1,3 @@
-let g:copilot_filetypes = {
-   \ 'gitcommit': v:true,
-   \ }
-
 call plug#begin()
 Plug 'github/copilot.vim' " copilot
 Plug 'http://github.com/tpope/vim-surround' " Surrounding ysw)
@@ -18,3 +14,9 @@ augroup END
 :set number relativenumber
 
 lua require('config')
+
+let g:copilot_filetypes = {
+\ 'gitcommit': v:true,
+\ 'md': v:true,
+\ 'markdown': v:true,
+\ }

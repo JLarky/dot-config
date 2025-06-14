@@ -3,17 +3,20 @@ bind generic . !git switch -m %(branch)
 bind generic . !git TigSwitch %(branch)
 bind generic M !git TigSwitch HEAD
 bind generic P !git push --set-upstream origin %(branch)
-bind generic A !git commit --amend
-bind generic x !git commit --fixup=%(commit)
+bind generic A !git commit --amend --no-verify
+bind generic x !git commit --fixup=%(commit) --no-verify
 bind generic R !git rebase origin/main -i --autosquash
+bind generic R !git rebase origin/develop -i --autosquash --autostash
 bind generic R !git ri
 bind generic I !git rebase %(commit) -i --autosquash --autostash
 bind generic T !tig %(file) --follow 
 bind main T !tig %(commit)
-bind status T !tig %(file) --follow 
+bind status T !tig -- %(file) --follow 
 bind stage T !tig --all %(file)
 bind refs R !git rebase %(commit) -i --autosquash
+bind generic e !vi +%(lineno) %(file)
+bind generic z !zed %(file):%(lineno)
 bind generic E !code -g %(file):%(lineno)
-# bind status C !git commit --no-verify
+bind status C !git commit --no-verify
 
 set tab-size = 2
