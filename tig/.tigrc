@@ -8,12 +8,12 @@ bind generic x !git commit --fixup=%(commit) --no-verify
 bind generic R !git rebase origin/main -i --autosquash
 bind generic R !git rebase origin/develop -i --autosquash --autostash
 bind generic R !git ri
-bind generic I !git rebase %(commit) -i --autosquash --autostash
+bind generic I !git rebase %(commit) -i --autosquash --autostash --update-refs
 bind generic T !tig %(file) --follow 
 bind main T !tig %(commit)
 bind status T !tig -- %(file) --follow 
 bind stage T !tig --all %(file)
-bind refs R !git rebase %(commit) -i --autosquash
+bind refs R !git rebase %(commit) -i --autosquash --autostash --update-refs
 bind generic e !vi +%(lineno) %(file)
 bind generic z !zed %(file):%(lineno)
 bind generic E !code -g %(file):%(lineno)
