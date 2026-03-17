@@ -5,10 +5,10 @@ Plug 'sbdchd/neoformat' " prettier
 Plug 'neovim/nvim-lspconfig' " LSP
 call plug#end()
 
-augroup fmt " prettier
-  autocmd!
-  autocmd BufWritePre * undojoin | Neoformat
-augroup END
+" augroup fmt " prettier
+"   autocmd!
+"   autocmd BufWritePre * undojoin | Neoformat
+" augroup END
 
 " relative numbers
 :set number relativenumber
