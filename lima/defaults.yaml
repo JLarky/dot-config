@@ -1,0 +1,9 @@
+minimumLimaVersion: 2.0.0
+
+base:
+  - github:lima-vm/lima/templates/ubuntu-lts
+
+cpus: 6
+memory: 16GiB
+
+mounts: null
