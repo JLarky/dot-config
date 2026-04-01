@@ -7,27 +7,5 @@ base:
 # set in provision.sh
 mounts: null
 
-# provision:
-# - mode: user
-#   script: |
-#     #!/bin/bash
-#     set -eux -o pipefail
-#     curl https://mise.run | sh
-#     echo "eval \"\$(/home/ylapin.linux/.local/bin/mise activate bash)\"" >> ~/.bashrc
-#     echo "eval \"\$(/home/ylapin.linux/.local/bin/mise activate zsh)\"" >> ~/.zshrc
-# - mode: user
-#   script: |
-#     #!/bin/bash
-#     set -eux -o pipefail
-#     curl -fsSL https://claude.ai/install.sh | bash
-# probes:
-# - description: "claude.ai to be installed"
-#   script: |
-#     #!/bin/bash
-#     set -eux -o pipefail
-#     if ! timeout 10s bash -c "until command -v ~/.local/bin/claude >/dev/null 2>&1; do sleep 3; done"; then
-#       echo >&2 "claude.ai is not installed yet"
-#       exit 1
-#     fi
 message: |
   Hello, Lima!
