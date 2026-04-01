@@ -1,0 +1,57 @@
+minimumLimaVersion: 2.0.0
+
+base:
+  - defaults.yaml
+
+cpus: 2
+memory: 4GiB
+vmType: vz
+arch: aarch64
+
+vmOpts:
+  vz:
+    rosetta:
+      enabled: true
+      binfmt: true
+
+ssh:
+  forwardX11: true
+  forwardX11Trusted: true
+
+provision:
+  - mode: system
+    script: |
+      #!/bin/bash
+      set -eux -o pipefail
+      export DEBIAN_FRONTEND=noninteractive
+      apt-get update
+      apt-get install -y xauth x11-apps xterm
+
+message: |
+  This instance is configured as an ARM guest with Rosetta enabled.
+  On Apple Silicon this is much faster than a full x86_64 QEMU guest, but
+  `uname -m` inside the guest will still report `aarch64`.
+
+  X11 forwarding is enabled for this instance.
+
+  Start the app from macOS with:
+    ./lima/xterm-open.sh
+
+  Quick checks:
+    limactl shell xterm uname -m
+    limactl shell xterm bash -lc 'arch; file /usr/bin/env'
+    ./lima/xterm-open.sh bash -lc 'echo $DISPLAY'
+    ./lima/xterm-open.sh xclock
+
+  If you already created `xterm` before this config changed, recreate it once:
+    limactl stop xterm
+    limactl delete xterm
+    ./lima/xterm.sh
+
+  Rosetta translates Intel user-space binaries. It does not turn the whole
+  guest into an x86_64 VM.
+
+  If `launchctl getenv DISPLAY` is empty on the host:
+    1. Quit and relaunch XQuartz.
+    2. Log out of macOS and log back in.
+    3. Reboot macOS.

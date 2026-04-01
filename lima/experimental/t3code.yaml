@@ -1,0 +1,184 @@
+minimumLimaVersion: 2.0.0
+
+base:
+  - defaults.yaml
+
+cpus: 6
+memory: 16GiB
+vmType: vz
+arch: aarch64
+
+vmOpts:
+  vz:
+    rosetta:
+      enabled: true
+      binfmt: true
+
+ssh:
+  forwardX11: true
+  forwardX11Trusted: true
+
+mounts:
+  - location: ~/vm
+    writable: true
+
+provision:
+  - mode: system
+    script: |
+      #!/bin/bash
+      set -eux -o pipefail
+      export DEBIAN_FRONTEND=noninteractive
+
+      cat >/etc/apt/sources.list.d/ubuntu.sources <<'EOF'
+      Types: deb
+      Architectures: arm64
+      URIs: http://ports.ubuntu.com/ubuntu-ports
+      Suites: noble noble-updates noble-backports
+      Components: main universe restricted multiverse
+      Signed-By: /usr/share/keyrings/ubuntu-archive-keyring.gpg
+
+      Types: deb
+      Architectures: arm64
+      URIs: http://ports.ubuntu.com/ubuntu-ports
+      Suites: noble-security
+      Components: main universe restricted multiverse
+      Signed-By: /usr/share/keyrings/ubuntu-archive-keyring.gpg
+      EOF
+
+      cat >/etc/apt/sources.list.d/ubuntu-amd64.sources <<'EOF'
+      Types: deb
+      Architectures: amd64
+      URIs: http://archive.ubuntu.com/ubuntu
+      Suites: noble noble-updates noble-backports
+      Components: main universe restricted multiverse
+      Signed-By: /usr/share/keyrings/ubuntu-archive-keyring.gpg
+
+      Types: deb
+      Architectures: amd64
+      URIs: http://security.ubuntu.com/ubuntu
+      Suites: noble-security
+      Components: main universe restricted multiverse
+      Signed-By: /usr/share/keyrings/ubuntu-archive-keyring.gpg
+      EOF
+
+      dpkg --add-architecture amd64
+      apt-get update
+      apt-get install -y \
+        ca-certificates \
+        curl \
+        xauth \
+        x11-apps \
+        libc6:amd64 \
+        libstdc++6:amd64 \
+        zlib1g:amd64 \
+        libgcc-s1:amd64 \
+        libfuse2t64:amd64 \
+        libglib2.0-0:amd64 \
+        libnss3:amd64 \
+        libnspr4:amd64 \
+        libcups2t64:amd64 \
+        libdbus-1-3:amd64 \
+        libatk-bridge2.0-0t64:amd64 \
+        libatk1.0-0t64:amd64 \
+        libatspi2.0-0t64:amd64 \
+        libx11-6:amd64 \
+        libx11-xcb1:amd64 \
+        libxcb1:amd64 \
+        libxcb-dri3-0:amd64 \
+        libxcomposite1:amd64 \
+        libxdamage1:amd64 \
+        libxext6:amd64 \
+        libxfixes3:amd64 \
+        libxi6:amd64 \
+        libxrandr2:amd64 \
+        libxrender1:amd64 \
+        libxcursor1:amd64 \
+        libxkbcommon0:amd64 \
+        libxss1:amd64 \
+        libdrm2:amd64 \
+        libgbm1:amd64 \
+        libgtk-3-0t64:amd64 \
+        libpango-1.0-0:amd64 \
+        libpangocairo-1.0-0:amd64 \
+        libcairo2:amd64 \
+        libasound2t64:amd64 \
+        libgl1:amd64
+
+      install -d -m 0755 /opt/t3code
+      curl -fL \
+        -o /opt/t3code/T3-Code-0.0.15-x86_64.AppImage \
+        https://github.com/pingdotgg/t3code/releases/download/v0.0.15/T3-Code-0.0.15-x86_64.AppImage
+      chmod 0755 /opt/t3code/T3-Code-0.0.15-x86_64.AppImage
+
+      cat >/usr/local/bin/t3code <<'EOF'
+      #!/bin/bash
+      set -euo pipefail
+
+      APP_ROOT=/opt/t3code
+      APP_IMAGE="${APP_ROOT}/T3-Code-0.0.15-x86_64.AppImage"
+      APP_DIR="${APP_ROOT}/squashfs-root"
+
+      if [ ! -x /mnt/lima-rosetta/rosetta ]; then
+        echo "Rosetta is not available inside this guest."
+        exit 1
+      fi
+
+      if [ ! -d "${APP_DIR}" ]; then
+        tmpdir="$(mktemp -d)"
+        trap 'rm -rf "${tmpdir}"' EXIT
+        cp "${APP_IMAGE}" "${tmpdir}/"
+        chmod 0755 "${tmpdir}/$(basename "${APP_IMAGE}")"
+        (
+          cd "${tmpdir}"
+          /mnt/lima-rosetta/rosetta "./$(basename "${APP_IMAGE}")" --appimage-extract >/dev/null
+        )
+        rm -rf "${APP_DIR}"
+        mv "${tmpdir}/squashfs-root" "${APP_DIR}"
+        chmod -R a+rX "${APP_DIR}"
+        trap - EXIT
+      fi
+
+      chmod -R a+rX "${APP_DIR}"
+      cd "${APP_DIR}"
+      export APPDIR="${APP_DIR}"
+      export PATH="${APPDIR}:${APPDIR}/usr/sbin:${PATH}"
+      export LD_LIBRARY_PATH="${APPDIR}/usr/lib:${LD_LIBRARY_PATH:-}"
+      export XDG_DATA_DIRS="${APPDIR}/usr/share/:${XDG_DATA_DIRS:-}/usr/share/gnome/:/usr/local/share/:/usr/share/"
+      export GSETTINGS_SCHEMA_DIR="${APPDIR}/usr/share/glib-2.0/schemas:${GSETTINGS_SCHEMA_DIR:-}"
+
+      exec /mnt/lima-rosetta/rosetta ./t3-code-desktop --no-sandbox --disable-gpu "$@"
+      EOF
+      chmod 0755 /usr/local/bin/t3code
+
+      if [ -x /mnt/lima-rosetta/rosetta ] && [ ! -d /opt/t3code/squashfs-root ]; then
+        cd /opt/t3code
+        /mnt/lima-rosetta/rosetta ./T3-Code-0.0.15-x86_64.AppImage --appimage-extract >/dev/null
+      fi
+      if [ -d /opt/t3code/squashfs-root ]; then
+        chmod -R a+rX /opt/t3code/squashfs-root
+      fi
+
+message: |
+  This instance is configured as an ARM guest with Rosetta enabled and the
+  x86_64 T3 Code AppImage preinstalled.
+
+  Host path `~/vm` is mounted writable inside the guest.
+
+  Start the app from macOS with:
+    ./lima/t3code-open.sh
+
+  Quick checks:
+    limactl shell t3code uname -m
+    limactl shell t3code bash -lc 'file /opt/t3code/T3-Code-0.0.15-x86_64.AppImage'
+    ./lima/t3code-open.sh bash -lc 'echo $DISPLAY'
+
+  If you already created `t3code` before this config changed, recreate it once:
+    limactl stop t3code
+    limactl delete t3code
+    ./lima/t3code.sh
+
+  Rosetta translates Intel user-space binaries. It does not turn the whole
+  guest into an x86_64 VM, so `uname -m` will still report `aarch64`.
+
+  T3 Code launches with `--no-sandbox --disable-gpu` by default to avoid the
+  Electron GPU and sandbox failures seen in this VM setup.
