@@ -21,6 +21,7 @@
 	signingkey = 1493E127
 
 [alias]
+	shove = push --force-with-lease
 	fast-fix = !"git diff && read -p \"ready to commit?\" i && git commit -a && git push"
 	ll = status
 	di = diff
@@ -28,7 +29,7 @@
 	dif = !"git -p diff --no-prefix"
 	dis = diff --stat
 	idd = log --pretty=format:\"%h %Cgreen%B\"
-	id = log -1 --pretty=format:\"%h %Cgreen%B\"
+	id = !"git log -1 --pretty=format:\"%h %Cgreen%B\" | cat"
 	hist = log --pretty=format:\"%h %ad [%an] %s%d\" --graph --date=short --all
 	grepn = grep -n
 	TigSwitch = "!f() { \
@@ -38,7 +39,7 @@
 	    git switch -m $1; \
 	  fi; \
 	}; f"
-	ri = !"git show-branch origin/main && git rebase origin/main -i --autosquash --autostash || git rebase origin/master -i --autosquash --autostash"
+	ri = !"git show-branch origin/main && git rebase origin/main -i --autosquash --autostash --update-refs || git rebase origin/develop -i --autosquash --autostash --update-refs"
 	rc = rebase --continue
 	cm = commit -m
 	MR = "!f() { \
@@ -68,3 +69,5 @@
 	rebase = true
 [init]
 	defaultBranch = main
+[rerere]
+	enabled = true
