@@ -13,4 +13,4 @@ limactl delete mine || true
 limactl start mine.yaml --mount .. --mount ~/vm:w
 
 
-echo '\n\nlimactl stop mine; limactl stop default; limactl delete default; limactl rename mine default\n\n'
+echo '\n\nlimactl stop mine; limactl stop default; limactl delete default; limactl clone mine default\n\n'
