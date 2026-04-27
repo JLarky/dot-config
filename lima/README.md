@@ -16,6 +16,7 @@ git clone https://github.com/JLarky/dot-config.git
 Create `mine` VM for the first time.
 
 ```bash
+cd dot-config
 bash lima/provision.sh
 ```
 
