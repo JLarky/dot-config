@@ -1,29 +1,22 @@
 #!/bin/bash
+set -e
 
+# Install agent-browser CLI globally
 vp i -g agent-browser
-# sudo apt-get install chromium-browser
 
-# # tell agent-browser to use chromium
-# if ! grep -q "export AGENT_BROWSER_EXECUTABLE_PATH=/snap/bin/chromium" ~/.bashrc; then
-#   echo 'export AGENT_BROWSER_EXECUTABLE_PATH=/snap/bin/chromium' >> ~/.bashrc
+# Ubuntu 24.04 ARM64 only ships a snap-stub for chromium, and snap chromium
+# can't be driven over CDP (sandbox confinement breaks programmatic launch).
+# The xtradeb PPA provides a real .deb chromium for noble/arm64.
+sudo add-apt-repository -y ppa:xtradeb/apps
+sudo apt-get update
+sudo apt-get install -y chromium
 
-#   echo
-#   echo "Restart your shell to apply the changes or run 'source ~/.bashrc'"
-# fi
+# Point agent-browser at the native chromium by default.
+mkdir -p ~/.agent-browser
+cat > ~/.agent-browser/config.json <<'EOF'
+{
+  "executablePath": "/usr/bin/chromium"
+}
+EOF
 
-# https://github.com/vercel-labs/agent-browser/issues/107#issuecomment-3767438842
-sudo apt-get install libatk1.0-0t64\
-  libatk-bridge2.0-0t64\
-  libcups2t64\
-  libatspi2.0-0t64\
-  libxcomposite1\
-  libxdamage1\
-  libxfixes3\
-  libxrandr2\
-  libgbm1\
-  libcairo2\
-  libpango-1.0-0\
-  libasound2t64
-npx playwright-core@1.57.0 install chromium
-
-# agent-browser --executable-path /snap/bin/chromium open https://www.google.com
+# Smoke test: agent-browser open https://example.com
