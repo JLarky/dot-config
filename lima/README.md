@@ -32,6 +32,7 @@ Install stuff into the VM.
 cd ~/vm/JLarky/dot-config
 lima sudo apt-get install tig unzip
 lima ./lima/boot/mise.sh
+lima ./lima/boot/neovim.sh
 lima ./lima/boot/viteplus.sh
 lima ./lima/boot/claude.sh
 lima ./lima/boot/gh-cli.sh # interactive
