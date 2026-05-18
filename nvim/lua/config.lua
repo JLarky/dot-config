@@ -1,9 +1,3 @@
-local ok, lspconfig = pcall(require, 'lspconfig')
-
-if ok then
-  local ts = lspconfig.ts_ls or lspconfig.tsserver
-
-  if ts then
-    ts.setup {}
-  end
+if vim.fn.has('nvim-0.11') == 1 then
+  vim.lsp.enable('ts_ls')
 end
