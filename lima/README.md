@@ -39,3 +39,6 @@ lima ./lima/boot/gh-cli.sh # interactive
 lima ./lima/boot/chezmoi.sh
 lima ./lima/boot/tailscale.sh # interactive
 ```
+
+`lima/boot/neovim.sh` preserves an existing `~/.config/nvim` by moving it to
+`~/.config/nvim.backup.YYYYMMDDHHMMSS` before linking this repo's config.

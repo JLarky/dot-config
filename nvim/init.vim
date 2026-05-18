@@ -12,6 +12,8 @@ call plug#end()
 
 " relative numbers
 :set number relativenumber
+:set directory=/tmp/nvim.swap
+:set mouse=
 
 lua require('config')
 

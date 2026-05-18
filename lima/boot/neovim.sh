@@ -24,8 +24,9 @@ curl -fLo "$plug_vim" --create-dirs \
 
 mkdir -p "$HOME/.config"
 if [ -e "$nvim_config" ] && [ ! -L "$nvim_config" ]; then
-  echo "$nvim_config exists and is not a symlink; move it aside before running this script" >&2
-  exit 1
+  backup_config="$nvim_config.backup.$(date +%Y%m%d%H%M%S)"
+  mv "$nvim_config" "$backup_config"
+  echo "Moved existing nvim config to $backup_config"
 fi
 ln -sfn "$repo_root/nvim" "$nvim_config"
 
